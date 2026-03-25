@@ -170,6 +170,37 @@ Reports are saved to `data/reports/` and strategy updates to `data/reports/strat
 
 ---
 
+## Browser Automation
+
+The engagement engine uses browser automation to interact with LinkedIn directly -- scraping influencer posts, posting comments, reading replies, and collecting engagement metrics. Two backends are available:
+
+### Airtop (Cloud -- Recommended for Production)
+
+Airtop provides cloud-hosted browser sessions with anti-detection, residential proxy rotation, and LinkedIn session persistence. Best for reliable, scaled operation.
+
+1. Sign up at [airtop.ai](https://www.airtop.ai/)
+2. Set `AIRTOP_API_KEY` in your `.env`
+3. Set `BROWSER_BACKEND=airtop` in `.env`
+4. Log into LinkedIn once through the Airtop dashboard to establish the session
+
+### Browser Use (Local -- Good for Development)
+
+Browser Use is an AI-powered local browser agent that navigates LinkedIn autonomously using natural language instructions. Best for debugging and complex flows.
+
+1. Install: `pip install browser-use langchain-openai`
+2. Set `OPENAI_API_KEY` (or `BROWSER_USE_API_KEY`) in your `.env`
+3. Set `BROWSER_BACKEND=browser_use` in `.env`
+4. Ensure a Chromium browser is available locally
+
+### Safety and Configuration
+
+- **Dry run mode** is enabled by default (`dry_run: true` in `config/business.yaml` or `config_examples/business.example.yaml`). The agents will generate comments and replies but will not post them to LinkedIn until you set `dry_run: false`.
+- **Rate limiting** is built in: 5 comments/hour, 10 replies/hour, 20 DMs/day (configurable under `browser.rate_limit`).
+- **Humanized timing**: Random delays between keystrokes and actions to mimic human behavior.
+- All browser actions are logged. Check `data/comments/` and `data/replies/` for full records.
+
+---
+
 ## Features at a Glance
 
 | Feature | Required API Key | Without It |
@@ -184,6 +215,8 @@ Reports are saved to `data/reports/` and strategy updates to `data/reports/strat
 | Email digests | Resend (optional) | Dashboard-only review |
 | Embedding-based dedup | OpenAI (optional) | Basic text similarity |
 | Content dashboard | None | Always active |
+| Browser automation (Airtop) | Airtop (optional) | Manual posting; no live scraping |
+| Browser automation (Browser Use) | OpenAI (optional) | Manual posting; no live scraping |
 
 ---
 
@@ -246,7 +279,8 @@ linkedin-autopilot-v2/
 │   └── learning/               # v2: Self-learning agents
 │       └── campaign_analyzer.py # Weekly performance analysis
 ├── teams/                      # Agent team orchestrators
-├── tools/                      # Integrations (Airtable, email, etc.)
+├── tools/                      # Integrations (Airtable, email, browser, etc.)
+│   ├── browser_automation.py   # v2: Airtop + Browser Use LinkedIn automation
 ├── prompts/                    # Agent system prompts (template-rendered)
 │   ├── auto_commenter.md       # v2: Commenting agent prompt
 │   ├── auto_responder.md       # v2: Reply agent prompt
@@ -279,6 +313,8 @@ linkedin-autopilot-v2/
 | `RESEND_API_KEY` | [Resend](https://resend.com/) | Email digest delivery | No |
 | `PHANTOMBUSTER_API_KEY` | [PhantomBuster](https://phantombuster.com/) | Auto-posting to LinkedIn | No |
 | `LINKEDIN_PHANTOM_ID` | PhantomBuster | Specific phantom for posting | No |
+| `AIRTOP_API_KEY` | [Airtop](https://www.airtop.ai/) | Cloud browser automation (recommended) | No |
+| `BROWSER_USE_API_KEY` | Browser Use | Local AI browser agent | No |
 
 LinkedIn Autopilot works with just the Anthropic key. Every other integration is optional and gracefully degrades.
 

@@ -6,3 +6,8 @@ python-dateutil>=2.8.0
 python-dotenv>=1.0.0
 google-api-python-client>=2.100.0
 google-auth>=2.23.0
+
+# Browser automation (install one or both depending on your backend choice)
+# pip install airtop  # for Airtop cloud browser backend
+# pip install browser-use  # for Browser Use local AI agent backend
+# pip install langchain-openai  # required if using Browser Use backend

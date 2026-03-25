@@ -2,7 +2,8 @@
 
 Monitors incoming comments, classifies them, generates personalized replies,
 and flags high-intent leads for follow-up. Works for any industry or niche
-via business.yaml configuration.
+via business.yaml configuration. Uses browser automation (Airtop or Browser Use)
+to scrape comments and post replies on LinkedIn.
 """
 
 from __future__ import annotations
@@ -50,6 +51,11 @@ class AutoResponder(BaseAgent):
         business = self.config.get("business", self.config)
         self.owner_name = business.get("owner_name", "")
         self.brand = business.get("brand", "")
+
+        # Browser automation config
+        browser_config = self.config.get("browser", {})
+        self.dry_run = browser_config.get("dry_run", True)
+        self._browser = None
 
     # ------------------------------------------------------------------
     # Core methods
@@ -206,12 +212,85 @@ Return valid JSON:
 
         return None
 
-    def run(self, comments: list[dict] | None = None) -> dict:
+    # ------------------------------------------------------------------
+    # Browser automation helpers
+    # ------------------------------------------------------------------
+
+    def _get_browser(self):
+        """Lazy-initialize the LinkedIn browser automation client."""
+        if self._browser is None:
+            from tools.browser_automation import LinkedInBrowser
+            rate_config = self.config.get("browser", {}).get("rate_limit", {})
+            self._browser = LinkedInBrowser(rate_limit_config=rate_config)
+        return self._browser
+
+    def _fetch_comments_from_linkedin(self, post_url: str, max_comments: int = 50) -> list[dict]:
+        """Scrape comments from a LinkedIn post using browser automation."""
+        try:
+            browser = self._get_browser()
+            raw_comments = browser.scrape_post_comments(post_url, max_comments)
+            comments = []
+            for c in raw_comments:
+                comments.append({
+                    "text": c.get("text", ""),
+                    "author": c.get("author", "Unknown"),
+                    "post_title": f"Post: {post_url}",
+                    "post_url": post_url,
+                    "comment_id": c.get("id", ""),
+                })
+            logger.info(f"[auto_responder] Scraped {len(comments)} comments from {post_url}")
+            return comments
+        except Exception as e:
+            logger.error(f"[auto_responder] Failed to scrape comments: {e}")
+            return []
+
+    def _check_notifications_for_comments(self) -> list[dict]:
+        """Check LinkedIn notifications for new comments on our posts."""
+        try:
+            browser = self._get_browser()
+            notifications = browser.check_notifications()
+            comments = []
+            for n in notifications:
+                comments.append({
+                    "text": n.get("comment_preview", ""),
+                    "author": n.get("commenter", "Unknown"),
+                    "post_title": n.get("post_title", ""),
+                    "post_url": n.get("post_url", ""),
+                })
+            logger.info(f"[auto_responder] Found {len(comments)} comment notifications")
+            return comments
+        except Exception as e:
+            logger.error(f"[auto_responder] Failed to check notifications: {e}")
+            return []
+
+    def post_reply_to_linkedin(self, reply_text: str, post_url: str, comment_id: str = "") -> dict:
+        """Post a reply to LinkedIn using browser automation."""
+        if self.dry_run:
+            logger.info(f"[DRY RUN] Would post reply to {post_url}: {reply_text[:80]}...")
+            return {"status": "dry_run", "reply": reply_text, "post_url": post_url}
+        try:
+            browser = self._get_browser()
+            if comment_id:
+                result = browser.reply_to_comment(post_url, comment_id, reply_text)
+            else:
+                result = browser.post_comment(post_url, reply_text)
+            logger.info(f"[auto_responder] Posted reply to {post_url}")
+            return result
+        except Exception as e:
+            logger.error(f"[auto_responder] Failed to post reply: {e}")
+            return {"error": str(e)}
+
+    # ------------------------------------------------------------------
+    # Main run
+    # ------------------------------------------------------------------
+
+    def run(self, comments: list[dict] | None = None, post_urls: list[str] | None = None) -> dict:
         """Execute the auto-responding cycle.
 
         Args:
-            comments: Optional list of comment dicts. If None, would normally
-                      fetch from LinkedIn API / monitoring system.
+            comments: Optional list of comment dicts. If None, attempts to
+                      fetch from LinkedIn via browser automation.
+            post_urls: Optional list of post URLs to scrape comments from.
 
         Returns:
             Summary dict with replies, leads, and skipped counts.
@@ -220,10 +299,15 @@ Return valid JSON:
             logger.info("[auto_responder] auto-responding is disabled in config")
             return {"status": "disabled", "message": "Auto-responding is disabled in business.yaml"}
 
-        # In production, this would fetch new comments from the monitoring system.
-        # For now, accept comments as input or return empty.
+        # If no comments provided, try to fetch from LinkedIn
         if comments is None:
-            logger.info("[auto_responder] no comments provided for this cycle")
+            comments = self._check_notifications_for_comments()
+            if post_urls:
+                for url in post_urls:
+                    comments.extend(self._fetch_comments_from_linkedin(url))
+
+        if not comments:
+            logger.info("[auto_responder] no comments to process this cycle")
             return {"status": "success", "message": "No new comments to process", "replies": 0}
 
         results = {
@@ -238,6 +322,8 @@ Return valid JSON:
         for comment in comments[: self.max_replies_per_cycle]:
             results["total_processed"] += 1
             author = comment.get("author", "Unknown")
+            post_url = comment.get("post_url", "")
+            comment_id = comment.get("comment_id", "")
 
             # Step 1: Analyze the comment
             analysis = self.analyze_comment(comment)
@@ -272,13 +358,21 @@ Return valid JSON:
                 })
                 continue
 
+            # Step 6: Post reply to LinkedIn
+            reply_text = reply_data.get("reply_text", "")
+            post_result = {}
+            if post_url and reply_text:
+                post_result = self.post_reply_to_linkedin(reply_text, post_url, comment_id)
+
             # Passed all gates
             results["replies_posted"].append({
                 "author": author,
-                "reply": reply_data.get("reply_text"),
+                "reply": reply_text,
                 "quality_score": quality,
                 "reply_type": reply_data.get("reply_type"),
                 "is_lead": lead is not None,
+                "post_url": post_url,
+                "post_result": post_result,
             })
 
         # Save cycle summary

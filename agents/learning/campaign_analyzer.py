@@ -47,6 +47,55 @@ class CampaignAnalyzer(BaseAgent):
         business = self.config.get("business", self.config)
         self.owner_name = business.get("owner_name", "")
 
+        # Browser automation for scraping engagement
+        self._browser = None
+
+    # ------------------------------------------------------------------
+    # Browser automation helpers
+    # ------------------------------------------------------------------
+
+    def _get_browser(self):
+        """Lazy-initialize the LinkedIn browser automation client."""
+        if self._browser is None:
+            from tools.browser_automation import LinkedInBrowser
+            rate_config = self.config.get("browser", {}).get("rate_limit", {})
+            self._browser = LinkedInBrowser(rate_limit_config=rate_config)
+        return self._browser
+
+    def scrape_post_engagement(self, post_url: str) -> dict:
+        """Scrape engagement metrics for a specific post via browser automation."""
+        try:
+            browser = self._get_browser()
+            engagement = browser.scrape_post_engagement(post_url)
+            logger.info(f"[campaign_analyzer] Scraped engagement for {post_url}: {engagement}")
+            return engagement
+        except Exception as e:
+            logger.error(f"[campaign_analyzer] Failed to scrape engagement for {post_url}: {e}")
+            return {}
+
+    def enrich_metrics_with_browser(self, metrics: list[dict]) -> list[dict]:
+        """Enrich post metrics with live engagement data from LinkedIn.
+
+        For any post that has a 'post_url' field, scrapes current engagement
+        numbers and merges them into the metrics.
+        """
+        enriched_count = 0
+        for post in metrics:
+            post_url = post.get("post_url", "")
+            if not post_url:
+                continue
+            engagement = self.scrape_post_engagement(post_url)
+            if engagement:
+                post["scraped_likes"] = engagement.get("likes", 0)
+                post["scraped_comments"] = engagement.get("comments", 0)
+                post["scraped_reposts"] = engagement.get("reposts", 0)
+                post["scraped_impressions"] = engagement.get("impressions", 0)
+                enriched_count += 1
+
+        if enriched_count:
+            logger.info(f"[campaign_analyzer] Enriched {enriched_count} posts with scraped data")
+        return metrics
+
     # ------------------------------------------------------------------
     # Data collection
     # ------------------------------------------------------------------
@@ -366,6 +415,12 @@ Generate concrete, actionable strategy adjustments. Return valid JSON:
                 "status": "no_data",
                 "message": "No post data available for the analysis window",
             }
+
+        # Step 1b: Enrich with live LinkedIn engagement data
+        try:
+            metrics = self.enrich_metrics_with_browser(metrics)
+        except Exception as e:
+            logger.warning(f"[campaign_analyzer] Browser enrichment failed (continuing without): {e}")
 
         # Step 2: Analyze
         analysis = self.analyze_performance(metrics)

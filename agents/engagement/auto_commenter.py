@@ -3,6 +3,7 @@
 Monitors tracked influencers and generates high-quality comments that position
 the owner as a knowledgeable peer. Fully configurable via business.yaml and
 influencers.yaml — works for any industry, niche, or personal brand.
+Uses browser automation (Airtop or Browser Use) for real LinkedIn interaction.
 """
 
 from __future__ import annotations
@@ -42,6 +43,11 @@ class AutoCommenter(BaseAgent):
         self.owner_name = business.get("owner_name", "")
         self.brand = business.get("brand", "")
         self.positioning = self.config.get("positioning", {}).get("core_message", "")
+
+        # Browser automation config
+        browser_config = self.config.get("browser", {})
+        self.dry_run = browser_config.get("dry_run", True)
+        self._browser = None
 
     # ------------------------------------------------------------------
     # Core methods
@@ -164,14 +170,79 @@ Return valid JSON with these exact keys:
 
         return True
 
+    # ------------------------------------------------------------------
+    # Browser automation helpers
+    # ------------------------------------------------------------------
+
+    def _get_browser(self):
+        """Lazy-initialize the LinkedIn browser automation client."""
+        if self._browser is None:
+            from tools.browser_automation import LinkedInBrowser
+            rate_config = self.config.get("browser", {}).get("rate_limit", {})
+            self._browser = LinkedInBrowser(rate_limit_config=rate_config)
+        return self._browser
+
+    def _fetch_influencer_posts(self, influencer: dict) -> list:
+        """Fetch recent posts from an influencer using browser automation.
+
+        Args:
+            influencer: Influencer config dict with at least 'linkedin_url'.
+
+        Returns:
+            List of post dicts with text, url, and engagement data.
+            Falls back to empty list on error.
+        """
+        linkedin_url = influencer.get("linkedin_url", "")
+        if not linkedin_url:
+            logger.debug(f"[auto_commenter] No linkedin_url for {influencer.get('name')} — skipping scrape")
+            return []
+        try:
+            browser = self._get_browser()
+            posts = browser.scrape_influencer_posts(linkedin_url, count=3)
+            logger.info(f"[auto_commenter] Scraped {len(posts)} posts from {influencer.get('name')}")
+            return posts
+        except Exception as e:
+            logger.error(f"[auto_commenter] Failed to scrape posts for {influencer.get('name')}: {e}")
+            return []
+
+    def post_to_linkedin(self, comment_text: str, post_url: str) -> dict:
+        """Post a comment to LinkedIn using browser automation.
+
+        Respects the dry_run flag — if True, logs instead of posting.
+
+        Args:
+            comment_text: The comment to post.
+            post_url: The LinkedIn post URL to comment on.
+
+        Returns:
+            Result dict with status and details.
+        """
+        if self.dry_run:
+            logger.info(f"[DRY RUN] Would post comment to {post_url}: {comment_text[:80]}...")
+            return {"status": "dry_run", "comment": comment_text, "post_url": post_url}
+        try:
+            browser = self._get_browser()
+            result = browser.post_comment(post_url, comment_text)
+            logger.info(f"[auto_commenter] Posted comment to {post_url}: {result}")
+            return result
+        except Exception as e:
+            logger.error(f"[auto_commenter] Failed to post comment to {post_url}: {e}")
+            return {"error": str(e)}
+
+    # ------------------------------------------------------------------
+    # Main run
+    # ------------------------------------------------------------------
+
     def run(self) -> dict:
         """Execute the daily auto-commenting cycle.
 
         1. Check if enabled
         2. Get eligible influencers for today
-        3. Generate comments for each
-        4. Quality-gate and invisible-test each comment
-        5. Save results and return summary
+        3. Scrape recent posts from each influencer via browser automation
+        4. Generate comments for each post
+        5. Quality-gate and invisible-test each comment
+        6. Post approved comments to LinkedIn (or dry-run)
+        7. Save results and return summary
 
         Returns:
             Summary dict with posted, rejected, and total counts.
@@ -195,55 +266,73 @@ Return valid JSON with these exact keys:
             name = influencer.get("name", "Unknown")
             topics = influencer.get("topics", [])
 
-            # Build minimal post context from topics when no real post is available
-            topic_context = f"Post about: {', '.join(topics)}" if topics else ""
+            # Fetch real posts via browser automation
+            real_posts = self._fetch_influencer_posts(influencer)
 
-            comment_data = self.generate_comment(topic_context, name)
-            results["total_generated"] += 1
+            if real_posts:
+                posts_to_process = real_posts[:2]  # max 2 posts per influencer
+            else:
+                # Fallback to topic-based placeholder when scraping unavailable
+                topic_context = f"Post about: {', '.join(topics)}" if topics else ""
+                posts_to_process = [{"text": topic_context, "url": ""}]
 
-            # Check for API errors
-            if "error" in comment_data:
-                results["rejected"].append({
+            for post in posts_to_process:
+                post_content = post.get("text", "")
+                post_url = post.get("url", "")
+
+                comment_data = self.generate_comment(post_content, name)
+                results["total_generated"] += 1
+
+                # Check for API errors
+                if "error" in comment_data:
+                    results["rejected"].append({
+                        "influencer": name,
+                        "reason": f"Generation error: {comment_data['error']}",
+                    })
+                    continue
+
+                # Quality gate
+                if not self.check_quality(comment_data):
+                    scores = comment_data.get("quality_scores", {})
+                    avg = sum(scores.values()) / max(len(scores), 1)
+                    results["rejected"].append({
+                        "influencer": name,
+                        "reason": f"Below quality threshold (avg={avg:.1f}, min={self.quality_threshold})",
+                        "scores": scores,
+                    })
+                    continue
+
+                # Invisible test
+                comment_text = comment_data.get("comment", "")
+                if not self._apply_invisible_test(comment_text):
+                    results["rejected"].append({
+                        "influencer": name,
+                        "reason": "Failed invisible test (promotional language detected)",
+                    })
+                    continue
+
+                # Passed all gates — post to LinkedIn
+                if post_url:
+                    post_result = self.post_to_linkedin(comment_text, post_url)
+                    comment_data["post_result"] = post_result
+                comment_data["post_url"] = post_url
+
+                results["posted"].append({
                     "influencer": name,
-                    "reason": f"Generation error: {comment_data['error']}",
+                    "comment": comment_text,
+                    "formula_used": comment_data.get("formula_used"),
+                    "quality_scores": comment_data.get("quality_scores"),
+                    "post_url": post_url,
+                    "post_result": comment_data.get("post_result", {}),
                 })
-                continue
 
-            # Quality gate
-            if not self.check_quality(comment_data):
-                scores = comment_data.get("quality_scores", {})
-                avg = sum(scores.values()) / max(len(scores), 1)
-                results["rejected"].append({
-                    "influencer": name,
-                    "reason": f"Below quality threshold (avg={avg:.1f}, min={self.quality_threshold})",
-                    "scores": scores,
-                })
-                continue
-
-            # Invisible test
-            comment_text = comment_data.get("comment", "")
-            if not self._apply_invisible_test(comment_text):
-                results["rejected"].append({
-                    "influencer": name,
-                    "reason": "Failed invisible test (promotional language detected)",
-                })
-                continue
-
-            # Passed all gates
-            results["posted"].append({
-                "influencer": name,
-                "comment": comment_data.get("comment"),
-                "formula_used": comment_data.get("formula_used"),
-                "quality_scores": comment_data.get("quality_scores"),
-            })
-
-            # Save individual comment
-            safe_name = name.replace(" ", "_").lower()
-            self.save_output(
-                comment_data,
-                "comments",
-                f"{safe_name}_{self.today_str()}.json",
-            )
+                # Save individual comment
+                safe_name = name.replace(" ", "_").lower()
+                self.save_output(
+                    comment_data,
+                    "comments",
+                    f"{safe_name}_{self.today_str()}.json",
+                )
 
         # Save daily summary
         self.save_output(

@@ -112,6 +112,32 @@ target_audience: "SaaS founders, CTOs, product leaders, and tech investors"
 # campaign learning systems. All are opt-in.
 # ============================================================
 
+# ============================================================
+# BROWSER AUTOMATION
+# ============================================================
+# Controls how agents interact with LinkedIn in the browser.
+# Two backends available: Airtop (cloud) and Browser Use (local).
+# ============================================================
+
+browser:
+  backend: "airtop"                        # Options: "airtop" or "browser_use"
+  dry_run: true                            # Set to false to enable actual LinkedIn posting
+  rate_limit:
+    comments_per_hour: 5                   # Max comments per hour
+    replies_per_hour: 10                   # Max replies per hour
+    dms_per_day: 20                        # Max DMs per day
+  humanize:
+    typing_delay_ms: [50, 150]             # Random delay between keystrokes (ms)
+    action_delay_ms: [1000, 3000]          # Random delay between actions (ms)
+    scroll_delay_ms: [500, 1500]           # Random delay between scrolls (ms)
+
+# ============================================================
+# ENGAGEMENT ENGINE (v2)
+# ============================================================
+# Controls the auto-commenting, auto-responding, and
+# campaign learning systems. All are opt-in.
+# ============================================================
+
 engagement:
 
   # --- Auto-Commenting on Influencer Posts ---
