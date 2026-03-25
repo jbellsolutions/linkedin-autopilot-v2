@@ -1,0 +1,22 @@
+{
+  "name": "Jay Abraham",
+  "roots": [
+    "https://www.abraham.com/",
+    "https://www.abraham.com/profitresources/"
+  ],
+  "allowed_domains": [
+    "abraham.com"
+  ],
+  "include_patterns": [
+    "abraham\\.com"
+  ],
+  "exclude_patterns": [
+    "/privacy",
+    "/terms",
+    "/contact",
+    "/membership",
+    "/wp-admin"
+  ],
+  "max_pages": 100,
+  "delay_seconds": 0.4
+}

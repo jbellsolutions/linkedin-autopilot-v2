@@ -1,0 +1,63 @@
+industry: "SaaS / Tech"
+positioning_template: "I build software that solves [problem] for [audience] — here's what I've learned"
+target_audience: "SaaS founders, CTOs, product leaders, and tech investors"
+
+content_themes:
+  - "Product-led growth and PLG strategies"
+  - "SaaS metrics that matter (ARR, churn, LTV)"
+  - "Building and shipping fast"
+  - "Hiring and engineering culture"
+  - "Fundraising and bootstrapping lessons"
+
+trend_search_queries:
+  - query: "SaaS growth strategies 2026"
+    category: "growth"
+  - query: "product-led growth PLG trends"
+    category: "product"
+  - query: "AI in SaaS products"
+    category: "technology"
+  - query: "SaaS pricing strategy"
+    category: "monetization"
+  - query: "developer tools market trends"
+    category: "market"
+
+sample_case_studies:
+  - title: "Zero to $1M ARR"
+    result: "$1M ARR in 14 months"
+    context: "Built and launched a B2B SaaS with product-led growth"
+  - title: "Churn Reduction Engine"
+    result: "Cut churn from 8% to 2.3%"
+    context: "Implemented predictive churn model and proactive outreach"
+  - title: "AI Feature Launch"
+    result: "3x trial-to-paid conversion"
+    context: "Added AI copilot that transformed the onboarding experience"
+
+sample_influencers:
+  - name: "Jason Lemkin"
+    topics: ["SaaS metrics", "scaling", "fundraising"]
+    priority: "high"
+  - name: "Hiten Shah"
+    topics: ["product strategy", "SaaS growth", "analytics"]
+    priority: "high"
+  - name: "Patrick Campbell"
+    topics: ["pricing", "SaaS metrics", "retention"]
+    priority: "high"
+  - name: "Lenny Rachitsky"
+    topics: ["product management", "growth", "hiring"]
+    priority: "medium"
+  - name: "Kyle Poyar"
+    topics: ["PLG", "pricing", "usage-based"]
+    priority: "medium"
+  - name: "Elena Verna"
+    topics: ["growth", "PLG", "B2B marketing"]
+    priority: "medium"
+  - name: "Tomasz Tunguz"
+    topics: ["venture capital", "SaaS benchmarks", "AI"]
+    priority: "medium"
+  - name: "David Sacks"
+    topics: ["SaaS operations", "venture", "strategy"]
+    priority: "low"
+
+tone_defaults:
+  primary: "Professional"
+  secondary: "Educational"

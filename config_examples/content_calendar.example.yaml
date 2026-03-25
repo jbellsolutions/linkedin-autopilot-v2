@@ -1,0 +1,70 @@
+# ============================================================
+# LinkedIn Autopilot - Content Calendar Configuration
+# ============================================================
+# Controls posting schedule, content formats, and pipeline
+# timing. The scheduler uses this to orchestrate daily output.
+# ============================================================
+
+# --- Timezone ---
+# All times are interpreted in this timezone
+timezone: "US/Eastern"
+
+# --- Content Phase ---
+# Current content strategy phase
+# Options: launch | growth | authority | scale
+content_phase: "growth"
+
+# --- Daily Quotas ---
+# How many pieces of content to produce per day
+daily_quotas:
+  linkedin_posts: 2                      # Regular feed posts
+  articles: 0                            # Long-form articles (set by article_days)
+  newsletters: 0                         # Newsletters (set by newsletter_days)
+
+# --- Posting Slots ---
+# When to publish content each day
+# Multiple slots allow AM/PM posting cadence
+posting_slots:
+  - time: "07:30"                        # Morning post (pre-work scroll)
+    type: "primary"
+    days: ["monday", "tuesday", "wednesday", "thursday", "friday"]
+  - time: "12:00"                        # Lunch post (optional second slot)
+    type: "secondary"
+    days: ["tuesday", "thursday"]
+
+# --- Article Schedule ---
+# Which days to publish long-form articles
+article_days:
+  - "tuesday"
+  - "thursday"
+
+# --- Newsletter Schedule ---
+# Which day(s) to send the newsletter
+newsletter_days:
+  - "friday"
+
+# --- Retry Configuration ---
+# If posting fails, how to retry
+retry_config:
+  max_retries: 3                         # Maximum retry attempts
+  retry_delay_minutes: 30                # Wait before first retry
+  backoff_multiplier: 2                  # Each retry waits 2x longer
+
+# --- Format Styles ---
+# Word count guidelines for each content format
+format_styles:
+  short_post:
+    min_words: 50
+    max_words: 200
+  long_post:
+    min_words: 200
+    max_words: 500
+  article:
+    min_words: 800
+    max_words: 2000
+  carousel:
+    slides: "5-10"
+    words_per_slide: "20-40"
+  newsletter:
+    min_words: 500
+    max_words: 1500

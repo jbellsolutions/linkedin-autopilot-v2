@@ -1,0 +1,974 @@
+{
+  "name": "Jon Buchan",
+  "roots": [
+    "https://www.charm-offensive.co.uk/",
+    "https://www.charm-offensive.co.uk/product-category/swipe-files/"
+  ],
+  "allowed_domains": [
+    "charm-offensive.co.uk"
+  ],
+  "scraped_at": "2026-03-24T15:22:28Z",
+  "page_count": 120,
+  "pages": [
+    {
+      "url": "https://www.charm-offensive.co.uk",
+      "title": "Charming B2B Cold Email Templates That Actually Work",
+      "meta_description": "Make prospects laugh out loud and respond enthusiastically to your cold emails. Download all of my effective b2b cold email templates.",
+      "word_count": 1104,
+      "raw_html": "raw_html/001-home.html",
+      "text_file": "text/001-home.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/blog",
+      "title": "Blog - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1259,
+      "raw_html": "raw_html/002-blog.html",
+      "text_file": "text/002-blog.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/what-should-i-buy",
+      "title": "What should I buy? - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1381,
+      "raw_html": "raw_html/003-what-should-i-buy.html",
+      "text_file": "text/003-what-should-i-buy.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/attention-pleas",
+      "title": "ATTENTION PLEAS\u00a0 - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1003,
+      "raw_html": "raw_html/004-attention-pleas.html",
+      "text_file": "text/004-attention-pleas.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/how-do-you-get-pr-coverage-if-youre-not-in-a-sexy-industry",
+      "title": "How do you get PR coverage if you're not in a 'sexy' industry?\u00a0 - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1098,
+      "raw_html": "raw_html/005-how-do-you-get-pr-coverage-if-youre-not-in-a-sexy-industry.html",
+      "text_file": "text/005-how-do-you-get-pr-coverage-if-youre-not-in-a-sexy-industry.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/disrupting-the-game",
+      "title": "Disrupting the game - Charm Offensive",
+      "meta_description": "",
+      "word_count": 721,
+      "raw_html": "raw_html/006-disrupting-the-game.html",
+      "text_file": "text/006-disrupting-the-game.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/how-to-write-funny-sentences",
+      "title": "How to write funny sentences - Charm Offensive",
+      "meta_description": "",
+      "word_count": 930,
+      "raw_html": "raw_html/007-how-to-write-funny-sentences.html",
+      "text_file": "text/007-how-to-write-funny-sentences.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/write-to-people-not-professionals",
+      "title": "Write to people, not 'professionals'. - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1355,
+      "raw_html": "raw_html/008-write-to-people-not-professionals.html",
+      "text_file": "text/008-write-to-people-not-professionals.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/b2b-sales-mini-guide",
+      "title": "B2B Sales Mini Guide - Charm Offensive",
+      "meta_description": "",
+      "word_count": 469,
+      "raw_html": "raw_html/009-b2b-sales-mini-guide.html",
+      "text_file": "text/009-b2b-sales-mini-guide.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/want-to-get-the-attention-of-a-dream-client",
+      "title": "Want to get the attention of a dream client?\u00a0 - Charm Offensive",
+      "meta_description": "",
+      "word_count": 896,
+      "raw_html": "raw_html/010-want-to-get-the-attention-of-a-dream-client.html",
+      "text_file": "text/010-want-to-get-the-attention-of-a-dream-client.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/be-daring",
+      "title": "Be daring - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1153,
+      "raw_html": "raw_html/011-be-daring.html",
+      "text_file": "text/011-be-daring.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/the-biggest-mistakes-people-make",
+      "title": "The biggest mistakes people make - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1022,
+      "raw_html": "raw_html/012-the-biggest-mistakes-people-make.html",
+      "text_file": "text/012-the-biggest-mistakes-people-make.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/tim-cooks-recent-rhetorical-flourish",
+      "title": "Tim Cook's recent rhetorical flourish - Charm Offensive",
+      "meta_description": "",
+      "word_count": 875,
+      "raw_html": "raw_html/013-tim-cooks-recent-rhetorical-flourish.html",
+      "text_file": "text/013-tim-cooks-recent-rhetorical-flourish.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/deconstructing-a-viral-story",
+      "title": "Deconstructing a viral story - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1297,
+      "raw_html": "raw_html/014-deconstructing-a-viral-story.html",
+      "text_file": "text/014-deconstructing-a-viral-story.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/charm-offensive-meet-up",
+      "title": "Charm Offensive Meet Up - Charm Offensive",
+      "meta_description": "",
+      "word_count": 702,
+      "raw_html": "raw_html/015-charm-offensive-meet-up.html",
+      "text_file": "text/015-charm-offensive-meet-up.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/qa-confidence-issues",
+      "title": "Q&A: Confidence Issues - Charm Offensive",
+      "meta_description": "I answer a question from an email subscriber regarding getting comfortable doing sales calls & meetings.",
+      "word_count": 1078,
+      "raw_html": "raw_html/016-qa-confidence-issues.html",
+      "text_file": "text/016-qa-confidence-issues.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/unusual-uses-of-charming-copy",
+      "title": "Unusual uses of charming copy - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1089,
+      "raw_html": "raw_html/017-unusual-uses-of-charming-copy.html",
+      "text_file": "text/017-unusual-uses-of-charming-copy.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/caption-contest-xybernaut-poma",
+      "title": "Caption Contest: Xybernaut Poma - Charm Offensive",
+      "meta_description": "",
+      "word_count": 755,
+      "raw_html": "raw_html/018-caption-contest-xybernaut-poma.html",
+      "text_file": "text/018-caption-contest-xybernaut-poma.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/overworked-and-underpaid",
+      "title": "Overworked and Underpaid - Charm Offensive",
+      "meta_description": "",
+      "word_count": 752,
+      "raw_html": "raw_html/019-overworked-and-underpaid.html",
+      "text_file": "text/019-overworked-and-underpaid.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/who-says",
+      "title": "Who says? - Charm Offensive",
+      "meta_description": "",
+      "word_count": 741,
+      "raw_html": "raw_html/020-who-says.html",
+      "text_file": "text/020-who-says.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/think-like-an-underdog-2",
+      "title": "Think Like An Underdog - Charm Offensive",
+      "meta_description": "",
+      "word_count": 996,
+      "raw_html": "raw_html/021-think-like-an-underdog-2.html",
+      "text_file": "text/021-think-like-an-underdog-2.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/being-formally-ridiculous",
+      "title": "Being Formally Ridiculous - Charm Offensive",
+      "meta_description": "",
+      "word_count": 981,
+      "raw_html": "raw_html/022-being-formally-ridiculous.html",
+      "text_file": "text/022-being-formally-ridiculous.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/political-persuasion-1",
+      "title": "Political Persuasion #1 - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1297,
+      "raw_html": "raw_html/023-political-persuasion-1.html",
+      "text_file": "text/023-political-persuasion-1.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/how-to-stand-out-from-the-crowd",
+      "title": "How to stand out as a professional promotional services provider - Charm Offensive",
+      "meta_description": "Crush big pitches & stand out against the competition by removing client doubt from the outset! Get them to sign on the dotted line with our charming tips.",
+      "word_count": 1378,
+      "raw_html": "raw_html/024-how-to-stand-out-from-the-crowd.html",
+      "text_file": "text/024-how-to-stand-out-from-the-crowd.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/how-many-cold-emails-messages-letters-should-i-send",
+      "title": "(1) How many cold emails / messages / letters should I send? - Charm Offensive",
+      "meta_description": "I used to send a lot of cold emails - and booked more sales calls than I knew what to do with. However, looking back, I could have been more efficient. Here's how.",
+      "word_count": 1022,
+      "raw_html": "raw_html/025-how-many-cold-emails-messages-letters-should-i-send.html",
+      "text_file": "text/025-how-many-cold-emails-messages-letters-should-i-send.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/podcast-episode-1-ideal-talent-stack",
+      "title": "Podcast Episode 1: The Ideal Talent Stack - Charm Offensive",
+      "meta_description": "",
+      "word_count": 651,
+      "raw_html": "raw_html/026-podcast-episode-1-ideal-talent-stack.html",
+      "text_file": "text/026-podcast-episode-1-ideal-talent-stack.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/podcast-episode-2-sales",
+      "title": "Podcast Episode 2: Sales - Charm Offensive",
+      "meta_description": "",
+      "word_count": 709,
+      "raw_html": "raw_html/027-podcast-episode-2-sales.html",
+      "text_file": "text/027-podcast-episode-2-sales.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/podcast-episode-3-building-an-audience",
+      "title": "Podcast Episode 3: Building An Audience - Charm Offensive",
+      "meta_description": "",
+      "word_count": 710,
+      "raw_html": "raw_html/028-podcast-episode-3-building-an-audience.html",
+      "text_file": "text/028-podcast-episode-3-building-an-audience.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/podcast-episode-4-persuasion",
+      "title": "Podcast Episode 4: Persuasion - Charm Offensive",
+      "meta_description": "",
+      "word_count": 772,
+      "raw_html": "raw_html/029-podcast-episode-4-persuasion.html",
+      "text_file": "text/029-podcast-episode-4-persuasion.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/evidence",
+      "title": "My weird ways work - Charm Offensive",
+      "meta_description": "",
+      "word_count": 663,
+      "raw_html": "raw_html/030-evidence.html",
+      "text_file": "text/030-evidence.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/how-i-write-charming-cold-pitch-copy",
+      "title": "How I write charming cold pitch copy - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1863,
+      "raw_html": "raw_html/031-how-i-write-charming-cold-pitch-copy.html",
+      "text_file": "text/031-how-i-write-charming-cold-pitch-copy.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/black-friday-staff-picks",
+      "title": "Black Friday Staff Picks - Charm Offensive",
+      "meta_description": "",
+      "word_count": 919,
+      "raw_html": "raw_html/032-black-friday-staff-picks.html",
+      "text_file": "text/032-black-friday-staff-picks.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/funny-cold-emails",
+      "title": "Why do funny cold emails work so damn well? - Charm Offensive",
+      "meta_description": "Humour can be used to open opportunities, build rapport, and close deals. This article reveals all. Well, not all. But you'll learn something, I reckon.",
+      "word_count": 1527,
+      "raw_html": "raw_html/033-funny-cold-emails.html",
+      "text_file": "text/033-funny-cold-emails.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/funny-cold-email-copywriting",
+      "title": "Funny Cold Email Copywriting",
+      "meta_description": "Learn how to write cold emails that get gushing, enthusiastic responses from prospects by being a little unorthodox, irreverent, and funny.",
+      "word_count": 1994,
+      "raw_html": "raw_html/034-funny-cold-email-copywriting.html",
+      "text_file": "text/034-funny-cold-email-copywriting.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/free-email-chain-swipe-how-i-got-front-page-coverage-in-venturebeat",
+      "title": "Free email chain swipe: How I got front page coverage in VentureBeat - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1155,
+      "raw_html": "raw_html/035-free-email-chain-swipe-how-i-got-front-page-coverage-in-venturebeat.html",
+      "text_file": "text/035-free-email-chain-swipe-how-i-got-front-page-coverage-in-venturebeat.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/guest-post-how-to-land-ecommerce-marketing-clients-with-funny-emails-case-study",
+      "title": "Guest Post: How To Land Ecommerce Marketing Clients With Funny Emails [Case Study] - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1630,
+      "raw_html": "raw_html/036-guest-post-how-to-land-ecommerce-marketing-clients-with-funny-emails-case-study.html",
+      "text_file": "text/036-guest-post-how-to-land-ecommerce-marketing-clients-with-funny-emails-case-study.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/apprentice-registration-page",
+      "title": "Apprentice registration page - Charm Offensive",
+      "meta_description": "",
+      "word_count": 625,
+      "raw_html": "raw_html/037-apprentice-registration-page.html",
+      "text_file": "text/037-apprentice-registration-page.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/payment-confirmation",
+      "title": "Payment Confirmation - Charm Offensive",
+      "meta_description": "",
+      "word_count": 624,
+      "raw_html": "raw_html/038-payment-confirmation.html",
+      "text_file": "text/038-payment-confirmation.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/payment-failed",
+      "title": "Payment Failed - Charm Offensive",
+      "meta_description": "",
+      "word_count": 640,
+      "raw_html": "raw_html/039-payment-failed.html",
+      "text_file": "text/039-payment-failed.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/membership-account",
+      "title": "Membership Account - Charm Offensive",
+      "meta_description": "",
+      "word_count": 624,
+      "raw_html": "raw_html/040-membership-account.html",
+      "text_file": "text/040-membership-account.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/membership-account/membership-billing",
+      "title": "Membership Billing - Charm Offensive",
+      "meta_description": "",
+      "word_count": 624,
+      "raw_html": "raw_html/041-membership-account-membership-billing.html",
+      "text_file": "text/041-membership-account-membership-billing.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/membership-account/membership-cancel",
+      "title": "Membership Cancel - Charm Offensive",
+      "meta_description": "",
+      "word_count": 624,
+      "raw_html": "raw_html/042-membership-account-membership-cancel.html",
+      "text_file": "text/042-membership-account-membership-cancel.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/membership-account/membership-invoice",
+      "title": "Membership Invoice - Charm Offensive",
+      "meta_description": "",
+      "word_count": 624,
+      "raw_html": "raw_html/043-membership-account-membership-invoice.html",
+      "text_file": "text/043-membership-account-membership-invoice.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/no-access",
+      "title": "No Access - Charm Offensive",
+      "meta_description": "",
+      "word_count": 624,
+      "raw_html": "raw_html/044-no-access.html",
+      "text_file": "text/044-no-access.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/register",
+      "title": "Log In - Charm Offensive",
+      "meta_description": "",
+      "word_count": 642,
+      "raw_html": "raw_html/045-register.html",
+      "text_file": "text/045-register.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/lostpassword",
+      "title": "Lost Password - Charm Offensive",
+      "meta_description": "",
+      "word_count": 653,
+      "raw_html": "raw_html/046-lostpassword.html",
+      "text_file": "text/046-lostpassword.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/resetpass",
+      "title": "Lost Password - Charm Offensive",
+      "meta_description": "",
+      "word_count": 668,
+      "raw_html": "raw_html/047-resetpass.html",
+      "text_file": "text/047-resetpass.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/your-profile",
+      "title": "Your Profile - Charm Offensive",
+      "meta_description": "",
+      "word_count": 635,
+      "raw_html": "raw_html/048-your-profile.html",
+      "text_file": "text/048-your-profile.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/selling-my-friends-house",
+      "title": "Selling My Friends House - Charm Offensive",
+      "meta_description": "",
+      "word_count": 463,
+      "raw_html": "raw_html/049-selling-my-friends-house.html",
+      "text_file": "text/049-selling-my-friends-house.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/membership-account/membership-levels",
+      "title": "Membership Levels - Charm Offensive",
+      "meta_description": "",
+      "word_count": 624,
+      "raw_html": "raw_html/050-membership-account-membership-levels.html",
+      "text_file": "text/050-membership-account-membership-levels.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/offer-expired",
+      "title": "Offer Expired - Charm Offensive",
+      "meta_description": "",
+      "word_count": 668,
+      "raw_html": "raw_html/051-offer-expired.html",
+      "text_file": "text/051-offer-expired.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/membership-account/membership-checkout",
+      "title": "Membership Checkout - Charm Offensive",
+      "meta_description": "",
+      "word_count": 483,
+      "raw_html": "raw_html/052-membership-account-membership-checkout.html",
+      "text_file": "text/052-membership-account-membership-checkout.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/charming-fb-ads-closed",
+      "title": "Charming Facebook Ads \u2013 Closed - Charm Offensive",
+      "meta_description": "",
+      "word_count": 859,
+      "raw_html": "raw_html/053-charming-fb-ads-closed.html",
+      "text_file": "text/053-charming-fb-ads-closed.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/marketing-agency-example",
+      "title": "FB Ad Templates - Marketing Agency - Example Landing Page - Charm Offensive",
+      "meta_description": "",
+      "word_count": 639,
+      "raw_html": "raw_html/054-marketing-agency-example.html",
+      "text_file": "text/054-marketing-agency-example.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/marketing-agency-landing-page-example",
+      "title": "Marketing Agency \u2013 Landing Page Example - Charm Offensive",
+      "meta_description": "",
+      "word_count": 724,
+      "raw_html": "raw_html/055-marketing-agency-landing-page-example.html",
+      "text_file": "text/055-marketing-agency-landing-page-example.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/freelance-marketer-example",
+      "title": "Freelance Marketer \u2013 Landing Page Example - Charm Offensive",
+      "meta_description": "",
+      "word_count": 744,
+      "raw_html": "raw_html/056-freelance-marketer-example.html",
+      "text_file": "text/056-freelance-marketer-example.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/charming-upwork-cover-letter-template-pack-ended",
+      "title": "Charming Upwork Cover Letter Template Pack \u2013 Offer Ended - Charm Offensive",
+      "meta_description": "",
+      "word_count": 876,
+      "raw_html": "raw_html/057-charming-upwork-cover-letter-template-pack-ended.html",
+      "text_file": "text/057-charming-upwork-cover-letter-template-pack-ended.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/thank-you-marketing-agency",
+      "title": "Lead Magnet \u2013 Marketing Agency \u2013 After Opt In Landing Page Example - Charm Offensive",
+      "meta_description": "",
+      "word_count": 883,
+      "raw_html": "raw_html/058-thank-you-marketing-agency.html",
+      "text_file": "text/058-thank-you-marketing-agency.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/linkedin-thank-you",
+      "title": "LinkedIn \u2013 Thank You - Charm Offensive",
+      "meta_description": "",
+      "word_count": 682,
+      "raw_html": "raw_html/059-linkedin-thank-you.html",
+      "text_file": "text/059-linkedin-thank-you.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/drunk-cold-email-copy",
+      "title": "Drunk cold email copy - Charm Offensive",
+      "meta_description": "",
+      "word_count": 519,
+      "raw_html": "raw_html/060-drunk-cold-email-copy.html",
+      "text_file": "text/060-drunk-cold-email-copy.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/drunkcoldemail",
+      "title": "Free B2B Cold Email Template Download",
+      "meta_description": "Download my free b2b cold email template that's proven to generate positive responses - AND get my magic email cheat sheet thrown in for good measure. Dang!",
+      "word_count": 723,
+      "raw_html": "raw_html/061-drunkcoldemail.html",
+      "text_file": "text/061-drunkcoldemail.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/drunk-cold-email-ga",
+      "title": "(1) The drunk cold email that changed my life",
+      "meta_description": "",
+      "word_count": 767,
+      "raw_html": "raw_html/062-drunk-cold-email-ga.html",
+      "text_file": "text/062-drunk-cold-email-ga.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/membership-account/membership-confirmation",
+      "title": "Membership Confirmation - Charm Offensive",
+      "meta_description": "",
+      "word_count": 645,
+      "raw_html": "raw_html/063-membership-account-membership-confirmation.html",
+      "text_file": "text/063-membership-account-membership-confirmation.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/have-your-way-with-words-course",
+      "title": "Sales letter page - Charm Offensive",
+      "meta_description": "",
+      "word_count": 3029,
+      "raw_html": "raw_html/064-have-your-way-with-words-course.html",
+      "text_file": "text/064-have-your-way-with-words-course.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/address",
+      "title": "Enter your address - Charm Offensive",
+      "meta_description": "",
+      "word_count": 637,
+      "raw_html": "raw_html/065-address.html",
+      "text_file": "text/065-address.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/content-restricted",
+      "title": "Content restricted - Charm Offensive",
+      "meta_description": "",
+      "word_count": 623,
+      "raw_html": "raw_html/066-content-restricted.html",
+      "text_file": "text/066-content-restricted.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/login",
+      "title": "Log In - Charm Offensive",
+      "meta_description": "",
+      "word_count": 635,
+      "raw_html": "raw_html/067-login.html",
+      "text_file": "text/067-login.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/drunk-cold-email",
+      "title": "Free B2B Cold Email Template Download",
+      "meta_description": "Download my free b2b cold email template that's proven to generate positive responses - AND get my magic email cheat sheet thrown in for good measure. Dang!",
+      "word_count": 723,
+      "raw_html": "raw_html/068-drunk-cold-email.html",
+      "text_file": "text/068-drunk-cold-email.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/communication-preferences",
+      "title": "Communication preferences - Charm Offensive",
+      "meta_description": "",
+      "word_count": 633,
+      "raw_html": "raw_html/069-communication-preferences.html",
+      "text_file": "text/069-communication-preferences.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/how-to-win-a-megaclient",
+      "title": "How to Win a MegaClient - Charm Offensive",
+      "meta_description": "",
+      "word_count": 2082,
+      "raw_html": "raw_html/070-how-to-win-a-megaclient.html",
+      "text_file": "text/070-how-to-win-a-megaclient.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/refer-friends",
+      "title": "Refer Your Friends - Charm Offensive",
+      "meta_description": "",
+      "word_count": 639,
+      "raw_html": "raw_html/071-refer-friends.html",
+      "text_file": "text/071-refer-friends.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/little-bag-tricks/template-pack-sales-letter-new",
+      "title": "Template Pack Sales Letter New - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1803,
+      "raw_html": "raw_html/072-little-bag-tricks-template-pack-sales-letter-new.html",
+      "text_file": "text/072-little-bag-tricks-template-pack-sales-letter-new.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/little-bag-tricks/missed",
+      "title": "You missed the deadline - Charm Offensive",
+      "meta_description": "",
+      "word_count": 771,
+      "raw_html": "raw_html/073-little-bag-tricks-missed.html",
+      "text_file": "text/073-little-bag-tricks-missed.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/create-niche",
+      "title": "Create Your Niche - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1317,
+      "raw_html": "raw_html/074-create-niche.html",
+      "text_file": "text/074-create-niche.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/fire-nation-template-pack-offer",
+      "title": "Fire Nation Template Pack Offer - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1871,
+      "raw_html": "raw_html/075-fire-nation-template-pack-offer.html",
+      "text_file": "text/075-fire-nation-template-pack-offer.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/win",
+      "title": "Charming B2B Cold Email Templates That Actually Work",
+      "meta_description": "Make prospects laugh out loud and respond enthusiastically to your cold emails. Download all of my effective b2b cold email templates.",
+      "word_count": 1104,
+      "raw_html": "raw_html/076-win.html",
+      "text_file": "text/076-win.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/charming-lead-gen-members",
+      "title": "Charming Lead Gen Downloads - Charm Offensive",
+      "meta_description": "",
+      "word_count": 638,
+      "raw_html": "raw_html/077-charming-lead-gen-members.html",
+      "text_file": "text/077-charming-lead-gen-members.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/converts-charm-downloads",
+      "title": "Converts Like a Charm Downloads - Charm Offensive",
+      "meta_description": "",
+      "word_count": 636,
+      "raw_html": "raw_html/078-converts-charm-downloads.html",
+      "text_file": "text/078-converts-charm-downloads.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/affiliate-area",
+      "title": "Affiliate Area - Charm Offensive",
+      "meta_description": "",
+      "word_count": 631,
+      "raw_html": "raw_html/079-affiliate-area.html",
+      "text_file": "text/079-affiliate-area.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/how-i-write-fast",
+      "title": "How I Write FAST - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1773,
+      "raw_html": "raw_html/080-how-i-write-fast.html",
+      "text_file": "text/080-how-i-write-fast.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/b2b-template-pack",
+      "title": "(1) B2B Template Pack Flash Sale Offer - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1793,
+      "raw_html": "raw_html/081-b2b-template-pack.html",
+      "text_file": "text/081-b2b-template-pack.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/always-be-winning-on-fire",
+      "title": "Always Be Winning ON FIRE - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1326,
+      "raw_html": "raw_html/082-always-be-winning-on-fire.html",
+      "text_file": "text/082-always-be-winning-on-fire.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/christmas-templates-downloads",
+      "title": "Charming Christmas Templates Downloads Page - Charm Offensive",
+      "meta_description": "",
+      "word_count": 641,
+      "raw_html": "raw_html/083-christmas-templates-downloads.html",
+      "text_file": "text/083-christmas-templates-downloads.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/pricebuchan2",
+      "title": "Offer Expired - Charm Offensive",
+      "meta_description": "",
+      "word_count": 623,
+      "raw_html": "raw_html/084-pricebuchan2.html",
+      "text_file": "text/084-pricebuchan2.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/ian",
+      "title": "(1) B2B Template Pack \u2013 Ian Stanley Subscribers Special Offer - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1916,
+      "raw_html": "raw_html/085-ian.html",
+      "text_file": "text/085-ian.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/wes",
+      "title": "(1) B2B Template Pack \u2013 Sales Whisperer Subscribers Special Offer - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1916,
+      "raw_html": "raw_html/086-wes.html",
+      "text_file": "text/086-wes.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/how-to-get-started",
+      "title": "How to get started - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1547,
+      "raw_html": "raw_html/087-how-to-get-started.html",
+      "text_file": "text/087-how-to-get-started.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/salesman",
+      "title": "Salesman - Little Bag of Tricks - Charm Offensive",
+      "meta_description": "",
+      "word_count": 490,
+      "raw_html": "raw_html/088-salesman.html",
+      "text_file": "text/088-salesman.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/charming-saas",
+      "title": "Charming SaaS Email Template Pack - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1245,
+      "raw_html": "raw_html/089-charming-saas.html",
+      "text_file": "text/089-charming-saas.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/agora",
+      "title": "Charm Offensive - Little Bag of Tricks - Charm Offensive",
+      "meta_description": "",
+      "word_count": 492,
+      "raw_html": "raw_html/090-agora.html",
+      "text_file": "text/090-agora.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/converts-like-a-charm-copymonk-special-offer",
+      "title": "Converts Like A Charm \u2013 CopyMonk Special Offer - Charm Offensive",
+      "meta_description": "",
+      "word_count": 3622,
+      "raw_html": "raw_html/091-converts-like-a-charm-copymonk-special-offer.html",
+      "text_file": "text/091-converts-like-a-charm-copymonk-special-offer.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/writing-workshop",
+      "title": "Writing Workshop - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1462,
+      "raw_html": "raw_html/092-writing-workshop.html",
+      "text_file": "text/092-writing-workshop.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/writing-workshop-expired",
+      "title": "In-Person Workshop Card Closed \u2013 Redirect To Virtual - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1460,
+      "raw_html": "raw_html/093-writing-workshop-expired.html",
+      "text_file": "text/093-writing-workshop-expired.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/writing-workshop-virtual",
+      "title": "Writing Workshop \u2013 Virtual Ticket - Charm Offensive",
+      "meta_description": "",
+      "word_count": 1416,
+      "raw_html": "raw_html/094-writing-workshop-virtual.html",
+      "text_file": "text/094-writing-workshop-virtual.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/sub",
+      "title": "Sub - Charm Offensive",
+      "meta_description": "",
+      "word_count": 621,
+      "raw_html": "raw_html/095-sub.html",
+      "text_file": "text/095-sub.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/member-special-offer",
+      "title": "Member Special Offer - Charm Offensive",
+      "meta_description": "",
+      "word_count": 632,
+      "raw_html": "raw_html/096-member-special-offer.html",
+      "text_file": "text/096-member-special-offer.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/storytelling-downloads",
+      "title": "Storytelling Downloads - Charm Offensive",
+      "meta_description": "",
+      "word_count": 630,
+      "raw_html": "raw_html/097-storytelling-downloads.html",
+      "text_file": "text/097-storytelling-downloads.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/social-media-storytelling-crash-course",
+      "title": "Social Media Storytelling Crash Course - Charm Offensive",
+      "meta_description": "",
+      "word_count": 2081,
+      "raw_html": "raw_html/098-social-media-storytelling-crash-course.html",
+      "text_file": "text/098-social-media-storytelling-crash-course.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/pro-lifetime-membership",
+      "title": "Charm Pro Lifetime Membership - Charm Offensive",
+      "meta_description": "",
+      "word_count": 829,
+      "raw_html": "raw_html/099-pro-lifetime-membership.html",
+      "text_file": "text/099-pro-lifetime-membership.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/close-with-charm-downloads",
+      "title": "Close with Charm Downloads - Charm Offensive",
+      "meta_description": "",
+      "word_count": 637,
+      "raw_html": "raw_html/100-close-with-charm-downloads.html",
+      "text_file": "text/100-close-with-charm-downloads.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/as-yet-unnamed-template-pack-downloads",
+      "title": "Charming Cold Open Template Pack Downloads - Charm Offensive",
+      "meta_description": "",
+      "word_count": 638,
+      "raw_html": "raw_html/101-as-yet-unnamed-template-pack-downloads.html",
+      "text_file": "text/101-as-yet-unnamed-template-pack-downloads.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/funny-freelance-sales-letter",
+      "title": "(1) Swipe & Share: Freelance Services Sales Letter - Charm Offensive",
+      "meta_description": "I decided to write a swipeable sales letter for freelance professionals who want to sell their services. Feel free to use my copy for inspiration.",
+      "word_count": 2241,
+      "raw_html": "raw_html/102-funny-freelance-sales-letter.html",
+      "text_file": "text/102-funny-freelance-sales-letter.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/opc-test",
+      "title": "OPC Test - Charm Offensive",
+      "meta_description": "",
+      "word_count": 485,
+      "raw_html": "raw_html/103-opc-test.html",
+      "text_file": "text/103-opc-test.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/charming-common-ground-template-pack",
+      "title": "(1) The Charming Common Ground Cold Pitch Template Pack - Charm Offensive",
+      "meta_description": "If you can reliably open AND close deals, you\u2019re always going to to make money. Turn your prospects into paying clients - I lay out my exact process.\u200b",
+      "word_count": 1816,
+      "raw_html": "raw_html/104-charming-common-ground-template-pack.html",
+      "text_file": "text/104-charming-common-ground-template-pack.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/nomoreinboxingclever",
+      "title": "Thank You - Charm Offensive",
+      "meta_description": "",
+      "word_count": 641,
+      "raw_html": "raw_html/105-nomoreinboxingclever.html",
+      "text_file": "text/105-nomoreinboxingclever.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/nomoreblueprint",
+      "title": "Thank You - Charm Offensive",
+      "meta_description": "",
+      "word_count": 642,
+      "raw_html": "raw_html/106-nomoreblueprint.html",
+      "text_file": "text/106-nomoreblueprint.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/nomorecoldopen",
+      "title": "Cajolement ceased! - Charm Offensive",
+      "meta_description": "",
+      "word_count": 657,
+      "raw_html": "raw_html/107-nomorecoldopen.html",
+      "text_file": "text/107-nomorecoldopen.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/vea",
+      "title": "VEA Freebie Download - Charm Offensive",
+      "meta_description": "",
+      "word_count": 490,
+      "raw_html": "raw_html/108-vea.html",
+      "text_file": "text/108-vea.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/nomorepro",
+      "title": "Cajolement ceased! - Charm Offensive",
+      "meta_description": "",
+      "word_count": 655,
+      "raw_html": "raw_html/109-nomorepro.html",
+      "text_file": "text/109-nomorepro.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/nomoreclac",
+      "title": "Converts Like A Charm Special Offer Related Cajolement Ceased! - Charm Offensive",
+      "meta_description": "",
+      "word_count": 670,
+      "raw_html": "raw_html/110-nomoreclac.html",
+      "text_file": "text/110-nomoreclac.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/nomoreproannual",
+      "title": "Annual Charm Pro Offer Related Cajolement Ceased! - Charm Offensive",
+      "meta_description": "",
+      "word_count": 666,
+      "raw_html": "raw_html/111-nomoreproannual.html",
+      "text_file": "text/111-nomoreproannual.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/freestuff",
+      "title": "Best B2B cold email templates - Including my original 'drunk' cold email",
+      "meta_description": "Want to learn how to get responses to your cold emails people actually read and respond to positively? Well, you've come to the right opt-in page. :D",
+      "word_count": 496,
+      "raw_html": "raw_html/112-freestuff.html",
+      "text_file": "text/112-freestuff.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/311019-webinar-replay",
+      "title": "Assortment of Charm Professional Trainings \u2013 Replay - Charm Offensive",
+      "meta_description": "",
+      "word_count": 459,
+      "raw_html": "raw_html/113-311019-webinar-replay.html",
+      "text_file": "text/113-311019-webinar-replay.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/311019webinar",
+      "title": "Assorted Training Excerpts & Templates from Charm Offensive Professional - Charm Offensive",
+      "meta_description": "",
+      "word_count": 477,
+      "raw_html": "raw_html/114-311019webinar.html",
+      "text_file": "text/114-311019webinar.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/followup-pack-clonepage",
+      "title": "The Charming Follow-Up Sequence Template Pack (Clone created so can read even when deadline expired.) - Charm Offensive",
+      "meta_description": "If you can reliably open AND close deals, you\u2019re always going to to make money. Turn your prospects into paying clients - I lay out my exact process.\u200b",
+      "word_count": 1609,
+      "raw_html": "raw_html/115-followup-pack-clonepage.html",
+      "text_file": "text/115-followup-pack-clonepage.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/nomorecliently",
+      "title": "Cliently related cajolement ceased! - Charm Offensive",
+      "meta_description": "",
+      "word_count": 646,
+      "raw_html": "raw_html/116-nomorecliently.html",
+      "text_file": "text/116-nomorecliently.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/stonker",
+      "title": "Charming Cold Pitch Masterclass Bundle - Charm Offensive",
+      "meta_description": "If you can reliably open AND close deals, you\u2019re always going to to make money. Turn your prospects into paying clients - I lay out my exact process.\u200b",
+      "word_count": 5215,
+      "raw_html": "raw_html/117-stonker.html",
+      "text_file": "text/117-stonker.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/blackfricybermon-downloads",
+      "title": "Charming Black Friday & Cyber Monday Template Pack Downloads - Charm Offensive",
+      "meta_description": "",
+      "word_count": 653,
+      "raw_html": "raw_html/118-blackfricybermon-downloads.html",
+      "text_file": "text/118-blackfricybermon-downloads.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/nomoreclosingwithcharm",
+      "title": "Closing With Charm related Cajolement ceased! - Charm Offensive",
+      "meta_description": "",
+      "word_count": 663,
+      "raw_html": "raw_html/119-nomoreclosingwithcharm.html",
+      "text_file": "text/119-nomoreclosingwithcharm.txt"
+    },
+    {
+      "url": "https://www.charm-offensive.co.uk/nomoreblackcyber",
+      "title": "Black Friday / Cyber Monday Pre-Sale Offer Related Cajolement Ceased! - Charm Offensive",
+      "meta_description": "",
+      "word_count": 679,
+      "raw_html": "raw_html/120-nomoreblackcyber.html",
+      "text_file": "text/120-nomoreblackcyber.txt"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Bill Mueller",
+  "roots": [
+    "https://www.storysalesmachine.com/"
+  ],
+  "allowed_domains": [
+    "storysalesmachine.com"
+  ],
+  "scraped_at": "2026-03-24T15:15:00Z",
+  "page_count": 0,
+  "pages": []
+}

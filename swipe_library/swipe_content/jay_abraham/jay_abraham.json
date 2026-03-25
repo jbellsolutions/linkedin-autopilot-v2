@@ -1,0 +1,20 @@
+{
+  "name": "Jay Abraham",
+  "website": {
+    "url": "https://www.abraham.com/",
+    "summary": "Jay Abraham is an American business executive, conference speaker, and author, known for his strategies in the direct response marketing industry since the 1970s. He was listed by Forbes in 2000 as one of the top five executive coaches in the US. He is the founder and CEO of the Abraham Group, a marketing consulting firm that has worked with over 10,000 businesses across more than 1,000 industries, helping them unlock over $75 billion in growth. His work is recognized by figures like Tony Robbins, who considers him a mentor in business for identifying unrealized opportunities. He also hosts 'The Ultimate Entrepreneur' podcast."
+  },
+  "books": [
+    {
+      "title": "Getting Everything You Can Out of All You've Got: 21 Ways You Can Out-Think, Out-Perform, and Out-Earn the Competition",
+      "summary": "A guide to maximizing business success by identifying and leveraging hidden assets, overlooked opportunities, and untapped resources. Abraham's core argument is that businesses should strive for extraordinary results rather than settling for the status quo, consistently seeking ways to better serve customers, outperform competitors, and maximize profits. The book outlines practical strategies for enhancing every aspect of a business, aiming for exponential growth and success."
+    },
+    {
+      "title": "The Sticking Point Solution: 9 Ways to Move Your Business from Stagnation to Stunning Growth in Tough Economic Times",
+      "summary": "A business book aimed at helping entrepreneurs and executives overcome challenges that hinder their company's growth. The core premise of 'The Sticking Point Solution' is that businesses can plateau, stall, or stagnate without their owners or key executives even realizing it. Abraham identifies nine 'sticking points' that prevent businesses from thriving and instead keep them 'grinding just to survive'. The book's purpose is to help readers recognize these sticking points and provide them with tools and strategies to get unstuck and achieve exponential growth."
+    }
+  ],
+  "podcast": {
+    "title": "The Ultimate Entrepreneur"
+  }
+}

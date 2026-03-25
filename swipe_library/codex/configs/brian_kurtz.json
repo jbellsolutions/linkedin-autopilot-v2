@@ -1,0 +1,23 @@
+{
+  "name": "Brian Kurtz",
+  "roots": [
+    "https://www.briankurtz.net/",
+    "https://www.briankurtz.net/free-tools/"
+  ],
+  "allowed_domains": [
+    "briankurtz.net"
+  ],
+  "include_patterns": [
+    "briankurtz\\.net"
+  ],
+  "exclude_patterns": [
+    "/privacy",
+    "/terms",
+    "/refund",
+    "/checkout",
+    "/cart",
+    "/my-account"
+  ],
+  "max_pages": 80,
+  "delay_seconds": 0.4
+}

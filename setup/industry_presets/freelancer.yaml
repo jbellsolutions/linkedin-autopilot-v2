@@ -1,0 +1,61 @@
+industry: "Freelancer / Creator"
+positioning_template: "I help [audience] achieve [outcome] through my expertise in [skill] — one project at a time"
+target_audience: "Potential clients, fellow creators, and professionals who hire freelancers"
+
+content_themes:
+  - "Portfolio work and behind-the-scenes process"
+  - "Freelancing business lessons"
+  - "Skill development and craft mastery"
+  - "Client management and pricing"
+  - "Building a personal brand as a creator"
+
+trend_search_queries:
+  - query: "freelancer business growth 2026"
+    category: "business"
+  - query: "creator economy trends"
+    category: "industry"
+  - query: "personal branding LinkedIn freelancer"
+    category: "marketing"
+  - query: "AI tools for freelancers creators"
+    category: "technology"
+
+sample_case_studies:
+  - title: "From Side Hustle to Full-Time"
+    result: "Replaced corporate salary in 4 months"
+    context: "Systematized client acquisition through LinkedIn content"
+  - title: "Premium Pricing Shift"
+    result: "Raised rates 3x while booking out 2 months ahead"
+    context: "Repositioned from generalist to specialized expert"
+  - title: "Productized Service Launch"
+    result: "$15K/month recurring from packaged offering"
+    context: "Turned custom work into repeatable productized service"
+
+sample_influencers:
+  - name: "Justin Welsh"
+    topics: ["solopreneur", "content", "LinkedIn growth"]
+    priority: "high"
+  - name: "Dickie Bush"
+    topics: ["writing", "atomic essays", "creator"]
+    priority: "high"
+  - name: "Dan Koe"
+    topics: ["one-person business", "creator", "philosophy"]
+    priority: "high"
+  - name: "Nicolas Cole"
+    topics: ["digital writing", "category design", "ghostwriting"]
+    priority: "high"
+  - name: "Sahil Bloom"
+    topics: ["frameworks", "writing", "audience building"]
+    priority: "medium"
+  - name: "Ali Abdaal"
+    topics: ["productivity", "creator business", "content"]
+    priority: "medium"
+  - name: "Jay Clouse"
+    topics: ["creator science", "audience building", "community"]
+    priority: "medium"
+  - name: "Brennan Dunn"
+    topics: ["freelancing", "pricing", "automation"]
+    priority: "low"
+
+tone_defaults:
+  primary: "Conversational"
+  secondary: "Bold / Provocative"

@@ -1,0 +1,95 @@
+industry: "Speaker / Thought Leader"
+positioning_template: "I help audiences [transformation] through keynotes, workshops, and content on [topic area]"
+target_audience: "Event organizers, conference planners, executives seeking speakers, and professionals in your topic domain"
+
+content_themes:
+  - "Stage stories and behind-the-scenes of speaking"
+  - "Original frameworks and models from your expertise"
+  - "Industry insights and bold predictions"
+  - "Audience transformation stories and testimonials"
+  - "Book excerpts, ideas, and thought leadership"
+  - "Hot takes and contrarian opinions in your niche"
+  - "Lessons from conversations with other leaders"
+
+trend_search_queries:
+  - query: "keynote speaker trends 2026"
+    category: "industry"
+  - query: "thought leadership LinkedIn strategy"
+    category: "marketing"
+  - query: "conference speaker personal brand"
+    category: "branding"
+  - query: "speaking industry AI disruption"
+    category: "technology"
+  - query: "building authority through content"
+    category: "content"
+  - query: "event industry trends corporate events"
+    category: "industry"
+  - query: "book launch marketing strategy"
+    category: "marketing"
+
+sample_case_studies:
+  - title: "Keynote Impact"
+    result: "Standing ovation + 3 follow-up bookings from a single conference"
+    context: "Delivered a 45-minute keynote on [topic] at [event type] with 2,000 attendees"
+  - title: "Thought Leadership to Revenue"
+    result: "LinkedIn content drove $200K in speaking bookings in 6 months"
+    context: "Consistent posting cadence with signature frameworks attracted event planners"
+  - title: "Workshop Transformation"
+    result: "92% of attendees implemented at least one takeaway within 30 days"
+    context: "Half-day workshop for Fortune 500 leadership team on [topic]"
+
+sample_influencers:
+  - name: "Simon Sinek"
+    topics: ["leadership", "purpose", "motivation", "speaking"]
+    priority: "high"
+  - name: "Brene Brown"
+    topics: ["vulnerability", "leadership", "culture", "courage"]
+    priority: "high"
+  - name: "Adam Grant"
+    topics: ["organizational psychology", "work", "thinking"]
+    priority: "high"
+  - name: "Seth Godin"
+    topics: ["marketing", "leadership", "change", "creativity"]
+    priority: "high"
+  - name: "Mel Robbins"
+    topics: ["motivation", "habits", "mindset", "confidence"]
+    priority: "medium"
+  - name: "Gary Vaynerchuk"
+    topics: ["entrepreneurship", "content", "personal brand"]
+    priority: "medium"
+  - name: "James Clear"
+    topics: ["habits", "decision making", "continuous improvement"]
+    priority: "medium"
+  - name: "Sahil Bloom"
+    topics: ["frameworks", "mental models", "growth"]
+    priority: "medium"
+  - name: "Tim Ferriss"
+    topics: ["productivity", "lifestyle design", "interviews"]
+    priority: "low"
+  - name: "Daniel Pink"
+    topics: ["motivation", "timing", "persuasion"]
+    priority: "low"
+
+tone_defaults:
+  primary: "Bold"
+  secondary: "Conversational"
+
+engagement_defaults:
+  auto_commenting:
+    enabled: true
+    daily_target: 10
+    quality_threshold: 7
+    approach: "thought_leader"
+  auto_responding:
+    enabled: true
+    reply_speed: "within_2hrs"
+    lead_detection: true
+
+voice_notes: |
+  Speakers and thought leaders need to sound like someone worth
+  putting on a stage. Content should be quotable, framework-driven,
+  and demonstrate the ability to explain complex ideas simply.
+  Every post should feel like a mini-keynote — a clear insight,
+  a memorable way of framing it, and something the reader can
+  take away immediately. Avoid academic tone. Favor stories,
+  analogies, and bold statements backed by experience.

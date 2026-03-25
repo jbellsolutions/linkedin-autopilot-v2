@@ -1,0 +1,105 @@
+# ============================================================
+# LinkedIn Autopilot - Influencer Monitoring Configuration
+# ============================================================
+# The Trend Scout team monitors these influencers for hooks,
+# frameworks, and content patterns to inspire your posts.
+# ============================================================
+
+# --- Monitoring Settings ---
+monitor_frequency: "daily"               # daily | twice_daily | hourly
+extract_hooks: true                      # Extract opening hooks from posts
+extract_frameworks: true                 # Extract frameworks and templates
+
+# --- Influencer List ---
+# Priority: high = always monitor, medium = daily, low = weekly
+influencers:
+  - name: "Alex Hormozi"
+    topics: ["offers", "scaling", "value", "lead generation"]
+    priority: "high"
+
+  - name: "Justin Welsh"
+    topics: ["solopreneur", "LinkedIn growth", "systems", "content"]
+    priority: "high"
+
+  - name: "Sahil Bloom"
+    topics: ["frameworks", "mental models", "growth", "curiosity"]
+    priority: "high"
+
+  - name: "Dickie Bush"
+    topics: ["writing", "atomic essays", "creator economy"]
+    priority: "high"
+
+  - name: "Nicolas Cole"
+    topics: ["digital writing", "category design", "ghostwriting"]
+    priority: "medium"
+
+  - name: "Dan Koe"
+    topics: ["one-person business", "philosophy", "education"]
+    priority: "medium"
+
+  - name: "Codie Sanchez"
+    topics: ["acquisitions", "boring businesses", "wealth"]
+    priority: "medium"
+
+  - name: "Lenny Rachitsky"
+    topics: ["product management", "growth", "hiring"]
+    priority: "medium"
+
+  - name: "Shaan Puri"
+    topics: ["business ideas", "startups", "trends"]
+    priority: "low"
+
+  - name: "George Ten"
+    topics: ["fascinations", "hooks", "copywriting"]
+    priority: "low"
+
+# ============================================================
+# COMMENTING STRATEGY (v2)
+# ============================================================
+# Controls how the Auto Commenter agent writes comments on
+# influencer posts. These settings shape the tone, length,
+# and approach of all generated comments.
+# ============================================================
+
+commenting_strategy:
+  approach: "value_first"                      # value_first | thought_leader | contrarian | data_driven
+  max_words: 150                               # Maximum words per comment
+  min_words: 20                                # Minimum words (avoids content-free comments)
+  tone: "peer_expert"                          # peer_expert | curious_learner | friendly_challenger
+  preferred_formulas:                          # Which comment formulas to use most
+    - "yes_and"                                # Build on their point with experience
+    - "data_drop"                              # Share a relevant metric or result
+    - "question"                               # Smart question revealing expertise
+  backup_formulas:                             # Rotate in for variety
+    - "contrarian"                             # Respectful nuance on their point
+    - "story"                                  # Brief anecdote that teaches
+    - "tool_insight"                           # Share something practical
+
+  # Phrases the AI should NEVER use in comments
+  never_use:
+    - "Great post"
+    - "Love this"
+    - "So true"
+    - "Couldn't agree more"
+    - "This is gold"
+    - "Spot on"
+    - "Nailed it"
+    - "100%"
+    - "game changer"
+    - "check out"
+    - "DM me"
+    - "we offer"
+    - "our service"
+    - "book a call"
+
+  # Time-based rules to seem natural
+  timing:
+    comment_within_hours: 4                    # Comment within X hours of post going live
+    avoid_commenting_at: ["23:00-06:00"]       # Don't comment during these hours
+    stagger_comments: true                     # Don't post all comments at once
+
+  # Engagement rules per influencer
+  per_influencer:
+    max_comments_per_week: 3                   # Don't over-comment on one person
+    cooldown_after_no_response_days: 14        # Back off if they never engage back
+    prioritize_responses: true                 # Comment more on influencers who reply

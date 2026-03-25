@@ -1,0 +1,21 @@
+{
+  "name": "Bill Mueller",
+  "roots": [
+    "https://www.storysalesmachine.com/"
+  ],
+  "allowed_domains": [
+    "storysalesmachine.com"
+  ],
+  "include_patterns": [
+    "storysalesmachine\\.com"
+  ],
+  "exclude_patterns": [
+    "/privacy",
+    "/terms",
+    "/checkout",
+    "/cart",
+    "/login"
+  ],
+  "max_pages": 40,
+  "delay_seconds": 0.4
+}

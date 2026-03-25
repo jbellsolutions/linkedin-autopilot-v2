@@ -1,0 +1,49 @@
+industry: "General Business"
+positioning_template: "I help businesses grow with proven strategies and smart execution"
+target_audience: "Business owners, entrepreneurs, and professionals looking to scale"
+
+content_themes:
+  - "Business growth strategies"
+  - "Leadership and team building"
+  - "Productivity and systems"
+  - "Industry trends and insights"
+  - "Client success stories"
+
+trend_search_queries:
+  - query: "business growth strategies 2026"
+    category: "growth"
+  - query: "leadership trends small business"
+    category: "leadership"
+  - query: "productivity tools entrepreneurs"
+    category: "tools"
+  - query: "startup scaling strategies"
+    category: "growth"
+
+sample_case_studies:
+  - title: "Revenue Growth Sprint"
+    result: "2x revenue in 6 months"
+    context: "Implemented systematic growth framework for mid-size business"
+  - title: "Operations Overhaul"
+    result: "40% reduction in overhead"
+    context: "Streamlined operations and automated key workflows"
+
+sample_influencers:
+  - name: "Alex Hormozi"
+    topics: ["offers", "scaling", "value"]
+    priority: "high"
+  - name: "Justin Welsh"
+    topics: ["solopreneur", "LinkedIn growth", "systems"]
+    priority: "high"
+  - name: "Sahil Bloom"
+    topics: ["frameworks", "mental models", "growth"]
+    priority: "medium"
+  - name: "Codie Sanchez"
+    topics: ["acquisitions", "boring businesses", "cash flow"]
+    priority: "medium"
+  - name: "Shaan Puri"
+    topics: ["business ideas", "startups", "trends"]
+    priority: "medium"
+
+tone_defaults:
+  primary: "Professional"
+  secondary: "Conversational"

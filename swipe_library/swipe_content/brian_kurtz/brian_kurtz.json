@@ -1,0 +1,31 @@
+{
+  "name": "Brian Kurtz",
+  "website": {
+    "url": "https://www.briankurtz.net/",
+    "summary": "Brian Kurtz's website focuses on direct marketing, offering insights and resources from his nearly 40 years of experience in the field. He emphasizes that marketing is crucial and that direct response marketing, both online and offline, provides measurable results. The site promotes his 'three most guarded direct marketing secrets' and features testimonials from other marketing professionals."
+  },
+  "secrets": {
+    "title": "Three Most Guarded Direct Marketing Secrets",
+    "description": "Brian Kurtz's 'three most guarded direct marketing secrets' are offered in a private interview with Perry Marshall, which can be accessed for free on his website. While the specific 'three secrets' are not explicitly enumerated in the search results, several core principles are consistently highlighted as fundamental to his direct marketing philosophy:",
+    "principles": [
+      {
+        "name": "The 40/40/20 Rule",
+        "description": "This principle asserts that 40% of a direct marketing campaign's success is attributed to the audience (the list), another 40% to the offer, and the remaining 20% to the creative elements (copy and artwork)."
+      },
+      {
+        "name": "The RFM Model (Recency, Frequency, Monetary Value)",
+        "description": "This model is used to predict future customer behavior by analyzing how recently a customer purchased, how frequently they purchase, and how much money they spend. Kurtz emphasizes that recency often holds significant weight, and effective customer segmentation based on RFM leads to more profitable campaigns."
+      },
+      {
+        "name": "The Primacy of the Audience/List",
+        "description": "Kurtz consistently stresses that the audience is paramount in direct marketing. Understanding, segmenting, and targeting the right audience is considered everything for a campaign's success."
+      }
+    ]
+  },
+  "books": [
+    {
+      "title": "Overdeliver: Build a Business for a Lifetime Playing the Long Game in Direct Response Marketing",
+      "summary": "The book serves as a comprehensive guide to achieving marketing success by exceeding customer expectations and maximizing the value of every interaction. Drawing on Kurtz's four decades of experience in direct marketing, it provides actionable strategies for building long-term customer relationships, increasing sales, and creating a memorable brand. Key themes and concepts explored in 'Overdeliver' include: Exceeding Customer Expectations, Direct Response Marketing Fundamentals, The Importance of 'The List', Crafting Offers and Copy, Multichannel Marketing, Customer Lifetime Value (LTV), and Business and Life Wisdom."
+    }
+  ]
+}

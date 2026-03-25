@@ -1,0 +1,34 @@
+{
+  "name": "Tom Bilyeu",
+  "website": {
+    "url": "https://tombilyeu.com/",
+    "summary": "Tom Bilyeu's website is focused on empowering entrepreneurs to unlock their potential and build a 'billion-dollar mindset'. He is the co-founder of Quest Nutrition and the host of Impact Theory. The website offers various resources, including courses, workshops, and a newsletter, all designed to help individuals and businesses achieve massive success."
+  },
+  "newsletter": {
+    "title": "Tom Bilyeu's Billion Dollar Principles Newsletter",
+    "url": "https://tombilyeu.com/newsletter",
+    "summary": "This is the sign-up page for 'Tom Bilyeu's Billion Dollar Principles Newsletter.' It offers entrepreneurs insights, tips, and frameworks from Tom Bilyeu, focusing on helping them 'Dream Bigger. Execute Better. Scale Faster.' The page also features recent articles from the newsletter."
+  },
+  "courses_and_programs": [
+    {
+      "title": "Leverage AI to Launch Your Business",
+      "type": "Masterclass",
+      "url": "https://tombilyeu.com/ai-masterclass",
+      "summary": "This page promotes a live masterclass by Tom Bilyeu titled 'Leverage AI to Launch Your Business,' scheduled for April 9, 2026. The masterclass aims to teach attendees how to use AI tools like Claude or ChatGPT to build a business within 72 hours, even without prior experience."
+    },
+    {
+      "title": "Zero to Founder",
+      "type": "Program",
+      "url": "https://tombilyeu.com/zero-to-founder",
+      "summary": "This page details Tom Bilyeu's 'Zero to Founder' program, which is designed to guide aspiring entrepreneurs through launching their businesses. The program, priced at $119 per month, includes a 4-week curriculum, coaching, access to a community, and custom AI tools, drawing on Tom Bilyeu's experience as a co-founder of Quest Nutrition."
+    }
+  ],
+  "social_media": {
+    "youtube": "https://www.youtube.com/channel/UCXgGY0lNsWMCHyYcQ_y-b-g",
+    "linkedin": "https://www.linkedin.com/in/tombilyeu",
+    "instagram": "https://www.instagram.com/tombilyeu/",
+    "facebook": "https://www.facebook.com/TomBilyeu/",
+    "twitter": "https://twitter.com/TomBilyeu",
+    "tiktok": "https://www.tiktok.com/@tombilyeu"
+  }
+}

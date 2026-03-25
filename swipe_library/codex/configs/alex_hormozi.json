@@ -1,0 +1,22 @@
+{
+  "name": "Alex Hormozi",
+  "roots": [
+    "https://www.acquisition.com/",
+    "https://www.acquisition.com/books"
+  ],
+  "allowed_domains": [
+    "acquisition.com"
+  ],
+  "include_patterns": [
+    "acquisition\\.com"
+  ],
+  "exclude_patterns": [
+    "/privacy",
+    "/terms",
+    "/careers",
+    "/login",
+    "/podcast/.*/feed"
+  ],
+  "max_pages": 60,
+  "delay_seconds": 0.4
+}

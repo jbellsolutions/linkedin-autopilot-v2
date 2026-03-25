@@ -1,0 +1,23 @@
+{
+  "name": "Tom Bilyeu",
+  "roots": [
+    "https://impacttheory.com/",
+    "https://impacttheoryuniversity.com/"
+  ],
+  "allowed_domains": [
+    "impacttheory.com",
+    "impacttheoryuniversity.com"
+  ],
+  "include_patterns": [
+    "impacttheory\\.com|impacttheoryuniversity\\.com"
+  ],
+  "exclude_patterns": [
+    "/privacy",
+    "/terms",
+    "/checkout",
+    "/cart",
+    "/login"
+  ],
+  "max_pages": 100,
+  "delay_seconds": 0.4
+}

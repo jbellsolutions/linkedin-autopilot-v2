@@ -1,0 +1,71 @@
+{
+  "name": "Liam Ottley",
+  "roots": [
+    "https://www.liamottley.com/",
+    "https://www.morningside.ai/"
+  ],
+  "allowed_domains": [
+    "liamottley.com",
+    "morningside.ai"
+  ],
+  "scraped_at": "2026-03-24T15:23:09Z",
+  "page_count": 7,
+  "pages": [
+    {
+      "url": "https://www.liamottley.com",
+      "title": "Liam Ottley",
+      "meta_description": "Building a portfolio of AI companies to change the world (for the better)",
+      "word_count": 43,
+      "raw_html": "raw_html/001-home.html",
+      "text_file": "text/001-home.txt"
+    },
+    {
+      "url": "https://www.morningside.ai",
+      "title": "Morningside AI",
+      "meta_description": "We don't just talk AI. We deliver it. We help companies identify AI opportunities that will actually transform their business, then we build it, deploy it, and train your team to use it.",
+      "word_count": 888,
+      "raw_html": "raw_html/002-home.html",
+      "text_file": "text/002-home.txt"
+    },
+    {
+      "url": "https://www.morningside.ai/services",
+      "title": "Services | Morningside AI",
+      "meta_description": "From Trying AI to Trusting It. We help you identify, build, and adopt AI that actually delivers.",
+      "word_count": 748,
+      "raw_html": "raw_html/003-services.html",
+      "text_file": "text/003-services.txt"
+    },
+    {
+      "url": "https://www.morningside.ai/team",
+      "title": "Who we are | Morningside AI",
+      "meta_description": "We operate as the AI transformation partner to some of the world\u2019s leading organisations helping them move beyond experimentation and embed AI at the core of how they operate.",
+      "word_count": 412,
+      "raw_html": "raw_html/004-team.html",
+      "text_file": "text/004-team.txt"
+    },
+    {
+      "url": "https://www.morningside.ai/case-study/transforming-aged-care-with-ai-driven-efficiency",
+      "title": "Transforming At-Home Care with AI-Driven Efficiency | Morningside AI",
+      "meta_description": "An Australian aged care provider, faced the challenge of scaling operations to meet growing demand while navigating the November 2025 Support at Home reform changes.",
+      "word_count": 761,
+      "raw_html": "raw_html/005-case-study-transforming-aged-care-with-ai-driven-efficiency.html",
+      "text_file": "text/005-case-study-transforming-aged-care-with-ai-driven-efficiency.txt"
+    },
+    {
+      "url": "https://www.morningside.ai/case-study/building-new-zealands-first-ai-enabled-industrial-distributor",
+      "title": "Building New Zealand's First AI-Enabled Industrial Distributor | Morningside AI",
+      "meta_description": "Asmuss Group is one of New Zealand's leading industrial distributors, supplying steel and flow control products across the country through a network of 15+ warehouses.",
+      "word_count": 682,
+      "raw_html": "raw_html/006-case-study-building-new-zealands-first-ai-enabled-industrial-distributor.html",
+      "text_file": "text/006-case-study-building-new-zealands-first-ai-enabled-industrial-distributor.txt"
+    },
+    {
+      "url": "https://www.morningside.ai/case-study/transforming-basketball-operations-with-ai-powered-intelligence",
+      "title": "Transforming Basketball Operations with AI-Powered Intelligence | Morningside AI",
+      "meta_description": "This championship-caliber NBA franchise had world-class talent and resources, but operational inefficiencies were holding them back.",
+      "word_count": 831,
+      "raw_html": "raw_html/007-case-study-transforming-basketball-operations-with-ai-powered-intelligence.html",
+      "text_file": "text/007-case-study-transforming-basketball-operations-with-ai-powered-intelligence.txt"
+    }
+  ]
+}

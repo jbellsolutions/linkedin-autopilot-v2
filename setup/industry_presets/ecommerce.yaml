@@ -1,0 +1,60 @@
+industry: "E-commerce / DTC"
+positioning_template: "I build [type] brands that own their customer relationship — from first click to lifetime value"
+target_audience: "E-commerce founders, DTC brand operators, Shopify store owners, and digital retailers"
+
+content_themes:
+  - "Scaling from 6 to 7+ figures"
+  - "Paid media and ROAS optimization"
+  - "Brand building vs. performance marketing"
+  - "Supply chain and operations"
+  - "Customer retention and LTV strategies"
+
+trend_search_queries:
+  - query: "ecommerce trends DTC 2026"
+    category: "industry"
+  - query: "Shopify growth strategies"
+    category: "platform"
+  - query: "AI ecommerce personalization"
+    category: "technology"
+  - query: "customer retention ecommerce LTV"
+    category: "growth"
+  - query: "TikTok Shop social commerce"
+    category: "channel"
+
+sample_case_studies:
+  - title: "DTC Brand Launch"
+    result: "$500K revenue in first 6 months"
+    context: "Launched direct-to-consumer brand with influencer-first strategy"
+  - title: "ROAS Turnaround"
+    result: "From 1.2x to 4.8x ROAS in 45 days"
+    context: "Creative testing framework plus audience refinement"
+  - title: "Retention Revolution"
+    result: "68% increase in repeat purchase rate"
+    context: "Implemented post-purchase flows, loyalty program, and subscription model"
+
+sample_influencers:
+  - name: "Nik Sharma"
+    topics: ["DTC", "growth marketing", "brand building"]
+    priority: "high"
+  - name: "Moiz Ali"
+    topics: ["DTC brands", "exits", "operations"]
+    priority: "high"
+  - name: "Cody Plofker"
+    topics: ["paid media", "creative strategy", "Meta ads"]
+    priority: "high"
+  - name: "Taylor Holiday"
+    topics: ["ecommerce growth", "forecasting", "marketing strategy"]
+    priority: "medium"
+  - name: "Chase Dimond"
+    topics: ["email marketing", "ecommerce", "retention"]
+    priority: "medium"
+  - name: "Davie Fogarty"
+    topics: ["brand building", "scaling", "creative"]
+    priority: "medium"
+  - name: "Andrew Faris"
+    topics: ["ecommerce", "media buying", "strategy"]
+    priority: "low"
+
+tone_defaults:
+  primary: "Bold / Provocative"
+  secondary: "Conversational"

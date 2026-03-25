@@ -1,0 +1,63 @@
+industry: "Coaching / Consulting"
+positioning_template: "I help [audience] go from [pain point] to [desired outcome] in [timeframe]"
+target_audience: "Executives, entrepreneurs, and professionals seeking transformation and growth"
+
+content_themes:
+  - "Client transformation stories"
+  - "Frameworks and mental models"
+  - "Personal development and mindset"
+  - "Building a coaching/consulting practice"
+  - "Industry expertise and thought leadership"
+
+trend_search_queries:
+  - query: "executive coaching trends 2026"
+    category: "industry"
+  - query: "online coaching business model"
+    category: "business"
+  - query: "thought leadership LinkedIn strategy"
+    category: "marketing"
+  - query: "consulting industry AI disruption"
+    category: "technology"
+  - query: "personal brand building professionals"
+    category: "branding"
+
+sample_case_studies:
+  - title: "Executive Transformation"
+    result: "Promoted to C-suite within 6 months"
+    context: "1:1 executive coaching program focused on strategic leadership"
+  - title: "Revenue Breakthrough"
+    result: "3x consulting revenue in 90 days"
+    context: "Repositioned offer, raised prices, and built referral engine"
+  - title: "Team Performance Overhaul"
+    result: "42% improvement in team productivity"
+    context: "Group coaching program for mid-level managers"
+
+sample_influencers:
+  - name: "Justin Welsh"
+    topics: ["solopreneur", "LinkedIn", "consulting"]
+    priority: "high"
+  - name: "Sahil Bloom"
+    topics: ["frameworks", "personal growth", "writing"]
+    priority: "high"
+  - name: "Dan Koe"
+    topics: ["one-person business", "philosophy", "education"]
+    priority: "high"
+  - name: "Dickie Bush"
+    topics: ["writing", "content creation", "frameworks"]
+    priority: "medium"
+  - name: "Jay Abraham"
+    topics: ["strategy", "marketing", "business growth"]
+    priority: "medium"
+  - name: "Tony Robbins"
+    topics: ["mindset", "peak performance", "leadership"]
+    priority: "medium"
+  - name: "Brene Brown"
+    topics: ["leadership", "vulnerability", "culture"]
+    priority: "low"
+  - name: "Simon Sinek"
+    topics: ["purpose", "leadership", "motivation"]
+    priority: "low"
+
+tone_defaults:
+  primary: "Conversational"
+  secondary: "Educational"

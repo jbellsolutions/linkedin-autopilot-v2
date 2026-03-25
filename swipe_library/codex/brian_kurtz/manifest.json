@@ -1,0 +1,654 @@
+{
+  "name": "Brian Kurtz",
+  "roots": [
+    "https://www.briankurtz.net/",
+    "https://www.briankurtz.net/free-tools/"
+  ],
+  "allowed_domains": [
+    "briankurtz.net"
+  ],
+  "scraped_at": "2026-03-24T15:18:17Z",
+  "page_count": 80,
+  "pages": [
+    {
+      "url": "https://www.briankurtz.net",
+      "title": "Home \u2013 Brian Kurtz - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 673,
+      "raw_html": "raw_html/001-home.html",
+      "text_file": "text/001-home.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/blog",
+      "title": "Blog - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1629,
+      "raw_html": "raw_html/002-blog.html",
+      "text_file": "text/002-blog.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-importance-of-loving-everyone",
+      "title": "The Importance of Loving Everyone - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 850,
+      "raw_html": "raw_html/003-the-importance-of-loving-everyone.html",
+      "text_file": "text/003-the-importance-of-loving-everyone.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-people-you-meet-on-the-way-up",
+      "title": "The People You Meet on the Way Up... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1577,
+      "raw_html": "raw_html/004-the-people-you-meet-on-the-way-up.html",
+      "text_file": "text/004-the-people-you-meet-on-the-way-up.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-myth-of-work-life-balance",
+      "title": "The Myth of Work-Life Balance - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 727,
+      "raw_html": "raw_html/005-the-myth-of-work-life-balance.html",
+      "text_file": "text/005-the-myth-of-work-life-balance.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-power-of-100-0",
+      "title": "The Power of 100-0 - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1452,
+      "raw_html": "raw_html/006-the-power-of-100-0.html",
+      "text_file": "text/006-the-power-of-100-0.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/its-not-always-about-the-money",
+      "title": "It's not always about the money... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1884,
+      "raw_html": "raw_html/007-its-not-always-about-the-money.html",
+      "text_file": "text/007-its-not-always-about-the-money.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/graduating-last-at-harvard-medical-school",
+      "title": "Graduating Last at Harvard Medical School... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1926,
+      "raw_html": "raw_html/008-graduating-last-at-harvard-medical-school.html",
+      "text_file": "text/008-graduating-last-at-harvard-medical-school.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-copywriter-in-the-coal-mine",
+      "title": "The Copywriter in the Coal Mine - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2212,
+      "raw_html": "raw_html/009-the-copywriter-in-the-coal-mine.html",
+      "text_file": "text/009-the-copywriter-in-the-coal-mine.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/where-your-best-ideas-go-to-die",
+      "title": "Where Your Best Ideas Go to Die - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 890,
+      "raw_html": "raw_html/010-where-your-best-ideas-go-to-die.html",
+      "text_file": "text/010-where-your-best-ideas-go-to-die.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/how-my-insomnia-led-to-over-200-million-in-sales",
+      "title": "How my insomnia led to over $200 million in sales... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1992,
+      "raw_html": "raw_html/011-how-my-insomnia-led-to-over-200-million-in-sales.html",
+      "text_file": "text/011-how-my-insomnia-led-to-over-200-million-in-sales.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/rejecting-people-is-a-lot-of-work",
+      "title": "Rejecting people is a lot of work... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1721,
+      "raw_html": "raw_html/012-rejecting-people-is-a-lot-of-work.html",
+      "text_file": "text/012-rejecting-people-is-a-lot-of-work.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-control-is-your-enemy",
+      "title": "The Control is Your Enemy - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1172,
+      "raw_html": "raw_html/013-the-control-is-your-enemy.html",
+      "text_file": "text/013-the-control-is-your-enemy.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/jimrutz",
+      "title": "The Copywriter closest to God - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 3159,
+      "raw_html": "raw_html/014-jimrutz.html",
+      "text_file": "text/014-jimrutz.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/show-dont-tell",
+      "title": "Show...don't tell - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1576,
+      "raw_html": "raw_html/015-show-dont-tell.html",
+      "text_file": "text/015-show-dont-tell.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/branding-without-getting-hives",
+      "title": "Branding without getting hives... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1647,
+      "raw_html": "raw_html/016-branding-without-getting-hives.html",
+      "text_file": "text/016-branding-without-getting-hives.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/gratefulness-is-not-a-thanksgiving-resolution",
+      "title": "Gratefulness is not a \"Thanksgiving resolution\" - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1941,
+      "raw_html": "raw_html/017-gratefulness-is-not-a-thanksgiving-resolution.html",
+      "text_file": "text/017-gratefulness-is-not-a-thanksgiving-resolution.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/come-for-the-information-stay-for-the-inspiration",
+      "title": "Come for the information; stay for the inspiration - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1318,
+      "raw_html": "raw_html/018-come-for-the-information-stay-for-the-inspiration.html",
+      "text_file": "text/018-come-for-the-information-stay-for-the-inspiration.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/wearing-my-big-boy-pants-2",
+      "title": "Wearing my big boy pants - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1862,
+      "raw_html": "raw_html/019-wearing-my-big-boy-pants-2.html",
+      "text_file": "text/019-wearing-my-big-boy-pants-2.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/how-to-keep-your-right-arm",
+      "title": "How to keep your right arm... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1824,
+      "raw_html": "raw_html/020-how-to-keep-your-right-arm.html",
+      "text_file": "text/020-how-to-keep-your-right-arm.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-compound-interest-from-relationship-capital",
+      "title": "The compound interest from relationship capital... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2149,
+      "raw_html": "raw_html/021-the-compound-interest-from-relationship-capital.html",
+      "text_file": "text/021-the-compound-interest-from-relationship-capital.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-dangers-of-one-stop-shopping",
+      "title": "The dangers of one-stop shopping... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 950,
+      "raw_html": "raw_html/022-the-dangers-of-one-stop-shopping.html",
+      "text_file": "text/022-the-dangers-of-one-stop-shopping.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/how-paying-postage-made-me-a-better-marketer",
+      "title": "How Paying Postage Made Me a Better Marketer... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1913,
+      "raw_html": "raw_html/023-how-paying-postage-made-me-a-better-marketer.html",
+      "text_file": "text/023-how-paying-postage-made-me-a-better-marketer.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/deeply-and-irrevocably-personal",
+      "title": "Deeply and Irrevocably Personal... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1112,
+      "raw_html": "raw_html/024-deeply-and-irrevocably-personal.html",
+      "text_file": "text/024-deeply-and-irrevocably-personal.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/knowing-everything-isnt-everything",
+      "title": "Knowing everything isn't everything... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1091,
+      "raw_html": "raw_html/025-knowing-everything-isnt-everything.html",
+      "text_file": "text/025-knowing-everything-isnt-everything.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/where-your-best-ideas-go-to-die-2",
+      "title": "Where your best ideas go to die... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 836,
+      "raw_html": "raw_html/026-where-your-best-ideas-go-to-die-2.html",
+      "text_file": "text/026-where-your-best-ideas-go-to-die-2.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-myth-of-work-life-balance-2",
+      "title": "The Myth of Work-Life Balance - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 727,
+      "raw_html": "raw_html/027-the-myth-of-work-life-balance-2.html",
+      "text_file": "text/027-the-myth-of-work-life-balance-2.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-game-changer-for-all-direct-marketers",
+      "title": "The game changer for all direct marketers... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 695,
+      "raw_html": "raw_html/028-the-game-changer-for-all-direct-marketers.html",
+      "text_file": "text/028-the-game-changer-for-all-direct-marketers.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/protect-your-self-esteem-at-all-costs",
+      "title": "Protect Your Self Esteem at All Costs - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 751,
+      "raw_html": "raw_html/029-protect-your-self-esteem-at-all-costs.html",
+      "text_file": "text/029-protect-your-self-esteem-at-all-costs.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/everyone-is-going-right-time-to-go-left",
+      "title": "Everyone is Going Right. Time to Go Left. - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 990,
+      "raw_html": "raw_html/030-everyone-is-going-right-time-to-go-left.html",
+      "text_file": "text/030-everyone-is-going-right-time-to-go-left.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/when-being-invisible-is-golden",
+      "title": "When being invisible is golden... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1768,
+      "raw_html": "raw_html/031-when-being-invisible-is-golden.html",
+      "text_file": "text/031-when-being-invisible-is-golden.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/living-to-be-156",
+      "title": "Living to be 156 - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1405,
+      "raw_html": "raw_html/032-living-to-be-156.html",
+      "text_file": "text/032-living-to-be-156.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-titan-who-saved-the-world",
+      "title": "The Titan who saved the world - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1638,
+      "raw_html": "raw_html/033-the-titan-who-saved-the-world.html",
+      "text_file": "text/033-the-titan-who-saved-the-world.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/being-extraordinary-matters",
+      "title": "Being Extraordinary Matters - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1244,
+      "raw_html": "raw_html/034-being-extraordinary-matters.html",
+      "text_file": "text/034-being-extraordinary-matters.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/direct-marketers-saving-lives",
+      "title": "Direct Marketers Saving Lives - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1424,
+      "raw_html": "raw_html/035-direct-marketers-saving-lives.html",
+      "text_file": "text/035-direct-marketers-saving-lives.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-real-vitamin-c-and-its-not-in-your-o-j",
+      "title": "The real Vitamin C...and it's not in your O.J. - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2051,
+      "raw_html": "raw_html/036-the-real-vitamin-c-and-its-not-in-your-o-j.html",
+      "text_file": "text/036-the-real-vitamin-c-and-its-not-in-your-o-j.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/e-mail-marketing-lessons-from-the-12th-century",
+      "title": "E-mail marketing lessons from the 12th century - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1576,
+      "raw_html": "raw_html/037-e-mail-marketing-lessons-from-the-12th-century.html",
+      "text_file": "text/037-e-mail-marketing-lessons-from-the-12th-century.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/beautiful-mess",
+      "title": "Beautiful Mess - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1661,
+      "raw_html": "raw_html/038-beautiful-mess.html",
+      "text_file": "text/038-beautiful-mess.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/from-intrapreneur-to-entrepreneur",
+      "title": "From Intrapreneur to Entrepreneur - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 6057,
+      "raw_html": "raw_html/039-from-intrapreneur-to-entrepreneur.html",
+      "text_file": "text/039-from-intrapreneur-to-entrepreneur.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/my-last-day-at-boardroom",
+      "title": "My last day at Boardroom... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1578,
+      "raw_html": "raw_html/040-my-last-day-at-boardroom.html",
+      "text_file": "text/040-my-last-day-at-boardroom.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/confessions-of-a-wannabe",
+      "title": "Confessions of a wannabe - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1666,
+      "raw_html": "raw_html/041-confessions-of-a-wannabe.html",
+      "text_file": "text/041-confessions-of-a-wannabe.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/time-to-retire",
+      "title": "Time to retire - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1544,
+      "raw_html": "raw_html/042-time-to-retire.html",
+      "text_file": "text/042-time-to-retire.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-politics-of-direct-marketing",
+      "title": "The politics of Direct Marketing - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1709,
+      "raw_html": "raw_html/043-the-politics-of-direct-marketing.html",
+      "text_file": "text/043-the-politics-of-direct-marketing.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/well-direct-marketing-used-to-work",
+      "title": "Well...direct marketing USED to work... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 666,
+      "raw_html": "raw_html/044-well-direct-marketing-used-to-work.html",
+      "text_file": "text/044-well-direct-marketing-used-to-work.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/who-is-your-rainmaker",
+      "title": "Who is your rainmaker? - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2123,
+      "raw_html": "raw_html/045-who-is-your-rainmaker.html",
+      "text_file": "text/045-who-is-your-rainmaker.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/how-not-to-make-your-lawyer-rich",
+      "title": "How not to make your lawyer rich... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2086,
+      "raw_html": "raw_html/046-how-not-to-make-your-lawyer-rich.html",
+      "text_file": "text/046-how-not-to-make-your-lawyer-rich.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/how-you-sell-is-how-they-will-respond",
+      "title": "How you sell is how they will respond... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2206,
+      "raw_html": "raw_html/047-how-you-sell-is-how-they-will-respond.html",
+      "text_file": "text/047-how-you-sell-is-how-they-will-respond.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-next-million-dollar-copywriter",
+      "title": "The next million dollar copywriter... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 5069,
+      "raw_html": "raw_html/048-the-next-million-dollar-copywriter.html",
+      "text_file": "text/048-the-next-million-dollar-copywriter.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-importance-of-loving-everyone-2",
+      "title": "The Importance of Loving Everyone - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1391,
+      "raw_html": "raw_html/049-the-importance-of-loving-everyone-2.html",
+      "text_file": "text/049-the-importance-of-loving-everyone-2.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/christmas-cards-in-july",
+      "title": "Christmas Cards in July - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2149,
+      "raw_html": "raw_html/050-christmas-cards-in-july.html",
+      "text_file": "text/050-christmas-cards-in-july.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/learning-by-teaching",
+      "title": "Learning by teaching - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1095,
+      "raw_html": "raw_html/051-learning-by-teaching.html",
+      "text_file": "text/051-learning-by-teaching.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/eugene-schwartz-is-my-homeboy",
+      "title": "Eugene Schwartz is my Homeboy - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2134,
+      "raw_html": "raw_html/052-eugene-schwartz-is-my-homeboy.html",
+      "text_file": "text/052-eugene-schwartz-is-my-homeboy.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-biggest-mistakes-of-my-career-part-one",
+      "title": "The biggest mistakes of my career: Part One - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1880,
+      "raw_html": "raw_html/053-the-biggest-mistakes-of-my-career-part-one.html",
+      "text_file": "text/053-the-biggest-mistakes-of-my-career-part-one.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/masterminding-at-the-pentagon",
+      "title": "Masterminding at The Pentagon - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 775,
+      "raw_html": "raw_html/054-masterminding-at-the-pentagon.html",
+      "text_file": "text/054-masterminding-at-the-pentagon.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/we-lost-a-titan",
+      "title": "We lost a Titan... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 921,
+      "raw_html": "raw_html/055-we-lost-a-titan.html",
+      "text_file": "text/055-we-lost-a-titan.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/millennials-are-people-too",
+      "title": "Millennials are people too\u2026 - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1824,
+      "raw_html": "raw_html/056-millennials-are-people-too.html",
+      "text_file": "text/056-millennials-are-people-too.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/when-baseball-imitates-direct-marketing",
+      "title": "When baseball imitates direct marketing\u2026 - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1679,
+      "raw_html": "raw_html/057-when-baseball-imitates-direct-marketing.html",
+      "text_file": "text/057-when-baseball-imitates-direct-marketing.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-moose-on-the-table",
+      "title": "The moose on the table... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2119,
+      "raw_html": "raw_html/058-the-moose-on-the-table.html",
+      "text_file": "text/058-the-moose-on-the-table.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/competition-is-coexistence-video",
+      "title": "Competition is Coexistence [VIDEO] - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 3171,
+      "raw_html": "raw_html/059-competition-is-coexistence-video.html",
+      "text_file": "text/059-competition-is-coexistence-video.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/your-mentors-choose-you",
+      "title": "Your mentors choose you... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1673,
+      "raw_html": "raw_html/060-your-mentors-choose-you.html",
+      "text_file": "text/060-your-mentors-choose-you.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-return-on-returns",
+      "title": "The Return On Returns - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2169,
+      "raw_html": "raw_html/061-the-return-on-returns.html",
+      "text_file": "text/061-the-return-on-returns.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/when-41-is-a-majority",
+      "title": "When 41% is a majority... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1261,
+      "raw_html": "raw_html/062-when-41-is-a-majority.html",
+      "text_file": "text/062-when-41-is-a-majority.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/knowing-everything-about-something",
+      "title": "Knowing everything about something - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1752,
+      "raw_html": "raw_html/063-knowing-everything-about-something.html",
+      "text_file": "text/063-knowing-everything-about-something.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/my-book-launch-in-hungary",
+      "title": "My book launch in Hungary... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1084,
+      "raw_html": "raw_html/064-my-book-launch-in-hungary.html",
+      "text_file": "text/064-my-book-launch-in-hungary.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/books-are-still-a-perfect-product",
+      "title": "Books are still a perfect product\u2026 - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2588,
+      "raw_html": "raw_html/065-books-are-still-a-perfect-product.html",
+      "text_file": "text/065-books-are-still-a-perfect-product.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/connect-like-your-life-depends-on-it",
+      "title": "Connect like your life depends on it - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 744,
+      "raw_html": "raw_html/066-connect-like-your-life-depends-on-it.html",
+      "text_file": "text/066-connect-like-your-life-depends-on-it.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/why-blowing-up-your-customers-may-not-be-the-best-idea",
+      "title": "Why blowing up your customers may not be the best idea... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1865,
+      "raw_html": "raw_html/067-why-blowing-up-your-customers-may-not-be-the-best-idea.html",
+      "text_file": "text/067-why-blowing-up-your-customers-may-not-be-the-best-idea.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/5500-classic-headlines-a-gift-from-jay-abraham",
+      "title": "5,500 classic headlines...a gift from Jay Abraham - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 961,
+      "raw_html": "raw_html/068-5500-classic-headlines-a-gift-from-jay-abraham.html",
+      "text_file": "text/068-5500-classic-headlines-a-gift-from-jay-abraham.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/50-five-hundred-and-two-shades-of-jay",
+      "title": "50 (five hundred and two) Shades of Jay? - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 666,
+      "raw_html": "raw_html/069-50-five-hundred-and-two-shades-of-jay.html",
+      "text_file": "text/069-50-five-hundred-and-two-shades-of-jay.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-wall-with-a-door",
+      "title": "The wall with a door... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1734,
+      "raw_html": "raw_html/070-the-wall-with-a-door.html",
+      "text_file": "text/070-the-wall-with-a-door.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/masterminding-at-the-pentagon-or-anywhere",
+      "title": "Masterminding at the Pentagon...or anywhere... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1068,
+      "raw_html": "raw_html/071-masterminding-at-the-pentagon-or-anywhere.html",
+      "text_file": "text/071-masterminding-at-the-pentagon-or-anywhere.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/how-you-sell-is-how-they-will-respond-2",
+      "title": "How you sell is how they will respond... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2071,
+      "raw_html": "raw_html/072-how-you-sell-is-how-they-will-respond-2.html",
+      "text_file": "text/072-how-you-sell-is-how-they-will-respond-2.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-real-vitamin-c-and-its-not-in-your-o-j-2",
+      "title": "The real Vitamin C...and it's not in your O.J. - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2099,
+      "raw_html": "raw_html/073-the-real-vitamin-c-and-its-not-in-your-o-j-2.html",
+      "text_file": "text/073-the-real-vitamin-c-and-its-not-in-your-o-j-2.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/control-what-you-can-control-with-your-control",
+      "title": "Control what you can control (with your control)... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2265,
+      "raw_html": "raw_html/074-control-what-you-can-control-with-your-control.html",
+      "text_file": "text/074-control-what-you-can-control-with-your-control.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/riffing-with-socrates",
+      "title": "Riffing with Socrates... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 602,
+      "raw_html": "raw_html/075-riffing-with-socrates.html",
+      "text_file": "text/075-riffing-with-socrates.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/intrapreneur-to-entrepreneur-two-years-later",
+      "title": "Intrapreneur to Entrepreneur...Two Years Later - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2673,
+      "raw_html": "raw_html/076-intrapreneur-to-entrepreneur-two-years-later.html",
+      "text_file": "text/076-intrapreneur-to-entrepreneur-two-years-later.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/the-people-you-meet-on-the-way-up-2",
+      "title": "The People You Meet on the Way Up... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1499,
+      "raw_html": "raw_html/077-the-people-you-meet-on-the-way-up-2.html",
+      "text_file": "text/077-the-people-you-meet-on-the-way-up-2.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/last-chance-before-titans-is-gone",
+      "title": "Last chance before Titans is gone... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 991,
+      "raw_html": "raw_html/078-last-chance-before-titans-is-gone.html",
+      "text_file": "text/078-last-chance-before-titans-is-gone.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/how-paying-postage-made-me-a-better-marketer-2",
+      "title": "How paying postage made me a better marketer... - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 2378,
+      "raw_html": "raw_html/079-how-paying-postage-made-me-a-better-marketer-2.html",
+      "text_file": "text/079-how-paying-postage-made-me-a-better-marketer-2.txt"
+    },
+    {
+      "url": "https://www.briankurtz.net/marketing-like-picasso",
+      "title": "Marketing like Picasso - Brian Kurtz",
+      "meta_description": "",
+      "word_count": 1935,
+      "raw_html": "raw_html/080-marketing-like-picasso.html",
+      "text_file": "text/080-marketing-like-picasso.txt"
+    }
+  ]
+}

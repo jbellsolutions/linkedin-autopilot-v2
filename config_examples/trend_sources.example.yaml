@@ -1,0 +1,46 @@
+# ============================================================
+# LinkedIn Autopilot - Trend Sources Configuration
+# ============================================================
+# The Trend Scout team uses these sources to find trending
+# topics, news, and conversation starters for your content.
+# ============================================================
+
+# --- Refresh Settings ---
+refresh_interval_hours: 12               # How often to scan for new trends
+max_trends_per_cycle: 10                 # Max trends to surface per cycle
+
+# --- Web Search Queries ---
+# These queries are run through Serper (web search) to find
+# trending content, news, and discussions in your space.
+web_search_queries:
+  - query: "SaaS growth strategies 2026"
+    category: "growth"
+  - query: "product-led growth PLG trends"
+    category: "product"
+  - query: "AI in SaaS products"
+    category: "technology"
+  - query: "SaaS pricing strategy benchmarks"
+    category: "monetization"
+  - query: "B2B marketing trends LinkedIn"
+    category: "marketing"
+
+# --- Scrape URLs ---
+# Specific pages to check for new content/trends
+# (Requires SERPER_API_KEY or custom scraper)
+scrape_urls:
+  - url: "https://news.ycombinator.com"
+    category: "tech"
+    check_frequency: "daily"
+  - url: "https://www.producthunt.com"
+    category: "product"
+    check_frequency: "daily"
+
+# --- LinkedIn Topics ---
+# Topics to monitor on LinkedIn itself
+# These help the agents stay on-topic and relevant
+linkedin_topics:
+  - "Product-led growth"
+  - "SaaS metrics"
+  - "B2B marketing"
+  - "Startup fundraising"
+  - "Engineering leadership"

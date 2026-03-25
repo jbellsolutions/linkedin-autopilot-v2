@@ -1,0 +1,335 @@
+{
+  "name": "Todd Brown",
+  "roots": [
+    "https://toddbrown.me/",
+    "https://toddbrown.me/proof/"
+  ],
+  "allowed_domains": [
+    "toddbrown.me",
+    "marketingfunnelautomation.com"
+  ],
+  "scraped_at": "2026-03-24T15:20:04Z",
+  "page_count": 40,
+  "pages": [
+    {
+      "url": "https://toddbrown.me",
+      "title": "Todd Brown |",
+      "meta_description": "",
+      "word_count": 823,
+      "raw_html": "raw_html/001-home.html",
+      "text_file": "text/001-home.txt"
+    },
+    {
+      "url": "https://toddbrown.me/pluralizing-the-verb-in-your-marketing",
+      "title": "Pluralizing The Verb In Your Sales Funnel | Todd Brown",
+      "meta_description": "",
+      "word_count": 536,
+      "raw_html": "raw_html/002-pluralizing-the-verb-in-your-marketing.html",
+      "text_file": "text/002-pluralizing-the-verb-in-your-marketing.txt"
+    },
+    {
+      "url": "https://toddbrown.me/million-dollar-marketing-outline-part-1",
+      "title": "The Million-Dollar Marketing Outline \u2013 Part 1 | Todd Brown",
+      "meta_description": "",
+      "word_count": 691,
+      "raw_html": "raw_html/003-million-dollar-marketing-outline-part-1.html",
+      "text_file": "text/003-million-dollar-marketing-outline-part-1.txt"
+    },
+    {
+      "url": "https://toddbrown.me/million-dollar-marketing-outline-part-2",
+      "title": "The Million-Dollar Marketing Outline \u2013 Part 2 | Todd Brown",
+      "meta_description": "",
+      "word_count": 693,
+      "raw_html": "raw_html/004-million-dollar-marketing-outline-part-2.html",
+      "text_file": "text/004-million-dollar-marketing-outline-part-2.txt"
+    },
+    {
+      "url": "https://toddbrown.me/segmenting-prospects-by-interests-via-email",
+      "title": "Segmenting Prospects By Interests Via Email | Todd Brown",
+      "meta_description": "",
+      "word_count": 551,
+      "raw_html": "raw_html/005-segmenting-prospects-by-interests-via-email.html",
+      "text_file": "text/005-segmenting-prospects-by-interests-via-email.txt"
+    },
+    {
+      "url": "https://toddbrown.me/4-ways-increase-money-sale",
+      "title": "4 Ways To Increase Your Money From Each Sale | Todd Brown",
+      "meta_description": "",
+      "word_count": 820,
+      "raw_html": "raw_html/006-4-ways-increase-money-sale.html",
+      "text_file": "text/006-4-ways-increase-money-sale.txt"
+    },
+    {
+      "url": "https://toddbrown.me/marketing-model-use",
+      "title": "Which Marketing Model Should You Use? | Todd Brown",
+      "meta_description": "",
+      "word_count": 835,
+      "raw_html": "raw_html/007-marketing-model-use.html",
+      "text_file": "text/007-marketing-model-use.txt"
+    },
+    {
+      "url": "https://toddbrown.me/books-marketers-dont-read",
+      "title": "Books Most Marketers DON\u2019T Read, But Should\u2026 | Todd Brown",
+      "meta_description": "",
+      "word_count": 939,
+      "raw_html": "raw_html/008-books-marketers-dont-read.html",
+      "text_file": "text/008-books-marketers-dont-read.txt"
+    },
+    {
+      "url": "https://toddbrown.me/marketing-tale-two-cars",
+      "title": "The Marketing Tale Of The Two Cars | Todd Brown",
+      "meta_description": "",
+      "word_count": 798,
+      "raw_html": "raw_html/009-marketing-tale-two-cars.html",
+      "text_file": "text/009-marketing-tale-two-cars.txt"
+    },
+    {
+      "url": "https://toddbrown.me/5-word-marketing-sentence",
+      "title": "5-Word Marketing Sentence | Todd Brown",
+      "meta_description": "",
+      "word_count": 677,
+      "raw_html": "raw_html/010-5-word-marketing-sentence.html",
+      "text_file": "text/010-5-word-marketing-sentence.txt"
+    },
+    {
+      "url": "https://toddbrown.me/ill-teach-daughters-marketing",
+      "title": "What I\u2019ll Teach My Daughters  About Marketing | Todd Brown",
+      "meta_description": "",
+      "word_count": 1006,
+      "raw_html": "raw_html/011-ill-teach-daughters-marketing.html",
+      "text_file": "text/011-ill-teach-daughters-marketing.txt"
+    },
+    {
+      "url": "https://toddbrown.me/playing-bocce",
+      "title": "This A-Level Copywriter Shoved Me! | Todd Brown",
+      "meta_description": "",
+      "word_count": 982,
+      "raw_html": "raw_html/012-playing-bocce.html",
+      "text_file": "text/012-playing-bocce.txt"
+    },
+    {
+      "url": "https://toddbrown.me/7-marketing-actions-2018",
+      "title": "7 Marketing Actions For 2018 | Todd Brown",
+      "meta_description": "",
+      "word_count": 1104,
+      "raw_html": "raw_html/013-7-marketing-actions-2018.html",
+      "text_file": "text/013-7-marketing-actions-2018.txt"
+    },
+    {
+      "url": "https://toddbrown.me/3-bitcoin-marketing-secrets",
+      "title": "3 Bitcoin Marketing Secrets | Todd Brown",
+      "meta_description": "",
+      "word_count": 817,
+      "raw_html": "raw_html/014-3-bitcoin-marketing-secrets.html",
+      "text_file": "text/014-3-bitcoin-marketing-secrets.txt"
+    },
+    {
+      "url": "https://toddbrown.me/low-price-vs-high-price-debate",
+      "title": "Todd Brown on The Low-Price vs. High-Price Debate | Todd Brown",
+      "meta_description": "",
+      "word_count": 952,
+      "raw_html": "raw_html/015-low-price-vs-high-price-debate.html",
+      "text_file": "text/015-low-price-vs-high-price-debate.txt"
+    },
+    {
+      "url": "https://toddbrown.me/harsh-phone-call",
+      "title": "Harsh Phone Call | Todd Brown",
+      "meta_description": "",
+      "word_count": 1126,
+      "raw_html": "raw_html/016-harsh-phone-call.html",
+      "text_file": "text/016-harsh-phone-call.txt"
+    },
+    {
+      "url": "https://toddbrown.me/marketing-hacks-scribbled",
+      "title": "These Marketing Hacks I Scribbled Down | Todd Brown",
+      "meta_description": "",
+      "word_count": 698,
+      "raw_html": "raw_html/017-marketing-hacks-scribbled.html",
+      "text_file": "text/017-marketing-hacks-scribbled.txt"
+    },
+    {
+      "url": "https://toddbrown.me/the-unique-mechanism",
+      "title": "What\u2019s Your Product\u2019s Unique Mechanism? | Todd Brown",
+      "meta_description": "",
+      "word_count": 472,
+      "raw_html": "raw_html/018-the-unique-mechanism.html",
+      "text_file": "text/018-the-unique-mechanism.txt"
+    },
+    {
+      "url": "https://toddbrown.me/next-marketing-breakthrough",
+      "title": "The Next Marketing Breakthrough? | Todd Brown",
+      "meta_description": "",
+      "word_count": 602,
+      "raw_html": "raw_html/019-next-marketing-breakthrough.html",
+      "text_file": "text/019-next-marketing-breakthrough.txt"
+    },
+    {
+      "url": "https://toddbrown.me/grow-sales-increasing-refunds",
+      "title": "How To Grow Sales By Increasing Refunds | Todd Brown",
+      "meta_description": "",
+      "word_count": 805,
+      "raw_html": "raw_html/020-grow-sales-increasing-refunds.html",
+      "text_file": "text/020-grow-sales-increasing-refunds.txt"
+    },
+    {
+      "url": "https://toddbrown.me/marketing-now-open-source",
+      "title": "My marketing is now all \u201cOpen Source\u201d | Todd Brown",
+      "meta_description": "",
+      "word_count": 872,
+      "raw_html": "raw_html/021-marketing-now-open-source.html",
+      "text_file": "text/021-marketing-now-open-source.txt"
+    },
+    {
+      "url": "https://toddbrown.me/frozen-iguana-or-dead",
+      "title": "Frozen Iguana (or Dead)! | Todd Brown",
+      "meta_description": "",
+      "word_count": 870,
+      "raw_html": "raw_html/022-frozen-iguana-or-dead.html",
+      "text_file": "text/022-frozen-iguana-or-dead.txt"
+    },
+    {
+      "url": "https://toddbrown.me/smart-marketers-dont-get-married",
+      "title": "Smart Marketers Don\u2019t Get Married | Todd Brown",
+      "meta_description": "",
+      "word_count": 751,
+      "raw_html": "raw_html/023-smart-marketers-dont-get-married.html",
+      "text_file": "text/023-smart-marketers-dont-get-married.txt"
+    },
+    {
+      "url": "https://toddbrown.me/like-taste-marketing",
+      "title": "I like to TASTE my marketing\u2026 | Todd Brown",
+      "meta_description": "",
+      "word_count": 678,
+      "raw_html": "raw_html/024-like-taste-marketing.html",
+      "text_file": "text/024-like-taste-marketing.txt"
+    },
+    {
+      "url": "https://toddbrown.me/im-getting-movie-business-coming",
+      "title": "I\u2019m getting into the movie business. You coming? | Todd Brown",
+      "meta_description": "",
+      "word_count": 831,
+      "raw_html": "raw_html/025-im-getting-movie-business-coming.html",
+      "text_file": "text/025-im-getting-movie-business-coming.txt"
+    },
+    {
+      "url": "https://toddbrown.me/todds-most-valuable-traffic-generation-tip-for-2018",
+      "title": "Todd Brown: \u201cMy Most Valuable Traffic Generation Tip for 2018\u201d | Todd Brown",
+      "meta_description": "",
+      "word_count": 196,
+      "raw_html": "raw_html/026-todds-most-valuable-traffic-generation-tip-for-2018.html",
+      "text_file": "text/026-todds-most-valuable-traffic-generation-tip-for-2018.txt"
+    },
+    {
+      "url": "https://toddbrown.me/possibly-valuable-copy-dissection-ive-ever-shared-part-1",
+      "title": "Possibly The Most Valuable Copy Dissection I\u2019ve Ever Shared\u2026 | Todd Brown",
+      "meta_description": "",
+      "word_count": 1017,
+      "raw_html": "raw_html/027-possibly-valuable-copy-dissection-ive-ever-shared-part-1.html",
+      "text_file": "text/027-possibly-valuable-copy-dissection-ive-ever-shared-part-1.txt"
+    },
+    {
+      "url": "https://toddbrown.me/possibly-valuable-copy-dissection-ive-ever-shared-part-2",
+      "title": "Possibly The Most Valuable Copy Dissection I\u2019ve Ever Shared\u2026 | Todd Brown",
+      "meta_description": "",
+      "word_count": 841,
+      "raw_html": "raw_html/028-possibly-valuable-copy-dissection-ive-ever-shared-part-2.html",
+      "text_file": "text/028-possibly-valuable-copy-dissection-ive-ever-shared-part-2.txt"
+    },
+    {
+      "url": "https://toddbrown.me/murderers-marketing-criteria",
+      "title": "The Murderer\u2019s Marketing Criteria | Todd Brown",
+      "meta_description": "",
+      "word_count": 696,
+      "raw_html": "raw_html/029-murderers-marketing-criteria.html",
+      "text_file": "text/029-murderers-marketing-criteria.txt"
+    },
+    {
+      "url": "https://toddbrown.me/todd-brown-headline-writing-tip",
+      "title": "Todd Brown: \u201cA Headline Writing Tip\u201d | Todd Brown",
+      "meta_description": "",
+      "word_count": 177,
+      "raw_html": "raw_html/030-todd-brown-headline-writing-tip.html",
+      "text_file": "text/030-todd-brown-headline-writing-tip.txt"
+    },
+    {
+      "url": "https://toddbrown.me/murderers-marketing-criteria-part-2",
+      "title": "The Murderer\u2019s Marketing Criteria | Todd Brown",
+      "meta_description": "",
+      "word_count": 919,
+      "raw_html": "raw_html/031-murderers-marketing-criteria-part-2.html",
+      "text_file": "text/031-murderers-marketing-criteria-part-2.txt"
+    },
+    {
+      "url": "https://toddbrown.me/avoid-these-3-joint-ventures-in-your-business",
+      "title": "Avoid These 3 Joint Ventures In Your Business | Todd Brown",
+      "meta_description": "",
+      "word_count": 798,
+      "raw_html": "raw_html/032-avoid-these-3-joint-ventures-in-your-business.html",
+      "text_file": "text/032-avoid-these-3-joint-ventures-in-your-business.txt"
+    },
+    {
+      "url": "https://toddbrown.me/lesson-learned-drug-dealer",
+      "title": "Lesson I Learned from a Drug Dealer | Todd Brown",
+      "meta_description": "",
+      "word_count": 775,
+      "raw_html": "raw_html/033-lesson-learned-drug-dealer.html",
+      "text_file": "text/033-lesson-learned-drug-dealer.txt"
+    },
+    {
+      "url": "https://toddbrown.me/new-sales-marketing-funnel",
+      "title": "How To Turn A New Marketing Funnel Into A Highly-Optimized Machine! | Todd Brown",
+      "meta_description": "",
+      "word_count": 302,
+      "raw_html": "raw_html/034-new-sales-marketing-funnel.html",
+      "text_file": "text/034-new-sales-marketing-funnel.txt"
+    },
+    {
+      "url": "https://toddbrown.me/the-marketing-funnel-understanding-market-sophistication",
+      "title": "The Marketing Funnel \u2013 Understanding Market Sophistication | Todd Brown",
+      "meta_description": "",
+      "word_count": 238,
+      "raw_html": "raw_html/035-the-marketing-funnel-understanding-market-sophistication.html",
+      "text_file": "text/035-the-marketing-funnel-understanding-market-sophistication.txt"
+    },
+    {
+      "url": "https://toddbrown.me/scaling-a-marketing-funnel",
+      "title": "To Scale A Marketing Funnel You Must Get Rid Of\u2026 | Todd Brown",
+      "meta_description": "",
+      "word_count": 1080,
+      "raw_html": "raw_html/036-scaling-a-marketing-funnel.html",
+      "text_file": "text/036-scaling-a-marketing-funnel.txt"
+    },
+    {
+      "url": "https://toddbrown.me/part-1-the-e5-funnel-architecting-framework",
+      "title": "The E5 Funnel Architecting Framework (Part 1 of 5) | Todd Brown",
+      "meta_description": "",
+      "word_count": 856,
+      "raw_html": "raw_html/037-part-1-the-e5-funnel-architecting-framework.html",
+      "text_file": "text/037-part-1-the-e5-funnel-architecting-framework.txt"
+    },
+    {
+      "url": "https://toddbrown.me/3-ways-to-create-a-unique-mechanism-part-2",
+      "title": "3 Ways to create a Unique Mechanism (Part 2) | Todd Brown",
+      "meta_description": "",
+      "word_count": 1028,
+      "raw_html": "raw_html/038-3-ways-to-create-a-unique-mechanism-part-2.html",
+      "text_file": "text/038-3-ways-to-create-a-unique-mechanism-part-2.txt"
+    },
+    {
+      "url": "http://marketingfunnelautomation.com/the-marketing-funnel-understanding-market-sophistication",
+      "title": "The Marketing Funnel \u2013 Understanding Market Sophistication | Todd Brown",
+      "meta_description": "",
+      "word_count": 238,
+      "raw_html": "raw_html/039-the-marketing-funnel-understanding-market-sophistication.html",
+      "text_file": "text/039-the-marketing-funnel-understanding-market-sophistication.txt"
+    },
+    {
+      "url": "http://marketingfunnelautomation.com/avoid-these-3-joint-ventures-in-your-business",
+      "title": "Avoid These 3 Joint Ventures In Your Business | Todd Brown",
+      "meta_description": "",
+      "word_count": 798,
+      "raw_html": "raw_html/040-avoid-these-3-joint-ventures-in-your-business.html",
+      "text_file": "text/040-avoid-these-3-joint-ventures-in-your-business.txt"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+industry: "Real Estate"
+positioning_template: "I help [buyers/sellers/investors] navigate [market] real estate with [unique approach]"
+target_audience: "Homebuyers, sellers, real estate investors, and property developers"
+
+content_themes:
+  - "Market analysis and local insights"
+  - "First-time buyer education"
+  - "Investment property strategies"
+  - "Behind-the-scenes of deals"
+  - "Community and neighborhood spotlights"
+
+trend_search_queries:
+  - query: "real estate market forecast 2026"
+    category: "market"
+  - query: "real estate investing strategies"
+    category: "investment"
+  - query: "mortgage rate trends predictions"
+    category: "finance"
+  - query: "real estate agent marketing LinkedIn"
+    category: "marketing"
+
+sample_case_studies:
+  - title: "First-Time Buyer Win"
+    result: "Closed $50K under asking in competitive market"
+    context: "Strategic offer approach with creative financing"
+  - title: "Investment Portfolio Build"
+    result: "12 units acquired in 18 months, 14% cash-on-cash"
+    context: "Systematic approach to multifamily investing for client"
+  - title: "90-Day Sale Sprint"
+    result: "Sold 23 properties in one quarter"
+    context: "Implemented digital-first marketing system for luxury listings"
+
+sample_influencers:
+  - name: "Ryan Serhant"
+    topics: ["luxury real estate", "personal brand", "sales"]
+    priority: "high"
+  - name: "Brandon Turner"
+    topics: ["real estate investing", "rental properties", "FIRE"]
+    priority: "high"
+  - name: "Tom Ferry"
+    topics: ["real estate coaching", "scripts", "marketing"]
+    priority: "high"
+  - name: "Grant Cardone"
+    topics: ["multifamily", "sales", "investing"]
+    priority: "medium"
+  - name: "Barbara Corcoran"
+    topics: ["real estate", "entrepreneurship", "deals"]
+    priority: "medium"
+  - name: "BiggerPockets"
+    topics: ["investing education", "rental strategy", "market analysis"]
+    priority: "medium"
+
+tone_defaults:
+  primary: "Conversational"
+  secondary: "Professional"

@@ -1,0 +1,58 @@
+industry: "Marketing / Creative Agency"
+positioning_template: "We help [audience] achieve [outcome] through [method] — no fluff, just results"
+target_audience: "Business owners needing marketing, brand, or creative services; CMOs and marketing directors"
+
+content_themes:
+  - "Client results and campaign breakdowns"
+  - "Agency operations and scaling"
+  - "Marketing trends and platform shifts"
+  - "Hiring and retaining creative talent"
+  - "Pricing, positioning, and niching down"
+
+trend_search_queries:
+  - query: "digital marketing agency trends 2026"
+    category: "industry"
+  - query: "AI marketing automation tools"
+    category: "technology"
+  - query: "agency pricing models retainer"
+    category: "business"
+  - query: "social media algorithm changes"
+    category: "platform"
+
+sample_case_studies:
+  - title: "E-commerce Brand Relaunch"
+    result: "340% increase in ROAS within 60 days"
+    context: "Full creative overhaul plus media buying optimization for DTC brand"
+  - title: "B2B Lead Generation Machine"
+    result: "127 qualified leads/month from zero"
+    context: "Built complete inbound pipeline with content + paid strategy"
+  - title: "Agency Scaling Playbook"
+    result: "From $30K to $150K MRR in 8 months"
+    context: "Productized service offering and systematized fulfillment"
+
+sample_influencers:
+  - name: "Alex Hormozi"
+    topics: ["offers", "agency growth", "pricing"]
+    priority: "high"
+  - name: "Iman Gadzhi"
+    topics: ["agency model", "scaling", "marketing"]
+    priority: "high"
+  - name: "Neil Patel"
+    topics: ["SEO", "content marketing", "analytics"]
+    priority: "medium"
+  - name: "Wes McDowell"
+    topics: ["agency marketing", "web strategy", "client acquisition"]
+    priority: "medium"
+  - name: "Ryan Deiss"
+    topics: ["digital marketing", "funnels", "customer value"]
+    priority: "medium"
+  - name: "Amanda Natividad"
+    topics: ["content strategy", "audience research", "marketing"]
+    priority: "medium"
+  - name: "Rand Fishkin"
+    topics: ["SEO", "brand marketing", "startup"]
+    priority: "low"
+
+tone_defaults:
+  primary: "Bold / Provocative"
+  secondary: "Conversational"

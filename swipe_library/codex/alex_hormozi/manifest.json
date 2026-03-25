@@ -1,0 +1,494 @@
+{
+  "name": "Alex Hormozi",
+  "roots": [
+    "https://www.acquisition.com/",
+    "https://www.acquisition.com/books"
+  ],
+  "allowed_domains": [
+    "acquisition.com"
+  ],
+  "scraped_at": "2026-03-24T15:15:42Z",
+  "page_count": 60,
+  "pages": [
+    {
+      "url": "https://www.acquisition.com",
+      "title": "Acquisition.com Home",
+      "meta_description": "Acquisition.com | We partner with $1M-$10M EBITDA Founders to help them grow great companies | Making Real World Business Education Available For Everyone",
+      "word_count": 763,
+      "raw_html": "raw_html/001-home.html",
+      "text_file": "text/001-home.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/journal-21",
+      "title": "Run Paid Ads - $100M Journal",
+      "meta_description": "",
+      "word_count": 313,
+      "raw_html": "raw_html/002-journal-21.html",
+      "text_file": "text/002-journal-21.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/o-vegas",
+      "title": "Scaling Workshop | Acquisition.com",
+      "meta_description": "We are excited that you chose to take part in our Scaling workshop.",
+      "word_count": 745,
+      "raw_html": "raw_html/003-o-vegas.html",
+      "text_file": "text/003-o-vegas.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/lilh-2",
+      "title": "Acquisition.com | Leila Hormozi Emails",
+      "meta_description": "",
+      "word_count": 287,
+      "raw_html": "raw_html/004-lilh-2.html",
+      "text_file": "text/004-lilh-2.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/workshop-hs",
+      "title": "Scaling Workshop | Acquisition.com",
+      "meta_description": "We are excited that you chose to take part in our Scaling workshop.",
+      "word_count": 815,
+      "raw_html": "raw_html/005-workshop-hs.html",
+      "text_file": "text/005-workshop-hs.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training/productize",
+      "title": "Productize",
+      "meta_description": "Productize | Acquisition.com's O - $100M Scaling Course: Learn from Alex Hormozi & Leila Hormozi on How to Scale from 0 to $100M  that breaks down every step to scaling from 0 to $100M from experience NOT Theory. Mission: Making business education available for everyone.",
+      "word_count": 335,
+      "raw_html": "raw_html/006-training-productize.html",
+      "text_file": "text/006-training-productize.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/speaking",
+      "title": "Speaking Request",
+      "meta_description": "Speaking Request",
+      "word_count": 355,
+      "raw_html": "raw_html/007-speaking.html",
+      "text_file": "text/007-speaking.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/firm-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0",
+      "title": "Firm",
+      "meta_description": "",
+      "word_count": 42,
+      "raw_html": "raw_html/008-firm-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0.html",
+      "text_file": "text/008-firm-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/poda1",
+      "title": "Scaling Workshop | Acquisition.com",
+      "meta_description": "",
+      "word_count": 2760,
+      "raw_html": "raw_html/009-poda1.html",
+      "text_file": "text/009-poda1.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/mozi-money-minute/trade-time-for-money-0",
+      "title": "Proof > Promise",
+      "meta_description": "Learn how to effectively manage your time as a maker or manager. Understand the differences, challenges, and solutions to maximize productivity and collaboration in the workplace.",
+      "word_count": 473,
+      "raw_html": "raw_html/010-mozi-money-minute-trade-time-for-money-0.html",
+      "text_file": "text/010-mozi-money-minute-trade-time-for-money-0.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/email-unsubscribe",
+      "title": "$100M Leads",
+      "meta_description": "Alex Hormozi's new book, $100M Leads, is finally here! How to get strangers to want to buy your stuff.",
+      "word_count": 262,
+      "raw_html": "raw_html/011-email-unsubscribe.html",
+      "text_file": "text/011-email-unsubscribe.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/mozi-money-minute/easy-21-profit-increase",
+      "title": "Easy 21% Profit Increase For Recurring Businesses",
+      "meta_description": "Learn how to effectively manage your time as a maker or manager. Understand the differences, challenges, and solutions to maximize productivity and collaboration in the workplace.",
+      "word_count": 529,
+      "raw_html": "raw_html/012-mozi-money-minute-easy-21-profit-increase.html",
+      "text_file": "text/012-mozi-money-minute-easy-21-profit-increase.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training/money/waived-fee",
+      "title": "Waived Fee",
+      "meta_description": "Waived Fee | Acquisition.com's Money Models Course.",
+      "word_count": 369,
+      "raw_html": "raw_html/013-training-money-waived-fee.html",
+      "text_file": "text/013-training-money-waived-fee.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/workshop-l",
+      "title": "Scaling Workshop | Acquisition.com",
+      "meta_description": "We are excited that you chose to take part in our Scaling workshop.",
+      "word_count": 755,
+      "raw_html": "raw_html/014-workshop-l.html",
+      "text_file": "text/014-workshop-l.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/podl-2",
+      "title": "Acquisition.com | Leila Hormozi Emails",
+      "meta_description": "",
+      "word_count": 287,
+      "raw_html": "raw_html/015-podl-2.html",
+      "text_file": "text/015-podl-2.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/launchblackbook",
+      "title": "$100M Money Models Launch Black Book",
+      "meta_description": "",
+      "word_count": 269,
+      "raw_html": "raw_html/016-launchblackbook.html",
+      "text_file": "text/016-launchblackbook.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training/money/win-your-money-back",
+      "title": "$100M Money Models Course | Win Your Money Back",
+      "meta_description": "Win Your Money Back | Acquisition.com's Money Models Course.",
+      "word_count": 378,
+      "raw_html": "raw_html/017-training-money-win-your-money-back.html",
+      "text_file": "text/017-training-money-win-your-money-back.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/alexhormozionpaidadvertising",
+      "title": "How to Do Paid Ads | Alex Hormozi",
+      "meta_description": "Behind the Scenes footage of Alex Hormozi talking about how to start and scale paid advertising. Part of the Scaling Workshop division at Acquisition.com in Las Vegas.",
+      "word_count": 291,
+      "raw_html": "raw_html/018-alexhormozionpaidadvertising.html",
+      "text_file": "text/018-alexhormozionpaidadvertising.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training/money/continuity-bonus",
+      "title": "Continuity Bonus Offers",
+      "meta_description": "Continuity Bonus Offers | Acquisition.com's Money Models Course.",
+      "word_count": 371,
+      "raw_html": "raw_html/019-training-money-continuity-bonus.html",
+      "text_file": "text/019-training-money-continuity-bonus.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/theory-of-constraints-bb",
+      "title": "Scaling Workshop | Theory of Constraints",
+      "meta_description": "We are excited that you chose to take part in our Scaling workshop.",
+      "word_count": 499,
+      "raw_html": "raw_html/020-theory-of-constraints-bb.html",
+      "text_file": "text/020-theory-of-constraints-bb.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/media",
+      "title": "Media",
+      "meta_description": "",
+      "word_count": 263,
+      "raw_html": "raw_html/021-media.html",
+      "text_file": "text/021-media.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/video-editor-contest",
+      "title": "Video Editor Contest",
+      "meta_description": "Acquisition.com Home",
+      "word_count": 271,
+      "raw_html": "raw_html/022-video-editor-contest.html",
+      "text_file": "text/022-video-editor-contest.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/journal-14",
+      "title": "The Core Four - $100M Journal",
+      "meta_description": "",
+      "word_count": 313,
+      "raw_html": "raw_html/023-journal-14.html",
+      "text_file": "text/023-journal-14.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training/leads10",
+      "title": "Start Here",
+      "meta_description": "Start Here",
+      "word_count": 326,
+      "raw_html": "raw_html/024-training-leads10.html",
+      "text_file": "text/024-training-leads10.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training/money/pay-less-now",
+      "title": "$100M Money Models Course | Pay Less Now Or...",
+      "meta_description": "Ride along apprenticeship | Acquisition.com's Money Models Course.",
+      "word_count": 378,
+      "raw_html": "raw_html/025-training-money-pay-less-now.html",
+      "text_file": "text/025-training-money-pay-less-now.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/scalingworkshopoptin",
+      "title": "Acquisition.com Scaling Workshop SOPs",
+      "meta_description": "Acquisition.com Home",
+      "word_count": 387,
+      "raw_html": "raw_html/026-scalingworkshopoptin.html",
+      "text_file": "text/026-scalingworkshopoptin.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training/leads13",
+      "title": "Start Here",
+      "meta_description": "Start Here",
+      "word_count": 324,
+      "raw_html": "raw_html/027-training-leads13.html",
+      "text_file": "text/027-training-leads13.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training100mow",
+      "title": "Free Trainings",
+      "meta_description": "Free Trainings",
+      "word_count": 329,
+      "raw_html": "raw_html/028-training100mow.html",
+      "text_file": "text/028-training100mow.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/book-call-no-travel",
+      "title": "Book A Workshop Call",
+      "meta_description": "",
+      "word_count": 503,
+      "raw_html": "raw_html/029-book-call-no-travel.html",
+      "text_file": "text/029-book-call-no-travel.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/xa1",
+      "title": "Scaling Workshop | Acquisition.com",
+      "meta_description": "",
+      "word_count": 2760,
+      "raw_html": "raw_html/030-xa1.html",
+      "text_file": "text/030-xa1.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/sarah-obrien",
+      "title": "Sarah O'Brien",
+      "meta_description": "Sarah O'Brien Bio",
+      "word_count": 467,
+      "raw_html": "raw_html/031-sarah-obrien.html",
+      "text_file": "text/031-sarah-obrien.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training/offers5",
+      "title": "Start Here",
+      "meta_description": "The Offer Creation Part 1 | Acquisition.com's Offer Creation Course: Learn from Alex Hormozi How to Craft Offers So Compelling, People Can't Resist Saying Yes. Grab Your Seat for This Free Course. Making business education available for everyone.",
+      "word_count": 307,
+      "raw_html": "raw_html/032-training-offers5.html",
+      "text_file": "text/032-training-offers5.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/affiliate-audio",
+      "title": "$100M MM Affiliate Resources",
+      "meta_description": "",
+      "word_count": 269,
+      "raw_html": "raw_html/033-affiliate-audio.html",
+      "text_file": "text/033-affiliate-audio.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/workshop-ht",
+      "title": "Scaling Workshop | Acquisition.com",
+      "meta_description": "We are excited that you chose to take part in our Scaling workshop.",
+      "word_count": 756,
+      "raw_html": "raw_html/034-workshop-ht.html",
+      "text_file": "text/034-workshop-ht.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/12-protein-recipes",
+      "title": "Acquisition.com Protein Recipes",
+      "meta_description": "Acquisition.com Home",
+      "word_count": 345,
+      "raw_html": "raw_html/035-12-protein-recipes.html",
+      "text_file": "text/035-12-protein-recipes.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/roadmap-ty-1",
+      "title": "Thank You!",
+      "meta_description": "",
+      "word_count": 305,
+      "raw_html": "raw_html/036-roadmap-ty-1.html",
+      "text_file": "text/036-roadmap-ty-1.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/leads-gifts",
+      "title": "$100M Leads Thank you Bonuses",
+      "meta_description": "Alex Hormozi's new book, $100M Leads, is finally here! How to get strangers to want to buy your stuff.",
+      "word_count": 839,
+      "raw_html": "raw_html/037-leads-gifts.html",
+      "text_file": "text/037-leads-gifts.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training/leads16",
+      "title": "Start Here",
+      "meta_description": "Start Here",
+      "word_count": 325,
+      "raw_html": "raw_html/038-training-leads16.html",
+      "text_file": "text/038-training-leads16.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training/leads/picking-markets",
+      "title": "Welcome to Picking Markets",
+      "meta_description": "Start Here",
+      "word_count": 327,
+      "raw_html": "raw_html/039-training-leads-picking-markets.html",
+      "text_file": "text/039-training-leads-picking-markets.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/journal-27",
+      "title": "Advertising Checklist and Closing Thoughts - $100M Journal",
+      "meta_description": "",
+      "word_count": 317,
+      "raw_html": "raw_html/040-journal-27.html",
+      "text_file": "text/040-journal-27.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/journal-01",
+      "title": "Introduction - $100M Journal",
+      "meta_description": "",
+      "word_count": 309,
+      "raw_html": "raw_html/041-journal-01.html",
+      "text_file": "text/041-journal-01.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training/improvise",
+      "title": "Improvise",
+      "meta_description": "Improvise | Acquisition.com's O - $100M Scaling Course: Learn from Alex Hormozi & Leila Hormozi on How to Scale from 0 to $100M  that breaks down every step to scaling from 0 to $100M from experience NOT Theory. Mission: Making business education available for everyone.",
+      "word_count": 334,
+      "raw_html": "raw_html/042-training-improvise.html",
+      "text_file": "text/042-training-improvise.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training/leads/pricing",
+      "title": "Welcome to Charge What It's Worth - Pricing",
+      "meta_description": "Start Here",
+      "word_count": 331,
+      "raw_html": "raw_html/043-training-leads-pricing.html",
+      "text_file": "text/043-training-leads-pricing.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/scalingworkshopcasestudy",
+      "title": "Scaling Workshop Case Study",
+      "meta_description": "",
+      "word_count": 702,
+      "raw_html": "raw_html/044-scalingworkshopcasestudy.html",
+      "text_file": "text/044-scalingworkshopcasestudy.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/journal-22",
+      "title": "More, Better, New - $100M Journal",
+      "meta_description": "",
+      "word_count": 313,
+      "raw_html": "raw_html/045-journal-22.html",
+      "text_file": "text/045-journal-22.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/prioritize-k",
+      "title": "Prioritize",
+      "meta_description": "Prioritize | Acquisition.com's O - $100M Scaling Course: Learn from Alex Hormozi & Leila Hormozi on How to Scale from 0 to $100M  that breaks down every step to scaling from 0 to $100M from experience NOT Theory. Mission: Making business education available for everyone.",
+      "word_count": 265,
+      "raw_html": "raw_html/046-prioritize-k.html",
+      "text_file": "text/046-prioritize-k.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training/offers8",
+      "title": "Start Here",
+      "meta_description": "Guarantee Creation | Acquisition.com's Offer Creation Course: Learn from Alex Hormozi How to Craft Offers So Compelling, People Can't Resist Saying Yes. Grab Your Seat for This Free Course. Making business education available for everyone.",
+      "word_count": 304,
+      "raw_html": "raw_html/047-training-offers8.html",
+      "text_file": "text/047-training-offers8.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/mozi-talent/gptw-news",
+      "title": "Big News at Acquisition.com!",
+      "meta_description": "Blog article announcing our Great Place to Work certification",
+      "word_count": 592,
+      "raw_html": "raw_html/048-mozi-talent-gptw-news.html",
+      "text_file": "text/048-mozi-talent-gptw-news.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/tta",
+      "title": "Acquisition.com | Alex's Opt-In",
+      "meta_description": "",
+      "word_count": 298,
+      "raw_html": "raw_html/049-tta.html",
+      "text_file": "text/049-tta.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/workshop-roadmap",
+      "title": "Scaling Workshop | Acquisition.com",
+      "meta_description": "We are excited that you chose to take part in our Scaling workshop.",
+      "word_count": 745,
+      "raw_html": "raw_html/050-workshop-roadmap.html",
+      "text_file": "text/050-workshop-roadmap.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training/leads15",
+      "title": "Start Here",
+      "meta_description": "Start Here",
+      "word_count": 326,
+      "raw_html": "raw_html/051-training-leads15.html",
+      "text_file": "text/051-training-leads15.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/roadmap-yt-d",
+      "title": "Scaling Roadmap",
+      "meta_description": "Get your personalized $100m Scaling Roadmap.",
+      "word_count": 388,
+      "raw_html": "raw_html/052-roadmap-yt-d.html",
+      "text_file": "text/052-roadmap-yt-d.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/mozi-talent/sticky-situations",
+      "title": "Sticky Situations 101: Time to Level Up",
+      "meta_description": "Blog article discussing working with difficult people",
+      "word_count": 1059,
+      "raw_html": "raw_html/053-mozi-talent-sticky-situations.html",
+      "text_file": "text/053-mozi-talent-sticky-situations.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/eventtcs",
+      "title": "Workshop Terms & Conditions",
+      "meta_description": "Acquisition.com Scaling Workshop Terms & Conditions",
+      "word_count": 7256,
+      "raw_html": "raw_html/054-eventtcs.html",
+      "text_file": "text/054-eventtcs.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/tta1",
+      "title": "Scaling Workshop | Acquisition.com",
+      "meta_description": "",
+      "word_count": 2760,
+      "raw_html": "raw_html/055-tta1.html",
+      "text_file": "text/055-tta1.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/acqgo",
+      "title": "Scaling Workshop | Acquisition.com",
+      "meta_description": "We are excited that you chose to take part in our Scaling workshop.",
+      "word_count": 2829,
+      "raw_html": "raw_html/056-acqgo.html",
+      "text_file": "text/056-acqgo.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/training/money/free-trials",
+      "title": "Free Trials",
+      "meta_description": "Free Trials | Acquisition.com's Money Models Course.",
+      "word_count": 369,
+      "raw_html": "raw_html/057-training-money-free-trials.html",
+      "text_file": "text/057-training-money-free-trials.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/capitalize-k",
+      "title": "Capitalize",
+      "meta_description": "Capitalize | Acquisition.com's O - $100M Scaling Course: Learn from Alex Hormozi & Leila Hormozi on How to Scale from 0 to $100M  that breaks down every step to scaling from 0 to $100M from experience NOT Theory. Mission: Making business education available for everyone.",
+      "word_count": 260,
+      "raw_html": "raw_html/058-capitalize-k.html",
+      "text_file": "text/058-capitalize-k.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/lasvegasworkshop",
+      "title": "Acquisition.com Home",
+      "meta_description": "Acquisition.com Home",
+      "word_count": 360,
+      "raw_html": "raw_html/059-lasvegasworkshop.html",
+      "text_file": "text/059-lasvegasworkshop.txt"
+    },
+    {
+      "url": "https://www.acquisition.com/firm-0-0-0",
+      "title": "Firm",
+      "meta_description": "",
+      "word_count": 42,
+      "raw_html": "raw_html/060-firm-0-0-0.html",
+      "text_file": "text/060-firm-0-0-0.txt"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Todd Brown",
+  "roots": [
+    "https://toddbrown.me/",
+    "https://toddbrown.me/proof/"
+  ],
+  "allowed_domains": [
+    "toddbrown.me",
+    "marketingfunnelautomation.com"
+  ],
+  "include_patterns": [
+    "toddbrown\\.me|marketingfunnelautomation\\.com"
+  ],
+  "exclude_patterns": [
+    "/privacy",
+    "/terms",
+    "/checkout",
+    "/cart",
+    "/my-account"
+  ],
+  "max_pages": 100,
+  "delay_seconds": 0.4
+}

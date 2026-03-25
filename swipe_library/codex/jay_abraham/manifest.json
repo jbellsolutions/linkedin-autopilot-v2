@@ -1,0 +1,814 @@
+{
+  "name": "Jay Abraham",
+  "roots": [
+    "https://www.abraham.com/",
+    "https://www.abraham.com/profitresources/"
+  ],
+  "allowed_domains": [
+    "abraham.com"
+  ],
+  "scraped_at": "2026-03-24T15:20:46Z",
+  "page_count": 100,
+  "pages": [
+    {
+      "url": "https://www.abraham.com",
+      "title": "Business Consulting Services | Strategy & Growth Advisor - Jay Abraham",
+      "meta_description": "Jay Abraham is a globally trusted business growth consultant with $75B+ in growth. Strategic business consulting that multiplies profit without adding complexity.",
+      "word_count": 2082,
+      "raw_html": "raw_html/001-home.html",
+      "text_file": "text/001-home.txt"
+    },
+    {
+      "url": "https://www.abraham.com/blog",
+      "title": "Jay's Blog - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 877,
+      "raw_html": "raw_html/002-blog.html",
+      "text_file": "text/002-blog.txt"
+    },
+    {
+      "url": "https://www.abraham.com/jack-trout",
+      "title": "Jack Trout : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 850,
+      "raw_html": "raw_html/003-jack-trout.html",
+      "text_file": "text/003-jack-trout.txt"
+    },
+    {
+      "url": "https://www.abraham.com/kevin-hogan",
+      "title": "Kevin Hogan : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 725,
+      "raw_html": "raw_html/004-kevin-hogan.html",
+      "text_file": "text/004-kevin-hogan.txt"
+    },
+    {
+      "url": "https://www.abraham.com/russell-granger",
+      "title": "Russell Granger : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 642,
+      "raw_html": "raw_html/005-russell-granger.html",
+      "text_file": "text/005-russell-granger.txt"
+    },
+    {
+      "url": "https://www.abraham.com/joseph-jaffe",
+      "title": "Joseph Jaffe : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 712,
+      "raw_html": "raw_html/006-joseph-jaffe.html",
+      "text_file": "text/006-joseph-jaffe.txt"
+    },
+    {
+      "url": "https://www.abraham.com/michael-bosworth",
+      "title": "Michael Bosworth : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 661,
+      "raw_html": "raw_html/007-michael-bosworth.html",
+      "text_file": "text/007-michael-bosworth.txt"
+    },
+    {
+      "url": "https://www.abraham.com/bert-decker-league-of-extraordinary-minds-expert-panelist",
+      "title": "Bert Decker : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 957,
+      "raw_html": "raw_html/008-bert-decker-league-of-extraordinary-minds-expert-panelist.html",
+      "text_file": "text/008-bert-decker-league-of-extraordinary-minds-expert-panelist.txt"
+    },
+    {
+      "url": "https://www.abraham.com/stephen-covey",
+      "title": "Stephen M.R. Covey : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 879,
+      "raw_html": "raw_html/009-stephen-covey.html",
+      "text_file": "text/009-stephen-covey.txt"
+    },
+    {
+      "url": "https://www.abraham.com/dan-ariely",
+      "title": "Dan Ariely : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 769,
+      "raw_html": "raw_html/010-dan-ariely.html",
+      "text_file": "text/010-dan-ariely.txt"
+    },
+    {
+      "url": "https://www.abraham.com/ori-brafman-league-of-extraordinary-minds-expert-panelist",
+      "title": "Ori Brafman : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 732,
+      "raw_html": "raw_html/011-ori-brafman-league-of-extraordinary-minds-expert-panelist.html",
+      "text_file": "text/011-ori-brafman-league-of-extraordinary-minds-expert-panelist.txt"
+    },
+    {
+      "url": "https://www.abraham.com/robert-cialdini",
+      "title": "Robert Cialdini, Ph.D. : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 886,
+      "raw_html": "raw_html/012-robert-cialdini.html",
+      "text_file": "text/012-robert-cialdini.txt"
+    },
+    {
+      "url": "https://www.abraham.com/pam-danziger",
+      "title": "Pam Danziger : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 929,
+      "raw_html": "raw_html/013-pam-danziger.html",
+      "text_file": "text/013-pam-danziger.txt"
+    },
+    {
+      "url": "https://www.abraham.com/dan-hill",
+      "title": "Dan Hill, Ph.D. : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 927,
+      "raw_html": "raw_html/014-dan-hill.html",
+      "text_file": "text/014-dan-hill.txt"
+    },
+    {
+      "url": "https://www.abraham.com/christophe-morin",
+      "title": "Christophe Morin : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 563,
+      "raw_html": "raw_html/015-christophe-morin.html",
+      "text_file": "text/015-christophe-morin.txt"
+    },
+    {
+      "url": "https://www.abraham.com/paul-cherry",
+      "title": "Paul Cherry : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 520,
+      "raw_html": "raw_html/016-paul-cherry.html",
+      "text_file": "text/016-paul-cherry.txt"
+    },
+    {
+      "url": "https://www.abraham.com/vicki-kunkel",
+      "title": "Vicki Kunkel : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 588,
+      "raw_html": "raw_html/017-vicki-kunkel.html",
+      "text_file": "text/017-vicki-kunkel.txt"
+    },
+    {
+      "url": "https://www.abraham.com/jay-conrad-levinson",
+      "title": "Jay Conrad Levinson : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 691,
+      "raw_html": "raw_html/018-jay-conrad-levinson.html",
+      "text_file": "text/018-jay-conrad-levinson.txt"
+    },
+    {
+      "url": "https://www.abraham.com/al-ries",
+      "title": "Al Ries : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 773,
+      "raw_html": "raw_html/019-al-ries.html",
+      "text_file": "text/019-al-ries.txt"
+    },
+    {
+      "url": "https://www.abraham.com/gary-vaynerchuk",
+      "title": "Gary Vaynerchuk : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 1254,
+      "raw_html": "raw_html/020-gary-vaynerchuk.html",
+      "text_file": "text/020-gary-vaynerchuk.txt"
+    },
+    {
+      "url": "https://www.abraham.com/sergio-zyman",
+      "title": "Sergio Zyman : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 1156,
+      "raw_html": "raw_html/021-sergio-zyman.html",
+      "text_file": "text/021-sergio-zyman.txt"
+    },
+    {
+      "url": "https://www.abraham.com/lou-adler",
+      "title": "Lou Adler : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 627,
+      "raw_html": "raw_html/022-lou-adler.html",
+      "text_file": "text/022-lou-adler.txt"
+    },
+    {
+      "url": "https://www.abraham.com/kerry-patterson",
+      "title": "Kerry Patterson : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 671,
+      "raw_html": "raw_html/023-kerry-patterson.html",
+      "text_file": "text/023-kerry-patterson.txt"
+    },
+    {
+      "url": "https://www.abraham.com/eric-flamholtz",
+      "title": "Dr. Eric Flamholtz : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 1096,
+      "raw_html": "raw_html/024-eric-flamholtz.html",
+      "text_file": "text/024-eric-flamholtz.txt"
+    },
+    {
+      "url": "https://www.abraham.com/bo-burlingham",
+      "title": "Bo Burlingham : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 762,
+      "raw_html": "raw_html/025-bo-burlingham.html",
+      "text_file": "text/025-bo-burlingham.txt"
+    },
+    {
+      "url": "https://www.abraham.com/michael-gerber",
+      "title": "Michael Gerber : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 1093,
+      "raw_html": "raw_html/026-michael-gerber.html",
+      "text_file": "text/026-michael-gerber.txt"
+    },
+    {
+      "url": "https://www.abraham.com/marilyn-tam",
+      "title": "Marilyn Tam : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 1276,
+      "raw_html": "raw_html/027-marilyn-tam.html",
+      "text_file": "text/027-marilyn-tam.txt"
+    },
+    {
+      "url": "https://www.abraham.com/brad-smart",
+      "title": "Brad Smart : League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 678,
+      "raw_html": "raw_html/028-brad-smart.html",
+      "text_file": "text/028-brad-smart.txt"
+    },
+    {
+      "url": "https://www.abraham.com/dave-crenshaw",
+      "title": "Dave Crenshaw: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 604,
+      "raw_html": "raw_html/029-dave-crenshaw.html",
+      "text_file": "text/029-dave-crenshaw.txt"
+    },
+    {
+      "url": "https://www.abraham.com/neil-fiore",
+      "title": "Dr. Neil Fiore: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 627,
+      "raw_html": "raw_html/030-neil-fiore.html",
+      "text_file": "text/030-neil-fiore.txt"
+    },
+    {
+      "url": "https://www.abraham.com/jan-yager",
+      "title": "Dr. Jan Yager: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 600,
+      "raw_html": "raw_html/031-jan-yager.html",
+      "text_file": "text/031-jan-yager.txt"
+    },
+    {
+      "url": "https://www.abraham.com/julie-morgenstern",
+      "title": "Julie Morgenstern: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 694,
+      "raw_html": "raw_html/032-julie-morgenstern.html",
+      "text_file": "text/032-julie-morgenstern.txt"
+    },
+    {
+      "url": "https://www.abraham.com/jim-murphy",
+      "title": "Jim Murphy: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 767,
+      "raw_html": "raw_html/033-jim-murphy.html",
+      "text_file": "text/033-jim-murphy.txt"
+    },
+    {
+      "url": "https://www.abraham.com/nancy-ratey",
+      "title": "Nancy Ratey: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 699,
+      "raw_html": "raw_html/034-nancy-ratey.html",
+      "text_file": "text/034-nancy-ratey.txt"
+    },
+    {
+      "url": "https://www.abraham.com/josh-waitzkin",
+      "title": "Josh Waitzkin: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 950,
+      "raw_html": "raw_html/035-josh-waitzkin.html",
+      "text_file": "text/035-josh-waitzkin.txt"
+    },
+    {
+      "url": "https://www.abraham.com/michael-masterson",
+      "title": "Michael Masterson: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 794,
+      "raw_html": "raw_html/036-michael-masterson.html",
+      "text_file": "text/036-michael-masterson.txt"
+    },
+    {
+      "url": "https://www.abraham.com/dan-millman",
+      "title": "Dan Millman: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 642,
+      "raw_html": "raw_html/037-dan-millman.html",
+      "text_file": "text/037-dan-millman.txt"
+    },
+    {
+      "url": "https://www.abraham.com/kathy-kolbe",
+      "title": "Kathy Kolbe: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 678,
+      "raw_html": "raw_html/038-kathy-kolbe.html",
+      "text_file": "text/038-kathy-kolbe.txt"
+    },
+    {
+      "url": "https://www.abraham.com/marshall-thurber",
+      "title": "Marshall Thurber: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 841,
+      "raw_html": "raw_html/039-marshall-thurber.html",
+      "text_file": "text/039-marshall-thurber.txt"
+    },
+    {
+      "url": "https://www.abraham.com/tom-mccarthy",
+      "title": "Tom McCarthy: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 769,
+      "raw_html": "raw_html/040-tom-mccarthy.html",
+      "text_file": "text/040-tom-mccarthy.txt"
+    },
+    {
+      "url": "https://www.abraham.com/sam-deep",
+      "title": "Sam Deep: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 672,
+      "raw_html": "raw_html/041-sam-deep.html",
+      "text_file": "text/041-sam-deep.txt"
+    },
+    {
+      "url": "https://www.abraham.com/fran-tarkenton",
+      "title": "Fran Tarkenton: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 638,
+      "raw_html": "raw_html/042-fran-tarkenton.html",
+      "text_file": "text/042-fran-tarkenton.txt"
+    },
+    {
+      "url": "https://www.abraham.com/joseph-grenny",
+      "title": "Joseph Grenny: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 650,
+      "raw_html": "raw_html/043-joseph-grenny.html",
+      "text_file": "text/043-joseph-grenny.txt"
+    },
+    {
+      "url": "https://www.abraham.com/marshallgoldsmith",
+      "title": "Marshall Goldsmith: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 740,
+      "raw_html": "raw_html/044-marshallgoldsmith.html",
+      "text_file": "text/044-marshallgoldsmith.txt"
+    },
+    {
+      "url": "https://www.abraham.com/brian-tracy-league-of-extraordinary-minds-expert-panelist",
+      "title": "Brian Tracy: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 698,
+      "raw_html": "raw_html/045-brian-tracy-league-of-extraordinary-minds-expert-panelist.html",
+      "text_file": "text/045-brian-tracy-league-of-extraordinary-minds-expert-panelist.txt"
+    },
+    {
+      "url": "https://www.abraham.com/jeffrey-pfeffer",
+      "title": "Jeffrey Pfeffer: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 610,
+      "raw_html": "raw_html/046-jeffrey-pfeffer.html",
+      "text_file": "text/046-jeffrey-pfeffer.txt"
+    },
+    {
+      "url": "https://www.abraham.com/paul-pilzer",
+      "title": "Paul Zane Pilzer: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 695,
+      "raw_html": "raw_html/047-paul-pilzer.html",
+      "text_file": "text/047-paul-pilzer.txt"
+    },
+    {
+      "url": "https://www.abraham.com/barry-schwartz",
+      "title": "Barry Schwartz: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 650,
+      "raw_html": "raw_html/048-barry-schwartz.html",
+      "text_file": "text/048-barry-schwartz.txt"
+    },
+    {
+      "url": "https://www.abraham.com/tony-jeary",
+      "title": "Tony Jeary: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 672,
+      "raw_html": "raw_html/049-tony-jeary.html",
+      "text_file": "text/049-tony-jeary.txt"
+    },
+    {
+      "url": "https://www.abraham.com/paul-schoemaker",
+      "title": "Dr. Paul Schoemaker: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 659,
+      "raw_html": "raw_html/050-paul-schoemaker.html",
+      "text_file": "text/050-paul-schoemaker.txt"
+    },
+    {
+      "url": "https://www.abraham.com/greg-hicks",
+      "title": "Greg Hicks: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 714,
+      "raw_html": "raw_html/051-greg-hicks.html",
+      "text_file": "text/051-greg-hicks.txt"
+    },
+    {
+      "url": "https://www.abraham.com/herb-cohen",
+      "title": "Herb Cohen: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 693,
+      "raw_html": "raw_html/052-herb-cohen.html",
+      "text_file": "text/052-herb-cohen.txt"
+    },
+    {
+      "url": "https://www.abraham.com/spencer-johnson",
+      "title": "Dr. Spencer Johnson: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 681,
+      "raw_html": "raw_html/053-spencer-johnson.html",
+      "text_file": "text/053-spencer-johnson.txt"
+    },
+    {
+      "url": "https://www.abraham.com/john-kotter",
+      "title": "John Kotter: League of Extraordinary Minds Expert Panelist - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 757,
+      "raw_html": "raw_html/054-john-kotter.html",
+      "text_file": "text/054-john-kotter.txt"
+    },
+    {
+      "url": "https://www.abraham.com/watch-jay-abraham-live",
+      "title": "Watch Jay Abraham - Live - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 466,
+      "raw_html": "raw_html/055-watch-jay-abraham-live.html",
+      "text_file": "text/055-watch-jay-abraham-live.txt"
+    },
+    {
+      "url": "https://www.abraham.com/20-marketing-mistakes",
+      "title": "20 Marketing Mistakes - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 490,
+      "raw_html": "raw_html/056-20-marketing-mistakes.html",
+      "text_file": "text/056-20-marketing-mistakes.txt"
+    },
+    {
+      "url": "https://www.abraham.com/paying-jay-was-the-steal-of-a-lifetime",
+      "title": "Paying Jay $670,000 Was The Steal Of A Lifetime! - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 522,
+      "raw_html": "raw_html/057-paying-jay-was-the-steal-of-a-lifetime.html",
+      "text_file": "text/057-paying-jay-was-the-steal-of-a-lifetime.txt"
+    },
+    {
+      "url": "https://www.abraham.com/clients",
+      "title": "What Clients Say About Jay - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 3839,
+      "raw_html": "raw_html/058-clients.html",
+      "text_file": "text/058-clients.txt"
+    },
+    {
+      "url": "https://www.abraham.com/thank-you-for-your-patronage",
+      "title": "Thank You For Your Patronage - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 436,
+      "raw_html": "raw_html/059-thank-you-for-your-patronage.html",
+      "text_file": "text/059-thank-you-for-your-patronage.txt"
+    },
+    {
+      "url": "https://www.abraham.com/jay-abraham-ultimate-protege-mentor-program",
+      "title": "Jay Abraham's Ultimate Protege Mentor Program - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 570,
+      "raw_html": "raw_html/060-jay-abraham-ultimate-protege-mentor-program.html",
+      "text_file": "text/060-jay-abraham-ultimate-protege-mentor-program.txt"
+    },
+    {
+      "url": "https://www.abraham.com/jay-abraham-stealth-marketing-or-recession-proofing-your-business",
+      "title": "Jay Abraham's - Stealth Marketing or Recession Proofing Your Business - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 575,
+      "raw_html": "raw_html/061-jay-abraham-stealth-marketing-or-recession-proofing-your-business.html",
+      "text_file": "text/061-jay-abraham-stealth-marketing-or-recession-proofing-your-business.txt"
+    },
+    {
+      "url": "https://www.abraham.com/jay-abraham-shoulders-of-giants-encounter-series",
+      "title": "Jay Abraham's - Shoulders of Giants Encounter Series - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 569,
+      "raw_html": "raw_html/062-jay-abraham-shoulders-of-giants-encounter-series.html",
+      "text_file": "text/062-jay-abraham-shoulders-of-giants-encounter-series.txt"
+    },
+    {
+      "url": "https://www.abraham.com/jay-abraham-how-to-get-from-where-you-are-to-where-you-want-to-be",
+      "title": "Jay Abraham's - How to Get From Where You Are To Where You Want To Be - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 568,
+      "raw_html": "raw_html/063-jay-abraham-how-to-get-from-where-you-are-to-where-you-want-to-be.html",
+      "text_file": "text/063-jay-abraham-how-to-get-from-where-you-are-to-where-you-want-to-be.txt"
+    },
+    {
+      "url": "https://www.abraham.com/jay-abraham-the-marketing-wizards-edge-volume-1",
+      "title": "Jay Abraham - The Marketing Wizard's Edge, Volume 1 - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 522,
+      "raw_html": "raw_html/064-jay-abraham-the-marketing-wizards-edge-volume-1.html",
+      "text_file": "text/064-jay-abraham-the-marketing-wizards-edge-volume-1.txt"
+    },
+    {
+      "url": "https://www.abraham.com/jay-abraham-getting-everything-you-can-out-of-all-youve-got",
+      "title": "Jay Abraham's Getting Everything You Can Out of All You've Got - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 571,
+      "raw_html": "raw_html/065-jay-abraham-getting-everything-you-can-out-of-all-youve-got.html",
+      "text_file": "text/065-jay-abraham-getting-everything-you-can-out-of-all-youve-got.txt"
+    },
+    {
+      "url": "https://www.abraham.com/tony-robbins-on-jay",
+      "title": "Tony Robbins On Jay - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 315,
+      "raw_html": "raw_html/066-tony-robbins-on-jay.html",
+      "text_file": "text/066-tony-robbins-on-jay.txt"
+    },
+    {
+      "url": "https://www.abraham.com/harv-eker-on-jay",
+      "title": "Harv Eker On Jay - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 315,
+      "raw_html": "raw_html/067-harv-eker-on-jay.html",
+      "text_file": "text/067-harv-eker-on-jay.txt"
+    },
+    {
+      "url": "https://www.abraham.com/fran-tarkenton-on-jay",
+      "title": "Fran Tarkenton on Jay - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 315,
+      "raw_html": "raw_html/068-fran-tarkenton-on-jay.html",
+      "text_file": "text/068-fran-tarkenton-on-jay.txt"
+    },
+    {
+      "url": "https://www.abraham.com/brian-tracy-on-jay",
+      "title": "Brian Tracy On Jay - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 315,
+      "raw_html": "raw_html/069-brian-tracy-on-jay.html",
+      "text_file": "text/069-brian-tracy-on-jay.txt"
+    },
+    {
+      "url": "https://www.abraham.com/easy-to-do-business-with",
+      "title": "Easy To Do Business WIth - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 274,
+      "raw_html": "raw_html/070-easy-to-do-business-with.html",
+      "text_file": "text/070-easy-to-do-business-with.txt"
+    },
+    {
+      "url": "https://www.abraham.com/three-ways-to-grow",
+      "title": "Three Ways To Grow - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 272,
+      "raw_html": "raw_html/071-three-ways-to-grow.html",
+      "text_file": "text/071-three-ways-to-grow.txt"
+    },
+    {
+      "url": "https://www.abraham.com/selling-to-corporate",
+      "title": "Selling To Corporate - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 271,
+      "raw_html": "raw_html/072-selling-to-corporate.html",
+      "text_file": "text/072-selling-to-corporate.txt"
+    },
+    {
+      "url": "https://www.abraham.com/targeted-audience",
+      "title": "Targeted Audience - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 270,
+      "raw_html": "raw_html/073-targeted-audience.html",
+      "text_file": "text/073-targeted-audience.txt"
+    },
+    {
+      "url": "https://www.abraham.com/jay-abraham-the-marketing-wizards-edge-volume",
+      "title": "Jay Abraham - The Marketing Wizard\u00e2\u20ac\u2122s Edge, Volume 2 - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 526,
+      "raw_html": "raw_html/074-jay-abraham-the-marketing-wizards-edge-volume.html",
+      "text_file": "text/074-jay-abraham-the-marketing-wizards-edge-volume.txt"
+    },
+    {
+      "url": "https://www.abraham.com/753-2",
+      "title": "If a Tree Falls in the Forest - What's the Lesson? - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 1395,
+      "raw_html": "raw_html/075-753-2.html",
+      "text_file": "text/075-753-2.txt"
+    },
+    {
+      "url": "https://www.abraham.com/20-marketing-mistakes-2",
+      "title": "20 Marketing Mistakes - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 865,
+      "raw_html": "raw_html/076-20-marketing-mistakes-2.html",
+      "text_file": "text/076-20-marketing-mistakes-2.txt"
+    },
+    {
+      "url": "https://www.abraham.com/celebrity-deaths-in-2011-whats-your-legacy-going-to-be",
+      "title": "Celebrity Deaths in 2011. What's YOUR Legacy Going to Be? - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 1089,
+      "raw_html": "raw_html/077-celebrity-deaths-in-2011-whats-your-legacy-going-to-be.html",
+      "text_file": "text/077-celebrity-deaths-in-2011-whats-your-legacy-going-to-be.txt"
+    },
+    {
+      "url": "https://www.abraham.com/shark-tank-star-daymond-johns-two-top-rated-books-gratis-here",
+      "title": "Shark Tank\u009d Star, Daymond John's Two Top-Rated Books Gratis, Here - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 983,
+      "raw_html": "raw_html/078-shark-tank-star-daymond-johns-two-top-rated-books-gratis-here.html",
+      "text_file": "text/078-shark-tank-star-daymond-johns-two-top-rated-books-gratis-here.txt"
+    },
+    {
+      "url": "https://www.abraham.com/free-gifts-for-business-owners",
+      "title": "Free Gifts for Business Owners - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 677,
+      "raw_html": "raw_html/079-free-gifts-for-business-owners.html",
+      "text_file": "text/079-free-gifts-for-business-owners.txt"
+    },
+    {
+      "url": "https://www.abraham.com/league-panel-sessions",
+      "title": "League Panel Sessions - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 881,
+      "raw_html": "raw_html/080-league-panel-sessions.html",
+      "text_file": "text/080-league-panel-sessions.txt"
+    },
+    {
+      "url": "https://www.abraham.com/show-1-tony-robbins",
+      "title": "Tony Robbins - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 451,
+      "raw_html": "raw_html/081-show-1-tony-robbins.html",
+      "text_file": "text/081-show-1-tony-robbins.txt"
+    },
+    {
+      "url": "https://www.abraham.com/show-2-daymond-john-and-mark-cuban",
+      "title": "Daymond John and Mark Cuban - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 472,
+      "raw_html": "raw_html/082-show-2-daymond-john-and-mark-cuban.html",
+      "text_file": "text/082-show-2-daymond-john-and-mark-cuban.txt"
+    },
+    {
+      "url": "https://www.abraham.com/show-3-kevin-harrington-and-ramit-sethi",
+      "title": "Kevin Harrington and Ramit Sethi - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 482,
+      "raw_html": "raw_html/083-show-3-kevin-harrington-and-ramit-sethi.html",
+      "text_file": "text/083-show-3-kevin-harrington-and-ramit-sethi.txt"
+    },
+    {
+      "url": "https://www.abraham.com/50-shades-jay-2",
+      "title": "What is Breakthrough Thinking? | Business Growth Strategy by Jay Abraham",
+      "meta_description": "Breakthrough Thinking is Jay Abraham's proprietary framework that multiplies profit by unlocking leverage in assets you already have.",
+      "word_count": 1527,
+      "raw_html": "raw_html/084-50-shades-jay-2.html",
+      "text_file": "text/084-50-shades-jay-2.txt"
+    },
+    {
+      "url": "https://www.abraham.com/another-shade-jay-shade-3",
+      "title": "Another Shade of Jay - Shade #3 - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 831,
+      "raw_html": "raw_html/085-another-shade-jay-shade-3.html",
+      "text_file": "text/085-another-shade-jay-shade-3.txt"
+    },
+    {
+      "url": "https://www.abraham.com/50-shades-jay-3-2-shaded",
+      "title": "What is Breakthrough Thinking? | Business Growth Strategy by Jay Abraham",
+      "meta_description": "Breakthrough Thinking is Jay Abraham's proprietary framework that multiplies profit by unlocking leverage in assets you already have.",
+      "word_count": 1527,
+      "raw_html": "raw_html/086-50-shades-jay-3-2-shaded.html",
+      "text_file": "text/086-50-shades-jay-3-2-shaded.txt"
+    },
+    {
+      "url": "https://www.abraham.com/50-shades-jay-4-ceo-can-see-around-corners",
+      "title": "What is Breakthrough Thinking? | Business Growth Strategy by Jay Abraham",
+      "meta_description": "Breakthrough Thinking is Jay Abraham's proprietary framework that multiplies profit by unlocking leverage in assets you already have.",
+      "word_count": 1527,
+      "raw_html": "raw_html/087-50-shades-jay-4-ceo-can-see-around-corners.html",
+      "text_file": "text/087-50-shades-jay-4-ceo-can-see-around-corners.txt"
+    },
+    {
+      "url": "https://www.abraham.com/50-shades-jay-5-lions-tigers-bears-oh",
+      "title": "What is Breakthrough Thinking? | Business Growth Strategy by Jay Abraham",
+      "meta_description": "Breakthrough Thinking is Jay Abraham's proprietary framework that multiplies profit by unlocking leverage in assets you already have.",
+      "word_count": 1527,
+      "raw_html": "raw_html/088-50-shades-jay-5-lions-tigers-bears-oh.html",
+      "text_file": "text/088-50-shades-jay-5-lions-tigers-bears-oh.txt"
+    },
+    {
+      "url": "https://www.abraham.com/50-shades-jay-6-doctor",
+      "title": "What is Breakthrough Thinking? | Business Growth Strategy by Jay Abraham",
+      "meta_description": "Breakthrough Thinking is Jay Abraham's proprietary framework that multiplies profit by unlocking leverage in assets you already have.",
+      "word_count": 1527,
+      "raw_html": "raw_html/089-50-shades-jay-6-doctor.html",
+      "text_file": "text/089-50-shades-jay-6-doctor.txt"
+    },
+    {
+      "url": "https://www.abraham.com/50-shades-jay-7-wins-business-today",
+      "title": "What is Breakthrough Thinking? | Business Growth Strategy by Jay Abraham",
+      "meta_description": "Breakthrough Thinking is Jay Abraham's proprietary framework that multiplies profit by unlocking leverage in assets you already have.",
+      "word_count": 1527,
+      "raw_html": "raw_html/090-50-shades-jay-7-wins-business-today.html",
+      "text_file": "text/090-50-shades-jay-7-wins-business-today.txt"
+    },
+    {
+      "url": "https://www.abraham.com/50-shades-jay-8-oldie-forgotten-goodies",
+      "title": "What is Breakthrough Thinking? | Business Growth Strategy by Jay Abraham",
+      "meta_description": "Breakthrough Thinking is Jay Abraham's proprietary framework that multiplies profit by unlocking leverage in assets you already have.",
+      "word_count": 1527,
+      "raw_html": "raw_html/091-50-shades-jay-8-oldie-forgotten-goodies.html",
+      "text_file": "text/091-50-shades-jay-8-oldie-forgotten-goodies.txt"
+    },
+    {
+      "url": "https://www.abraham.com/50-shades-jay-9-bedtime-stories-business-owners",
+      "title": "What is Breakthrough Thinking? | Business Growth Strategy by Jay Abraham",
+      "meta_description": "Breakthrough Thinking is Jay Abraham's proprietary framework that multiplies profit by unlocking leverage in assets you already have.",
+      "word_count": 1527,
+      "raw_html": "raw_html/092-50-shades-jay-9-bedtime-stories-business-owners.html",
+      "text_file": "text/092-50-shades-jay-9-bedtime-stories-business-owners.txt"
+    },
+    {
+      "url": "https://www.abraham.com/50-shades-jay-10-new-slant-strategy-preeminence",
+      "title": "What is Breakthrough Thinking? | Business Growth Strategy by Jay Abraham",
+      "meta_description": "Breakthrough Thinking is Jay Abraham's proprietary framework that multiplies profit by unlocking leverage in assets you already have.",
+      "word_count": 1527,
+      "raw_html": "raw_html/093-50-shades-jay-10-new-slant-strategy-preeminence.html",
+      "text_file": "text/093-50-shades-jay-10-new-slant-strategy-preeminence.txt"
+    },
+    {
+      "url": "https://www.abraham.com/50-shades-jay-11-jays-grab-bag",
+      "title": "What is Breakthrough Thinking? | Business Growth Strategy by Jay Abraham",
+      "meta_description": "Breakthrough Thinking is Jay Abraham's proprietary framework that multiplies profit by unlocking leverage in assets you already have.",
+      "word_count": 1527,
+      "raw_html": "raw_html/094-50-shades-jay-11-jays-grab-bag.html",
+      "text_file": "text/094-50-shades-jay-11-jays-grab-bag.txt"
+    },
+    {
+      "url": "https://www.abraham.com/50-shades-jay-12-theme-song-classic-music-video",
+      "title": "What is Breakthrough Thinking? | Business Growth Strategy by Jay Abraham",
+      "meta_description": "Breakthrough Thinking is Jay Abraham's proprietary framework that multiplies profit by unlocking leverage in assets you already have.",
+      "word_count": 1527,
+      "raw_html": "raw_html/095-50-shades-jay-12-theme-song-classic-music-video.html",
+      "text_file": "text/095-50-shades-jay-12-theme-song-classic-music-video.txt"
+    },
+    {
+      "url": "https://www.abraham.com/50-shades-jay-13-off-record-raw",
+      "title": "What is Breakthrough Thinking? | Business Growth Strategy by Jay Abraham",
+      "meta_description": "Breakthrough Thinking is Jay Abraham's proprietary framework that multiplies profit by unlocking leverage in assets you already have.",
+      "word_count": 1527,
+      "raw_html": "raw_html/096-50-shades-jay-13-off-record-raw.html",
+      "text_file": "text/096-50-shades-jay-13-off-record-raw.txt"
+    },
+    {
+      "url": "https://www.abraham.com/jay-abraham-hot-seat-executive-summaries",
+      "title": "What is Breakthrough Thinking? | Business Growth Strategy by Jay Abraham",
+      "meta_description": "Breakthrough Thinking is Jay Abraham's proprietary framework that multiplies profit by unlocking leverage in assets you already have.",
+      "word_count": 1527,
+      "raw_html": "raw_html/097-jay-abraham-hot-seat-executive-summaries.html",
+      "text_file": "text/097-jay-abraham-hot-seat-executive-summaries.txt"
+    },
+    {
+      "url": "https://www.abraham.com/show-12-kevin-harrington-mitch-russo",
+      "title": "Show 12 - Kevin Harrington and Mitch Russo - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 491,
+      "raw_html": "raw_html/098-show-12-kevin-harrington-mitch-russo.html",
+      "text_file": "text/098-show-12-kevin-harrington-mitch-russo.txt"
+    },
+    {
+      "url": "https://www.abraham.com/ultimate-entrepreneur-jay-abraham-show-11-raw-uncut-jay-abraham-conference-call",
+      "title": "The Ultimate Entrepreneur With Jay Abraham Show 11 - Raw & Uncut - Jay Abraham Conference Call - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 489,
+      "raw_html": "raw_html/099-ultimate-entrepreneur-jay-abraham-show-11-raw-uncut-jay-abraham-conference-call.html",
+      "text_file": "text/099-ultimate-entrepreneur-jay-abraham-show-11-raw-uncut-jay-abraham-conference-call.txt"
+    },
+    {
+      "url": "https://www.abraham.com/ultimate-entrepreneur-jay-abraham-show-10-gerhard-gschwandtner",
+      "title": "The Ultimate Entrepreneur With Jay Abraham Show 10 - Gerhard Gschwandtner - Jay Abraham | Abraham.com",
+      "meta_description": "",
+      "word_count": 481,
+      "raw_html": "raw_html/100-ultimate-entrepreneur-jay-abraham-show-10-gerhard-gschwandtner.html",
+      "text_file": "text/100-ultimate-entrepreneur-jay-abraham-show-10-gerhard-gschwandtner.txt"
+    }
+  ]
+}

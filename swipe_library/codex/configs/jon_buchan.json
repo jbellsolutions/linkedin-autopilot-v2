@@ -1,0 +1,22 @@
+{
+  "name": "Jon Buchan",
+  "roots": [
+    "https://www.charm-offensive.co.uk/",
+    "https://www.charm-offensive.co.uk/product-category/swipe-files/"
+  ],
+  "allowed_domains": [
+    "charm-offensive.co.uk"
+  ],
+  "include_patterns": [
+    "charm-offensive\\.co\\.uk"
+  ],
+  "exclude_patterns": [
+    "/privacy",
+    "/terms",
+    "/checkout",
+    "/cart",
+    "/my-account"
+  ],
+  "max_pages": 120,
+  "delay_seconds": 0.4
+}

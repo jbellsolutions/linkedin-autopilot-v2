@@ -1,0 +1,21 @@
+{
+  "name": "Liam Ottley",
+  "roots": [
+    "https://www.liamottley.com/",
+    "https://www.morningside.ai/"
+  ],
+  "allowed_domains": [
+    "liamottley.com",
+    "morningside.ai"
+  ],
+  "include_patterns": [
+    "liamottley\\.com|morningside\\.ai"
+  ],
+  "exclude_patterns": [
+    "/privacy",
+    "/terms",
+    "/login"
+  ],
+  "max_pages": 80,
+  "delay_seconds": 0.4
+}

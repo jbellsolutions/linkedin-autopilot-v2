@@ -1,0 +1,24 @@
+{
+  "name": "Lead Gen Jay",
+  "roots": [
+    "https://leadgenjay.com/",
+    "https://leadgenjay.com/cold-email--lead-gen-course",
+    "https://web.leadgenjay.com/tools/cold-email-ai"
+  ],
+  "allowed_domains": [
+    "leadgenjay.com",
+    "web.leadgenjay.com"
+  ],
+  "include_patterns": [
+    "leadgenjay\\.com"
+  ],
+  "exclude_patterns": [
+    "/privacy",
+    "/terms",
+    "/checkout",
+    "/cart",
+    "/login"
+  ],
+  "max_pages": 80,
+  "delay_seconds": 0.4
+}

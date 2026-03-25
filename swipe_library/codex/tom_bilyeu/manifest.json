@@ -1,0 +1,607 @@
+{
+  "name": "Tom Bilyeu",
+  "roots": [
+    "https://impacttheory.com/",
+    "https://impacttheoryuniversity.com/"
+  ],
+  "allowed_domains": [
+    "impacttheory.com",
+    "impacttheoryuniversity.com"
+  ],
+  "scraped_at": "2026-03-24T15:20:21Z",
+  "page_count": 74,
+  "pages": [
+    {
+      "url": "https://impacttheory.com",
+      "title": "Impact Theory",
+      "meta_description": "Unleash Your Potential with Impact Theory",
+      "word_count": 2559,
+      "raw_html": "raw_html/001-home.html",
+      "text_file": "text/001-home.txt"
+    },
+    {
+      "url": "https://impacttheory.com/studios",
+      "title": "Impact Theory",
+      "meta_description": "Unleash Your Potential with Impact Theory",
+      "word_count": 766,
+      "raw_html": "raw_html/002-studios.html",
+      "text_file": "text/002-studios.txt"
+    },
+    {
+      "url": "https://impacttheory.com/book-tom",
+      "title": "Impact Theory",
+      "meta_description": "Impact Theory",
+      "word_count": 348,
+      "raw_html": "raw_html/003-book-tom.html",
+      "text_file": "text/003-book-tom.txt"
+    },
+    {
+      "url": "https://impacttheory.com/nybbs",
+      "title": "Lisa Bilyeu",
+      "meta_description": "Lisa Bilyeu, entrepreneur, producer, and best-selling author, inspires women globally by sharing her journey of success, empowerment, and personal growth.",
+      "word_count": 2600,
+      "raw_html": "raw_html/004-nybbs.html",
+      "text_file": "text/004-nybbs.txt"
+    },
+    {
+      "url": "https://impacttheory.com/arc/nybbs827arcr345",
+      "title": "Impact Theory",
+      "meta_description": "Impact Theory",
+      "word_count": 1707,
+      "raw_html": "raw_html/005-arc-nybbs827arcr345.html",
+      "text_file": "text/005-arc-nybbs827arcr345.txt"
+    },
+    {
+      "url": "https://impacttheory.com/policies/earnings-disclaimer",
+      "title": "Impact Theory",
+      "meta_description": "Impact Theory",
+      "word_count": 665,
+      "raw_html": "raw_html/006-policies-earnings-disclaimer.html",
+      "text_file": "text/006-policies-earnings-disclaimer.txt"
+    },
+    {
+      "url": "https://impacttheory.com/partnerships",
+      "title": "Impact Theory Partnerships",
+      "meta_description": "Impact Theory",
+      "word_count": 464,
+      "raw_html": "raw_html/007-partnerships.html",
+      "text_file": "text/007-partnerships.txt"
+    },
+    {
+      "url": "https://impacttheoryuniversity.com",
+      "title": "Tom Bilyeu | Unlock Your Potential & Build a Billion-Dollar Mindset",
+      "meta_description": "Transform your life with Tom Bilyeu, mindset master and $1B+ founder. Get free guides on entrepreneurship, personal growth, and achieving your goals.",
+      "word_count": 795,
+      "raw_html": "raw_html/008-home.html",
+      "text_file": "text/008-home.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com",
+      "title": "Impact Theory Store",
+      "meta_description": "Show the world you're an Impactivist!",
+      "word_count": 352,
+      "raw_html": "raw_html/009-home.html",
+      "text_file": "text/009-home.txt"
+    },
+    {
+      "url": "http://impacttheory.com/partnerships",
+      "title": "Impact Theory Partnerships",
+      "meta_description": "Impact Theory",
+      "word_count": 464,
+      "raw_html": "raw_html/010-partnerships.html",
+      "text_file": "text/010-partnerships.txt"
+    },
+    {
+      "url": "https://impacttheoryuniversity.com/ai-masterclass",
+      "title": "Leverage AI to Launch Your Business - Tom Bilyeu - Live Masterclass",
+      "meta_description": "Live Masterclass with Tom Bilyeu | Leverage AI to Launch Your Business With Confidence",
+      "word_count": 148,
+      "raw_html": "raw_html/011-ai-masterclass.html",
+      "text_file": "text/011-ai-masterclass.txt"
+    },
+    {
+      "url": "https://impacttheoryuniversity.com/newsletter",
+      "title": "Tom Bilyeu\u2019s Billion Dollar Principles Newsletter",
+      "meta_description": "Cut through the business B.S. and learn to think like a CEO from someone who built a billion-dollar brand. Unlock valuable business-building insights from Tom Bilyeu, co-founder of Quest Nutrition.",
+      "word_count": 495,
+      "raw_html": "raw_html/012-newsletter.html",
+      "text_file": "text/012-newsletter.txt"
+    },
+    {
+      "url": "https://impacttheoryuniversity.com/manage-subscription",
+      "title": "Tom Bilyeu - Cancel Subscription",
+      "meta_description": "",
+      "word_count": 120,
+      "raw_html": "raw_html/013-manage-subscription.html",
+      "text_file": "text/013-manage-subscription.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/products/impact-planner",
+      "title": "Impact Planner \u2013 Impact Theory",
+      "meta_description": "FOR\u00a0ELIGIBLE\u00a0CUSTOMERS WITH AMAZON PRIME, ORDER ON AMAZON HERE &amp; GET FREE 1-DAY SHIPPING! Impact Theory Planner The daily tool to plan, strategize, &amp; execute towards your life goals &amp; live with more intention. The problem with planners/journals is we tend to focus exclusively on creating tasks, forgetting t",
+      "word_count": 470,
+      "raw_html": "raw_html/014-products-impact-planner.html",
+      "text_file": "text/014-products-impact-planner.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/products/impact-theory-lined-journal-box-set",
+      "title": "Impact Lined Journal & Premium Gift Set \u2013 Impact Theory",
+      "meta_description": "FOR USA AUDIENCE WITH AMAZON PRIME, ORDER ON AMAZON HERE &amp; GET FREE PRIME SHIPPING Impact Theory Lined Journal You\u2019ve probably heard Tom rave about journaling, and how starting your day off right is essential to creating the life you want. In fact, journaling is one of Tom\u2019s Top 5 Useful Things he does.\u00a0 That\u2019s why",
+      "word_count": 493,
+      "raw_html": "raw_html/015-products-impact-theory-lined-journal-box-set.html",
+      "text_file": "text/015-products-impact-theory-lined-journal-box-set.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/tees",
+      "title": "Tees \u2013 Impact Theory",
+      "meta_description": "",
+      "word_count": 243,
+      "raw_html": "raw_html/016-collections-tees.html",
+      "text_file": "text/016-collections-tees.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/hoodies",
+      "title": "Hoodies \u2013 Impact Theory",
+      "meta_description": "Unisex Fit",
+      "word_count": 231,
+      "raw_html": "raw_html/017-collections-hoodies.html",
+      "text_file": "text/017-collections-hoodies.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/womens",
+      "title": "Womens \u2013 Impact Theory",
+      "meta_description": "",
+      "word_count": 284,
+      "raw_html": "raw_html/018-collections-womens.html",
+      "text_file": "text/018-collections-womens.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/reflection-collection",
+      "title": "Reflection Collection \u2013 Impact Theory",
+      "meta_description": "",
+      "word_count": 221,
+      "raw_html": "raw_html/019-collections-reflection-collection.html",
+      "text_file": "text/019-collections-reflection-collection.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/impact-theory-university",
+      "title": "Impact Theory University",
+      "meta_description": "Rep your favorite ITU swag!",
+      "word_count": 205,
+      "raw_html": "raw_html/020-collections-impact-theory-university.html",
+      "text_file": "text/020-collections-impact-theory-university.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/productivity-tools",
+      "title": "Productivity Tools \u2013 Impact Theory",
+      "meta_description": "",
+      "word_count": 210,
+      "raw_html": "raw_html/021-collections-productivity-tools.html",
+      "text_file": "text/021-collections-productivity-tools.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/featured",
+      "title": "Featured \u2013 Impact Theory",
+      "meta_description": "",
+      "word_count": 253,
+      "raw_html": "raw_html/022-collections-featured.html",
+      "text_file": "text/022-collections-featured.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/featured/products/impact-planner",
+      "title": "Impact Planner \u2013 Impact Theory",
+      "meta_description": "FOR\u00a0ELIGIBLE\u00a0CUSTOMERS WITH AMAZON PRIME, ORDER ON AMAZON HERE &amp; GET FREE 1-DAY SHIPPING! Impact Theory Planner The daily tool to plan, strategize, &amp; execute towards your life goals &amp; live with more intention. The problem with planners/journals is we tend to focus exclusively on creating tasks, forgetting t",
+      "word_count": 473,
+      "raw_html": "raw_html/023-collections-featured-products-impact-planner.html",
+      "text_file": "text/023-collections-featured-products-impact-planner.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/featured/products/impact-theory-lined-journal-box-set",
+      "title": "Impact Lined Journal & Premium Gift Set \u2013 Impact Theory",
+      "meta_description": "FOR USA AUDIENCE WITH AMAZON PRIME, ORDER ON AMAZON HERE &amp; GET FREE PRIME SHIPPING Impact Theory Lined Journal You\u2019ve probably heard Tom rave about journaling, and how starting your day off right is essential to creating the life you want. In fact, journaling is one of Tom\u2019s Top 5 Useful Things he does.\u00a0 That\u2019s why",
+      "word_count": 496,
+      "raw_html": "raw_html/024-collections-featured-products-impact-theory-lined-journal-box-set.html",
+      "text_file": "text/024-collections-featured-products-impact-theory-lined-journal-box-set.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/featured/products/be-legendary-tank-2-0",
+      "title": "Be Legendary / Women's Black Tank \u2013 Impact Theory",
+      "meta_description": "To Be Legendary is to decide right now, at this very second, that you will make an impact on the world. Being Legendary is not about what you did in the past or where you are in life today. Being Legendary is about who you want to become and how hard you are willing to work to be that person. Every moment should be a s",
+      "word_count": 447,
+      "raw_html": "raw_html/025-collections-featured-products-be-legendary-tank-2-0.html",
+      "text_file": "text/025-collections-featured-products-be-legendary-tank-2-0.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/featured/products/limitless-hoodie",
+      "title": "Limitless / Light Heather Hoodie \u2013 Impact Theory",
+      "meta_description": "The only true limits in life are 1) things that violate the laws of physics, and 2)\u00a0the limits you set for yourself. Assuming you're an average human with average intelligence, your\u00a0potential, what you can do with your life, is\u00a0truly limitless. You can learn, grow, and develop incredible skill sets in whatever arena yo",
+      "word_count": 437,
+      "raw_html": "raw_html/026-collections-featured-products-limitless-hoodie.html",
+      "text_file": "text/026-collections-featured-products-limitless-hoodie.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/featured/products/be-legendary-tee-1",
+      "title": "Be Legendary / Black Short Sleeve \u2013 Impact Theory",
+      "meta_description": "To Be Legendary is to decide right now, at this very second, that you will make an impact on the world. Being Legendary is not about what you did in the past or where you are in life today. Being Legendary is about who you want to become and how hard you are willing to work to be that person. Every moment should be a s",
+      "word_count": 448,
+      "raw_html": "raw_html/027-collections-featured-products-be-legendary-tee-1.html",
+      "text_file": "text/027-collections-featured-products-be-legendary-tee-1.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/featured/products/limitless-tank",
+      "title": "Limitless / Women's Black Tank \u2013 Impact Theory",
+      "meta_description": "The only true limits in life are 1) things that violate the laws of physics, and 2)\u00a0the limits you set for yourself. Assuming you're an average human with average intelligence, your\u00a0potential, what you can do with your life, is\u00a0truly limitless. You can learn, grow, and develop incredible skill sets in whatever arena yo",
+      "word_count": 443,
+      "raw_html": "raw_html/028-collections-featured-products-limitless-tank.html",
+      "text_file": "text/028-collections-featured-products-limitless-tank.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/featured/products/be-legendary",
+      "title": "Be Legendary / Black Hoodie \u2013 Impact Theory",
+      "meta_description": "To Be Legendary is to decide right now, at this very second, that you will make an impact on the world. Being Legendary is not about what you did in the past or where you are in life today. Being Legendary is about who you want to become and how hard you are willing to work to be that person. Every moment should be a s",
+      "word_count": 443,
+      "raw_html": "raw_html/029-collections-featured-products-be-legendary.html",
+      "text_file": "text/029-collections-featured-products-be-legendary.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/featured/products/impact-theory-black-dad-hat",
+      "title": "Impact Theory / Black Dad Hat",
+      "meta_description": "As an avid Impactivist, you know we strive to pull\u00a0as many people as possible out\u00a0of the Matrix, by giving tools and guidelines for an empowering mindset. Keep reminding yourself of that focus, that goal...\u00a0inspired by the glitchy style\u00a0of that near-documentary. \u00a0 Fit and Quality Low profile six panel cap, curved peak",
+      "word_count": 362,
+      "raw_html": "raw_html/030-collections-featured-products-impact-theory-black-dad-hat.html",
+      "text_file": "text/030-collections-featured-products-impact-theory-black-dad-hat.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/featured/products/impact-theory-8-x-12-poster",
+      "title": "Impact Theory Poster",
+      "meta_description": "Limited Edition Impact Theory poster with our daily reminder quote: Know what you want. Write it down. Control your time.\u00a0 Execute relentlessly. - Product Details 8\" x 12\" These posters are screen printed by hand on American made Cougar 100 lb paper stock, which gives prints like this their characteristic handmade look",
+      "word_count": 299,
+      "raw_html": "raw_html/031-collections-featured-products-impact-theory-8-x-12-poster.html",
+      "text_file": "text/031-collections-featured-products-impact-theory-8-x-12-poster.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/search",
+      "title": "Search \u2013 Impact Theory",
+      "meta_description": "Show the world you're an Impactivist!",
+      "word_count": 159,
+      "raw_html": "raw_html/032-search.html",
+      "text_file": "text/032-search.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/products/gift-card",
+      "title": "Gift Card \u2013 Impact Theory",
+      "meta_description": "Shopping for someone else but not sure what to give them? Give them the gift of choice with a Impact Theory gift card. Gift cards are delivered by email and contain instructions to redeem them at checkout. Our gift cards have no additional processing fees.",
+      "word_count": 290,
+      "raw_html": "raw_html/033-products-gift-card.html",
+      "text_file": "text/033-products-gift-card.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/pages/shipping-policy",
+      "title": "Shipping / FAQs \u2013 Impact Theory",
+      "meta_description": "Estimated shipping delivery times USA: 3-5 business days Rest of the World:\u00a05-10 business days Your order will be sent out on average within 1-5 business days of ordering. Expedited shipping options available at checkout. Costs vary on the shipping\u00a0option you pick at checkout. International shipping International shipm",
+      "word_count": 476,
+      "raw_html": "raw_html/034-pages-shipping-policy.html",
+      "text_file": "text/034-pages-shipping-policy.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/pages/dmca-policy",
+      "title": "DMCA Policy \u2013 Impact Theory",
+      "meta_description": "Our Digital Millennium Copyright Act (\u201cDMCA\u201d) Policy Impact Theory has adopted a policy that provides for the suspension and/or termination of any user who is found to have infringed on the rights of Impact Theory or of a third party, or otherwise violated any intellectual property laws or regulations. \u00a0Impact Theory\u2019s",
+      "word_count": 926,
+      "raw_html": "raw_html/035-pages-dmca-policy.html",
+      "text_file": "text/035-pages-dmca-policy.txt"
+    },
+    {
+      "url": "http://impacttheory.com",
+      "title": "Impact Theory",
+      "meta_description": "Unleash Your Potential with Impact Theory",
+      "word_count": 2559,
+      "raw_html": "raw_html/036-home.html",
+      "text_file": "text/036-home.txt"
+    },
+    {
+      "url": "http://impacttheory.com/studios",
+      "title": "Impact Theory",
+      "meta_description": "Unleash Your Potential with Impact Theory",
+      "word_count": 766,
+      "raw_html": "raw_html/037-studios.html",
+      "text_file": "text/037-studios.txt"
+    },
+    {
+      "url": "http://impacttheory.com/book-tom",
+      "title": "Impact Theory",
+      "meta_description": "Impact Theory",
+      "word_count": 348,
+      "raw_html": "raw_html/038-book-tom.html",
+      "text_file": "text/038-book-tom.txt"
+    },
+    {
+      "url": "http://impacttheory.com/policies/earnings-disclaimer",
+      "title": "Impact Theory",
+      "meta_description": "Impact Theory",
+      "word_count": 665,
+      "raw_html": "raw_html/039-policies-earnings-disclaimer.html",
+      "text_file": "text/039-policies-earnings-disclaimer.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/tees/products/be-legendary-tee-1",
+      "title": "Be Legendary / Black Short Sleeve \u2013 Impact Theory",
+      "meta_description": "To Be Legendary is to decide right now, at this very second, that you will make an impact on the world. Being Legendary is not about what you did in the past or where you are in life today. Being Legendary is about who you want to become and how hard you are willing to work to be that person. Every moment should be a s",
+      "word_count": 448,
+      "raw_html": "raw_html/040-collections-tees-products-be-legendary-tee-1.html",
+      "text_file": "text/040-collections-tees-products-be-legendary-tee-1.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/tees/products/badass-v-neck",
+      "title": "#Badass / Women's Black V-Neck \u2013 Impact Theory",
+      "meta_description": "Don't stop at the closed door. Grab a brick and smash through the frikin window. ~Lisa Bilyeu She's absolutely right, ladies. There will always be obstacles in life, there will always be challenges - this is where a growth mindset comes in, full force. You can choose to look at challenges as hard or scary, OR... you ca",
+      "word_count": 459,
+      "raw_html": "raw_html/041-collections-tees-products-badass-v-neck.html",
+      "text_file": "text/041-collections-tees-products-badass-v-neck.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/tees/products/you-got-this-womens-black-v-neck",
+      "title": "You Got This / Women's Black V-Neck \u2013 Impact Theory",
+      "meta_description": "You're taking daily action. You're hitting the gym. You're committing to your goals. YOU are your own encouragement through all of it. That's what the Reflection Collection is all about - to act as a reminder to develop the muscle of self validation while you're making progress on your wildest (and totally achievable)",
+      "word_count": 483,
+      "raw_html": "raw_html/042-collections-tees-products-you-got-this-womens-black-v-neck.html",
+      "text_file": "text/042-collections-tees-products-you-got-this-womens-black-v-neck.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/tees/products/limitless-v-neck",
+      "title": "Limitless / Black V-Neck \u2013 Impact Theory",
+      "meta_description": "The only true limits in life are 1) things that violate the laws of physics, and 2)\u00a0the limits you set for yourself. Assuming you're an average human with average intelligence, your\u00a0potential, what you can do with your life, is\u00a0truly limitless. You can learn, grow, and develop incredible skill sets in whatever arena yo",
+      "word_count": 445,
+      "raw_html": "raw_html/043-collections-tees-products-limitless-v-neck.html",
+      "text_file": "text/043-collections-tees-products-limitless-v-neck.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/tees/products/empowered-af-womens-white-v-neck",
+      "title": "Empowered AF / Women's White V-Neck \u2013 Impact Theory",
+      "meta_description": "\"Empowered\" is way more than just a trendy word. Truly being empowered is getting up every day, and being proud of the woman who looks back at you in the mirror. It's about always striving to be better than the day before. It's about standing strong in your own power, in your own spotlight, and not listening to that li",
+      "word_count": 436,
+      "raw_html": "raw_html/044-collections-tees-products-empowered-af-womens-white-v-neck.html",
+      "text_file": "text/044-collections-tees-products-empowered-af-womens-white-v-neck.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/tees/products/be-legendary-v-neck",
+      "title": "Be Legendary / Women's Black V-Neck \u2013 Impact Theory",
+      "meta_description": "To Be Legendary is to decide right now, at this very second, that you will make an impact on the world. Being Legendary is not about what you did in the past or where you are in life today. Being Legendary is about who you want to become and how hard you are willing to work to be that person. Every moment should be a s",
+      "word_count": 406,
+      "raw_html": "raw_html/045-collections-tees-products-be-legendary-v-neck.html",
+      "text_file": "text/045-collections-tees-products-be-legendary-v-neck.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/tees/products/make-sh-t-happen-womens-white-v-neck",
+      "title": "Make Sh*t Happen / Women's White V-Neck \u2013 Impact Theory",
+      "meta_description": "You're taking daily action. You're hitting the gym. You're committing to your goals. YOU are your own encouragement through all of it. That's what the\u00a0Reflection Collection\u00a0is all about - to act as a reminder to develop the muscle of self-validation while you're making progress on your wildest (and totally achievable)",
+      "word_count": 481,
+      "raw_html": "raw_html/046-collections-tees-products-make-sh-t-happen-womens-white-v-neck.html",
+      "text_file": "text/046-collections-tees-products-make-sh-t-happen-womens-white-v-neck.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/hoodies/products/be-legendary-hoodie",
+      "title": "Be Legendary / Gold Hoodie \u2013 Impact Theory",
+      "meta_description": "To Be Legendary is to decide right now, at this very second, that you will make an impact on the world. Being Legendary is not about what you did in the past or where you are in life today. Being Legendary is about who you want to become and how hard you are willing to work to be that person. Every moment should be a s",
+      "word_count": 458,
+      "raw_html": "raw_html/047-collections-hoodies-products-be-legendary-hoodie.html",
+      "text_file": "text/047-collections-hoodies-products-be-legendary-hoodie.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/hoodies/products/limitless-hoodie",
+      "title": "Limitless / Light Heather Hoodie \u2013 Impact Theory",
+      "meta_description": "The only true limits in life are 1) things that violate the laws of physics, and 2)\u00a0the limits you set for yourself. Assuming you're an average human with average intelligence, your\u00a0potential, what you can do with your life, is\u00a0truly limitless. You can learn, grow, and develop incredible skill sets in whatever arena yo",
+      "word_count": 437,
+      "raw_html": "raw_html/048-collections-hoodies-products-limitless-hoodie.html",
+      "text_file": "text/048-collections-hoodies-products-limitless-hoodie.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/hoodies/products/be-legendary",
+      "title": "Be Legendary / Black Hoodie \u2013 Impact Theory",
+      "meta_description": "To Be Legendary is to decide right now, at this very second, that you will make an impact on the world. Being Legendary is not about what you did in the past or where you are in life today. Being Legendary is about who you want to become and how hard you are willing to work to be that person. Every moment should be a s",
+      "word_count": 443,
+      "raw_html": "raw_html/049-collections-hoodies-products-be-legendary.html",
+      "text_file": "text/049-collections-hoodies-products-be-legendary.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/hoodies/products/limitless-black-hoodie",
+      "title": "Limitless / Black Hoodie \u2013 Impact Theory",
+      "meta_description": "The only true limits in life are 1) things that violate the laws of physics, and 2)\u00a0the limits you set for yourself. Assuming you're an average human with average intelligence, your\u00a0potential, what you can do with your life, is\u00a0truly limitless. You can learn, grow, and develop incredible skill sets in whatever arena yo",
+      "word_count": 435,
+      "raw_html": "raw_html/050-collections-hoodies-products-limitless-black-hoodie.html",
+      "text_file": "text/050-collections-hoodies-products-limitless-black-hoodie.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/hoodies/products/greatness-hoodie",
+      "title": "Greatness / Black Hoodie \u2013 Impact Theory",
+      "meta_description": "Think of the person you are today as a stopgap to the person that you can become. And over there, on the other side of that transformation is somebody so much more powerful and greater than who you are today, but\u00a0that person is still you.\u00a0As Kareem Abdul-Jabbar said, \"I think the good and the great are only separated b",
+      "word_count": 449,
+      "raw_html": "raw_html/051-collections-hoodies-products-greatness-hoodie.html",
+      "text_file": "text/051-collections-hoodies-products-greatness-hoodie.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/hoodies/products/kyzen-core-hoodie",
+      "title": "Kyzen Core Hoodie \u2013 Impact Theory",
+      "meta_description": "Kyzen Core Hoodie Built for builders. The Kyzen Core Hoodie is made for long creative sessions, late-night world building, and everyday comfort. Crafted on a Champion Powerblend\u00ae midweight fleece, it\u2019s soft on the inside with a clean structured fit on the outside. Featuring the embroidered Kyzen mark on the chest and a",
+      "word_count": 339,
+      "raw_html": "raw_html/052-collections-hoodies-products-kyzen-core-hoodie.html",
+      "text_file": "text/052-collections-hoodies-products-kyzen-core-hoodie.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/hoodies/products/the-merrymodz-origin-hoodie",
+      "title": "The MerryModz Origin Hoodie \u2013 Impact Theory",
+      "meta_description": "The MerryModz Origin Hoodie A clean white Champion\u00ae hoodie featuring the bold MerryModz embroidered logo on the chest and a signature sleeve mark for extra character. Soft fleece interior, relaxed fit, and built for everyday wear \u2014 whether you're out, creating, or just keeping it comfortable. 9 oz midweight fleece 50%",
+      "word_count": 316,
+      "raw_html": "raw_html/053-collections-hoodies-products-the-merrymodz-origin-hoodie.html",
+      "text_file": "text/053-collections-hoodies-products-the-merrymodz-origin-hoodie.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/womens/products/be-legendary-v-neck",
+      "title": "Be Legendary / Women's Black V-Neck \u2013 Impact Theory",
+      "meta_description": "To Be Legendary is to decide right now, at this very second, that you will make an impact on the world. Being Legendary is not about what you did in the past or where you are in life today. Being Legendary is about who you want to become and how hard you are willing to work to be that person. Every moment should be a s",
+      "word_count": 406,
+      "raw_html": "raw_html/054-collections-womens-products-be-legendary-v-neck.html",
+      "text_file": "text/054-collections-womens-products-be-legendary-v-neck.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/womens/products/be-legendary-tank-2-0",
+      "title": "Be Legendary / Women's Black Tank \u2013 Impact Theory",
+      "meta_description": "To Be Legendary is to decide right now, at this very second, that you will make an impact on the world. Being Legendary is not about what you did in the past or where you are in life today. Being Legendary is about who you want to become and how hard you are willing to work to be that person. Every moment should be a s",
+      "word_count": 447,
+      "raw_html": "raw_html/055-collections-womens-products-be-legendary-tank-2-0.html",
+      "text_file": "text/055-collections-womens-products-be-legendary-tank-2-0.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/womens/products/badass-v-neck",
+      "title": "#Badass / Women's Black V-Neck \u2013 Impact Theory",
+      "meta_description": "Don't stop at the closed door. Grab a brick and smash through the frikin window. ~Lisa Bilyeu She's absolutely right, ladies. There will always be obstacles in life, there will always be challenges - this is where a growth mindset comes in, full force. You can choose to look at challenges as hard or scary, OR... you ca",
+      "word_count": 459,
+      "raw_html": "raw_html/056-collections-womens-products-badass-v-neck.html",
+      "text_file": "text/056-collections-womens-products-badass-v-neck.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/womens/products/make-sh-t-happen-womens-white-v-neck",
+      "title": "Make Sh*t Happen / Women's White V-Neck \u2013 Impact Theory",
+      "meta_description": "You're taking daily action. You're hitting the gym. You're committing to your goals. YOU are your own encouragement through all of it. That's what the\u00a0Reflection Collection\u00a0is all about - to act as a reminder to develop the muscle of self-validation while you're making progress on your wildest (and totally achievable)",
+      "word_count": 481,
+      "raw_html": "raw_html/057-collections-womens-products-make-sh-t-happen-womens-white-v-neck.html",
+      "text_file": "text/057-collections-womens-products-make-sh-t-happen-womens-white-v-neck.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/womens/products/make-sh-t-happen-black-tank",
+      "title": "Make Sh*t Happen / Women's Black Tank \u2013 Impact Theory",
+      "meta_description": "You're taking daily action. You're hitting the gym. You're committing to your goals. YOU are your own encouragement through all of it. That's what the\u00a0Reflection Collection\u00a0is all about - to act as a reminder to develop the muscle of self-validation while you're making progress on your wildest (and totally achievable)",
+      "word_count": 480,
+      "raw_html": "raw_html/058-collections-womens-products-make-sh-t-happen-black-tank.html",
+      "text_file": "text/058-collections-womens-products-make-sh-t-happen-black-tank.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/womens/products/you-got-this-womens-black-v-neck",
+      "title": "You Got This / Women's Black V-Neck \u2013 Impact Theory",
+      "meta_description": "You're taking daily action. You're hitting the gym. You're committing to your goals. YOU are your own encouragement through all of it. That's what the Reflection Collection is all about - to act as a reminder to develop the muscle of self validation while you're making progress on your wildest (and totally achievable)",
+      "word_count": 483,
+      "raw_html": "raw_html/059-collections-womens-products-you-got-this-womens-black-v-neck.html",
+      "text_file": "text/059-collections-womens-products-you-got-this-womens-black-v-neck.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/womens/products/you-got-this-womens-white-tank",
+      "title": "You Got This / Women's White Tank \u2013 Impact Theory",
+      "meta_description": "You're taking daily action. You're hitting the gym. You're committing to your goals. YOU are your own encouragement through all of it. That's what the\u00a0Reflection Collection\u00a0is all about - to act as a reminder to develop the muscle of self validation while you're making progress on your wildest (and totally achievable)",
+      "word_count": 482,
+      "raw_html": "raw_html/060-collections-womens-products-you-got-this-womens-white-tank.html",
+      "text_file": "text/060-collections-womens-products-you-got-this-womens-white-tank.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/womens/products/empowered-af-womens-white-v-neck",
+      "title": "Empowered AF / Women's White V-Neck \u2013 Impact Theory",
+      "meta_description": "\"Empowered\" is way more than just a trendy word. Truly being empowered is getting up every day, and being proud of the woman who looks back at you in the mirror. It's about always striving to be better than the day before. It's about standing strong in your own power, in your own spotlight, and not listening to that li",
+      "word_count": 436,
+      "raw_html": "raw_html/061-collections-womens-products-empowered-af-womens-white-v-neck.html",
+      "text_file": "text/061-collections-womens-products-empowered-af-womens-white-v-neck.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/womens/products/empowered-af-womens-black-tank",
+      "title": "Empowered AF / Women's Black Tank \u2013 Impact Theory",
+      "meta_description": "\"Empowered\" is way more than just a trendy word. Truly being empowered is getting up every day, and being proud of the woman who looks back at you in the mirror. It's about always striving to be better than the day before. It's about standing strong in your own power, in your own spotlight, and not listening to that li",
+      "word_count": 431,
+      "raw_html": "raw_html/062-collections-womens-products-empowered-af-womens-black-tank.html",
+      "text_file": "text/062-collections-womens-products-empowered-af-womens-black-tank.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/womens/products/limitless-tank",
+      "title": "Limitless / Women's Black Tank \u2013 Impact Theory",
+      "meta_description": "The only true limits in life are 1) things that violate the laws of physics, and 2)\u00a0the limits you set for yourself. Assuming you're an average human with average intelligence, your\u00a0potential, what you can do with your life, is\u00a0truly limitless. You can learn, grow, and develop incredible skill sets in whatever arena yo",
+      "word_count": 443,
+      "raw_html": "raw_html/063-collections-womens-products-limitless-tank.html",
+      "text_file": "text/063-collections-womens-products-limitless-tank.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/womens/products/limitless-v-neck",
+      "title": "Limitless / Black V-Neck \u2013 Impact Theory",
+      "meta_description": "The only true limits in life are 1) things that violate the laws of physics, and 2)\u00a0the limits you set for yourself. Assuming you're an average human with average intelligence, your\u00a0potential, what you can do with your life, is\u00a0truly limitless. You can learn, grow, and develop incredible skill sets in whatever arena yo",
+      "word_count": 445,
+      "raw_html": "raw_html/064-collections-womens-products-limitless-v-neck.html",
+      "text_file": "text/064-collections-womens-products-limitless-v-neck.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/reflection-collection/products/you-got-this-womens-white-tank",
+      "title": "You Got This / Women's White Tank \u2013 Impact Theory",
+      "meta_description": "You're taking daily action. You're hitting the gym. You're committing to your goals. YOU are your own encouragement through all of it. That's what the\u00a0Reflection Collection\u00a0is all about - to act as a reminder to develop the muscle of self validation while you're making progress on your wildest (and totally achievable)",
+      "word_count": 483,
+      "raw_html": "raw_html/065-collections-reflection-collection-products-you-got-this-womens-white-tank.html",
+      "text_file": "text/065-collections-reflection-collection-products-you-got-this-womens-white-tank.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/reflection-collection/products/you-got-this-womens-black-v-neck",
+      "title": "You Got This / Women's Black V-Neck \u2013 Impact Theory",
+      "meta_description": "You're taking daily action. You're hitting the gym. You're committing to your goals. YOU are your own encouragement through all of it. That's what the Reflection Collection is all about - to act as a reminder to develop the muscle of self validation while you're making progress on your wildest (and totally achievable)",
+      "word_count": 484,
+      "raw_html": "raw_html/066-collections-reflection-collection-products-you-got-this-womens-black-v-neck.html",
+      "text_file": "text/066-collections-reflection-collection-products-you-got-this-womens-black-v-neck.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/reflection-collection/products/make-sh-t-happen-womens-white-v-neck",
+      "title": "Make Sh*t Happen / Women's White V-Neck \u2013 Impact Theory",
+      "meta_description": "You're taking daily action. You're hitting the gym. You're committing to your goals. YOU are your own encouragement through all of it. That's what the\u00a0Reflection Collection\u00a0is all about - to act as a reminder to develop the muscle of self-validation while you're making progress on your wildest (and totally achievable)",
+      "word_count": 482,
+      "raw_html": "raw_html/067-collections-reflection-collection-products-make-sh-t-happen-womens-white-v-neck.html",
+      "text_file": "text/067-collections-reflection-collection-products-make-sh-t-happen-womens-white-v-neck.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/reflection-collection/products/make-sh-t-happen-black-tank",
+      "title": "Make Sh*t Happen / Women's Black Tank \u2013 Impact Theory",
+      "meta_description": "You're taking daily action. You're hitting the gym. You're committing to your goals. YOU are your own encouragement through all of it. That's what the\u00a0Reflection Collection\u00a0is all about - to act as a reminder to develop the muscle of self-validation while you're making progress on your wildest (and totally achievable)",
+      "word_count": 481,
+      "raw_html": "raw_html/068-collections-reflection-collection-products-make-sh-t-happen-black-tank.html",
+      "text_file": "text/068-collections-reflection-collection-products-make-sh-t-happen-black-tank.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/impact-theory-university/products/impact-theory-university-unisex-black-short-sleeve",
+      "title": "Impact Theory University Black Unisex Tee",
+      "meta_description": "Students can now rep Impact Theory University with our black, unisex t-shirt.\u00a0 PRE-ORDER your shirt now! Shipping will begin in the next 2 weeks! ITU is our online education platform designed to help people build an empowering mindset to achieve their goals. Through online classes, actionable assignments, and a thrivin",
+      "word_count": 443,
+      "raw_html": "raw_html/069-collections-impact-theory-university-products-impact-theory-university-unisex-black-short-sleeve.html",
+      "text_file": "text/069-collections-impact-theory-university-products-impact-theory-university-unisex-black-short-sleeve.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/impact-theory-university/products/itu-reusable-stanless-water-bottle",
+      "title": "ITU Reusable Double Wall Stainless Water Bottle - 20 oz \u2013 Impact Theory",
+      "meta_description": "\ufeffPREORDER NOW! As Bruce Lee said, \"Be Like Water...\" Stay hydrated with your very own ITU water bottle! Keep your beverages colder for longer, with vacuum insulation and an anti-slide, rubber bottom to grip any surface! LIMITED TIME OFFER - 15% off for all ITU students! Complies with Prop 65. 2.75\u2033 W x 9.75\u2033 H x 2.75\u2033",
+      "word_count": 332,
+      "raw_html": "raw_html/070-collections-impact-theory-university-products-itu-reusable-stanless-water-bottle.html",
+      "text_file": "text/070-collections-impact-theory-university-products-itu-reusable-stanless-water-bottle.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/productivity-tools/products/impact-theory-lined-journal-box-set",
+      "title": "Impact Lined Journal & Premium Gift Set \u2013 Impact Theory",
+      "meta_description": "FOR USA AUDIENCE WITH AMAZON PRIME, ORDER ON AMAZON HERE &amp; GET FREE PRIME SHIPPING Impact Theory Lined Journal You\u2019ve probably heard Tom rave about journaling, and how starting your day off right is essential to creating the life you want. In fact, journaling is one of Tom\u2019s Top 5 Useful Things he does.\u00a0 That\u2019s why",
+      "word_count": 497,
+      "raw_html": "raw_html/071-collections-productivity-tools-products-impact-theory-lined-journal-box-set.html",
+      "text_file": "text/071-collections-productivity-tools-products-impact-theory-lined-journal-box-set.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/productivity-tools/products/impact-theory-black-dad-hat",
+      "title": "Impact Theory / Black Dad Hat",
+      "meta_description": "As an avid Impactivist, you know we strive to pull\u00a0as many people as possible out\u00a0of the Matrix, by giving tools and guidelines for an empowering mindset. Keep reminding yourself of that focus, that goal...\u00a0inspired by the glitchy style\u00a0of that near-documentary. \u00a0 Fit and Quality Low profile six panel cap, curved peak",
+      "word_count": 363,
+      "raw_html": "raw_html/072-collections-productivity-tools-products-impact-theory-black-dad-hat.html",
+      "text_file": "text/072-collections-productivity-tools-products-impact-theory-black-dad-hat.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/productivity-tools/products/impact-theory-8-x-12-poster",
+      "title": "Impact Theory Poster",
+      "meta_description": "Limited Edition Impact Theory poster with our daily reminder quote: Know what you want. Write it down. Control your time.\u00a0 Execute relentlessly. - Product Details 8\" x 12\" These posters are screen printed by hand on American made Cougar 100 lb paper stock, which gives prints like this their characteristic handmade look",
+      "word_count": 300,
+      "raw_html": "raw_html/073-collections-productivity-tools-products-impact-theory-8-x-12-poster.html",
+      "text_file": "text/073-collections-productivity-tools-products-impact-theory-8-x-12-poster.txt"
+    },
+    {
+      "url": "https://shop.impacttheory.com/collections/productivity-tools/products/impact-planner",
+      "title": "Impact Planner \u2013 Impact Theory",
+      "meta_description": "FOR\u00a0ELIGIBLE\u00a0CUSTOMERS WITH AMAZON PRIME, ORDER ON AMAZON HERE &amp; GET FREE 1-DAY SHIPPING! Impact Theory Planner The daily tool to plan, strategize, &amp; execute towards your life goals &amp; live with more intention. The problem with planners/journals is we tend to focus exclusively on creating tasks, forgetting t",
+      "word_count": 474,
+      "raw_html": "raw_html/074-collections-productivity-tools-products-impact-planner.html",
+      "text_file": "text/074-collections-productivity-tools-products-impact-planner.txt"
+    }
+  ]
+}
