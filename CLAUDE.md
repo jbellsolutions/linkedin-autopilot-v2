@@ -88,3 +88,65 @@ These rules govern ALL agent behavior in this workspace. They are non-negotiable
 ## API
 
 52. The OAuth token works. Never suggest generating a new key. If a call fails, fix HOW the call is made.
+
+---
+
+## Session Startup Checklist
+
+Every new session MUST begin with these steps before any work:
+
+1. Read this file (`CLAUDE.md`) in full. Do not skip sections.
+2. Read `AGENTS.md` to understand the multi-agent topology.
+3. Read `claude-progress.txt` for recent session context.
+4. Check `git status` and `git log --oneline -10` to understand current state.
+5. Read `.claude/healing/history.json` for recent error patterns.
+6. Read `.claude/learning/observations.json` for accumulated insights.
+7. Verify `config/` exists (or `config_examples/` fallback). Confirm required env vars.
+8. Run `python main.py --setup` to validate environment if anything looks off.
+9. State your plan before writing code. Get approval on scope.
+
+## Session End Instructions
+
+Before ending any session:
+
+1. Update `claude-progress.txt` with: date, what was done, what is pending, blockers.
+2. Log any new error patterns to `.claude/healing/history.json`.
+3. Log any observations or insights to `.claude/learning/observations.json`.
+4. Run `git status` -- commit or stash all work. No uncommitted changes left behind.
+5. If a pipeline was modified, run `python main.py --run <team>` to validate.
+6. Update `CHANGELOG.md` if user-facing behavior changed.
+
+## Compaction Rules
+
+When context gets large or a compaction event occurs:
+
+1. MUST re-read: `CLAUDE.md`, `AGENTS.md`, `claude-progress.txt`.
+2. MUST check: `git status`, `git log --oneline -5`.
+3. MUST read: `.claude/healing/history.json` (last 5 entries).
+4. SHOULD read: `.claude/learning/observations.json` if working on a previously-touched area.
+5. Preserve: current task context, file paths being edited, the specific problem being solved.
+6. Do NOT rely on pre-compaction memory for file contents. Re-read files.
+
+## Search Strategy
+
+When looking for code, config, or context in this repo:
+
+1. **Agent logic**: Check `agents/` for Python classes, `prompts/` for the corresponding `.md` prompt file.
+2. **Team orchestration**: Check `teams/` for how agents are composed and scheduled.
+3. **Scheduling**: `scheduler.py` (content jobs), `scheduler_engagement.py` (engagement jobs).
+4. **Tools/Integrations**: `tools/` for Airtable, browser automation, image generation, email.
+5. **Config**: `config/` (runtime, gitignored), `config_examples/` (templates, committed).
+6. **Skills**: `skills/` for Claude Code slash-command definitions.
+7. **Swipe file**: `swipe_library/` and `swipe-file/` for content inspiration data.
+8. **Infrastructure**: `infrastructure/` for deployment configs, `Dockerfile`, `docker-compose.yml`.
+
+## Thinking Guidelines
+
+Before modifying content generation or engagement logic, think through:
+
+1. **LinkedIn rate limits**: LinkedIn aggressively throttles automated actions. Commenting, connecting, and messaging have daily caps. The engagement scheduler already has cooldowns -- respect them. Never increase frequency without explicit approval.
+2. **Content quality gates**: Every post passes through Quality Editor and Fact Checker agents. Do not bypass these stages. If adding a new content type, wire it through the full pipeline (Research -> Create -> Quality -> Publish).
+3. **Brand voice consistency**: The business persona is defined in `config/business.yaml`. All prompts reference `{{owner_name}}`, `{{brand}}`, `{{business_name}}`. Changes to tone, style, or positioning must update the config, not hardcode in prompts.
+4. **Cookie/session security**: Browser automation uses LinkedIn cookies. These are sensitive credentials. Never log cookie values. Never commit them. Always check `tools/browser_automation.py` for session handling before modifying browser flows.
+5. **Deduplication**: Rule 33 -- never post the same content twice. The system uses embedding-based dedup. Any new content path must check against existing posts in `data/`.
+6. **Scheduler safety**: Rule 16 -- no unauthorized live tests on cron jobs. Always use `--dry-run` or `--run <team>` for manual testing before touching scheduler intervals.

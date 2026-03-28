@@ -1,0 +1,47 @@
+# LinkedIn Autopilot V2
+> Fully autonomous LinkedIn content and engagement pipeline with 40+ AI agents across 5 teams.
+
+## What This Project Does
+LinkedIn Autopilot V2 automates the entire LinkedIn content lifecycle: researching trends, writing posts, enforcing quality, publishing content, engaging with influencer posts, responding to audience comments, tracking influencers, and learning from campaign performance. It runs on a scheduler with configurable cron jobs.
+
+## Tech Stack
+- Python 3.11+
+- Anthropic Claude API (primary LLM)
+- APScheduler (cron-based scheduling)
+- Docker (containerized deployment)
+- Browser automation: Airtop (cloud) or Browser Use (local)
+- Airtable (data persistence)
+- Resend (email delivery)
+
+## Architecture
+- 5 teams: Content, Engagement, Influencer, Profile, Learning
+- 40+ agents, each with a markdown prompt file in prompts/
+- All agents inherit from agents/base.py (BaseAgent)
+- Two schedulers: scheduler.py (content), scheduler_engagement.py (engagement)
+- Config via YAML in config/ (gitignored), templates in config_examples/
+
+## Key Entry Points
+- main.py -- Start scheduler or run teams manually (--run content|engagement|influencer|profile|all)
+- scheduler.py -- Content pipeline cron jobs
+- scheduler_engagement.py -- Engagement pipeline cron jobs
+
+## Important Files
+- CLAUDE.md -- 52 operational rules + session protocols
+- AGENTS.md -- Full agent registry
+- ARCHITECTURE.md -- Detailed system architecture
+- agents/base.py -- BaseAgent class
+- config_examples/ -- Config templates
+- prompts/ -- 18 agent prompt files
+
+## Environment Variables
+- ANTHROPIC_API_KEY (required)
+- SERPER_API_KEY, RESEND_API_KEY, PHANTOMBUSTER_API_KEY, OPENAI_API_KEY (optional)
+- AIRTOP_API_KEY or BROWSER_USE_API_KEY (browser backend)
+- BROWSER_BACKEND=airtop|browser_use
+
+## Constraints
+- LinkedIn rate limits enforced via scheduler cooldowns
+- No duplicate posts (embedding-based dedup)
+- All content passes quality pipeline (editor + fact checker)
+- Cookies/sessions are sensitive -- never log or commit
+- No hardcoded timezones

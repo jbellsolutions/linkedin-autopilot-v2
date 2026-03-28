@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0.0",
+  "project": "linkedin-autopilot-v2",
+  "version": "2.0.0.0",
+  "last_updated": "2026-03-28",
+  "features": {
+    "content_pipeline": {
+      "status": "active",
+      "description": "Daily content generation pipeline: research, write, quality-check, publish",
+      "agents": ["trend_analyst", "article_researcher", "newsletter_researcher", "post_writer", "longform_writer", "swipe_strategist", "quality_editor", "fact_checker", "scoring_fact_checker", "human_touch_checker", "authority_checker"],
+      "schedule": "daily 5:30 AM",
+      "entry_point": "scheduler.py"
+    },
+    "engagement_pipeline": {
+      "status": "active",
+      "description": "Automated commenting, responding, and lead engagement on LinkedIn",
+      "agents": ["auto_commenter", "strategic_commenter", "auto_responder", "smart_replier", "reply_composer"],
+      "schedule": "every 2 hours + 2x daily",
+      "entry_point": "scheduler_engagement.py"
+    },
+    "influencer_tracking": {
+      "status": "active",
+      "description": "Discover and analyze influencers, extract leads from their audiences",
+      "agents": ["influencer_scraper", "influencer_analyzer", "lead_extractor"],
+      "schedule": "daily 6:00 AM + 2:00 PM"
+    },
+    "profile_optimization": {
+      "status": "active",
+      "description": "Monthly LinkedIn profile audit and optimization recommendations",
+      "agents": ["profile_optimizer"],
+      "schedule": "1st of month 9:00 AM"
+    },
+    "self_learning": {
+      "status": "active",
+      "description": "Post-campaign performance analysis feeding back into content strategy",
+      "agents": ["campaign_analyzer"],
+      "schedule": "post-campaign trigger"
+    },
+    "browser_automation": {
+      "status": "active",
+      "description": "LinkedIn browser automation via Airtop (cloud) or Browser Use (local)",
+      "backends": ["airtop", "browser_use"],
+      "config_key": "BROWSER_BACKEND"
+    },
+    "ai_image_generation": {
+      "status": "active",
+      "description": "AI-generated images for LinkedIn posts",
+      "entry_point": "tools/ai_image_generator.py"
+    },
+    "email_notifications": {
+      "status": "active",
+      "description": "Email digest and alert delivery via Resend",
+      "entry_point": "tools/email_notifier.py",
+      "config_key": "RESEND_API_KEY"
+    },
+    "swipe_file_system": {
+      "status": "active",
+      "description": "Content inspiration library with pattern matching for post generation",
+      "data_dirs": ["swipe_library/", "swipe-file/"]
+    },
+    "content_review_dashboard": {
+      "status": "active",
+      "description": "Web dashboard on port 8080 for reviewing generated content before publishing",
+      "port": 8080
+    },
+    "tests": {
+      "status": "missing",
+      "description": "No test suite exists yet. Priority: agent unit tests, pipeline integration tests, prompt regression tests.",
+      "priority": "high"
+    }
+  }
+}
