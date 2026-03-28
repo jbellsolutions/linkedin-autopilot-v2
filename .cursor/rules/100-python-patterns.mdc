@@ -1,26 +1,67 @@
 ---
-description: "Python-specific patterns and conventions"
+description: "Python-specific patterns and conventions for LinkedIn Autopilot V2"
 globs: "**/*.py"
 alwaysApply: false
 ---
 
-# Python Patterns
+# Python Patterns -- LinkedIn Autopilot V2
 
 ## Type Hints
 - Add type hints to all public function signatures
 - Use `Optional[X]` or `X | None` for nullable params
+- Use `dict[str, Any]` over `Dict[str, Any]` (Python 3.11+)
 
 ## Docstrings
 - Every module, class, and public function gets a docstring
 - Use Google-style docstrings (Args, Returns, Raises)
+- Agent classes document: purpose, inputs, outputs, schedule
 
 ## Testing
 - Use pytest, test files in `tests/`, named `test_*.py`
+- Manual testing: `python main.py --run <team>`
+- Mock Claude API calls in tests (never spend real tokens in tests)
 
 ## Imports
 - Standard library first, third-party second, local third
 - Use absolute imports over relative
+- Common imports: `anthropic`, `yaml`, `requests`, `apscheduler`
 
 ## Error Handling
 - Catch specific exceptions, never bare `except:`
-- Use `logging` module, not print()
+- Use `logging` module, not `print()`
+- Log with `logger = logging.getLogger(__name__)`
+- Classify errors: FATAL (stop pipeline) vs RETRYABLE (retry with backoff)
+- Clean up temp files in `finally` blocks
+
+## Agent Pattern
+- Inherit from `BaseAgent` (`agents/base.py`)
+- Load prompts via `self.load_prompt()` from `prompts/` directory
+- Access config via `self.config` (loaded from `config/business.yaml`)
+- Template variables: `{{owner_name}}`, `{{brand}}`, `{{business_name}}`
+- Config resolution: check `config/` first, fall back to `config_examples/`
+
+## Path Handling
+- Use `os.path.join()` or `pathlib.Path`, never string concatenation
+- Project root: `os.path.dirname(os.path.abspath(__file__))`
+- Data directory: `data/` (gitignored)
+- Config directory: `config/` (gitignored), templates in `config_examples/`
+
+## Async / Scheduling
+- APScheduler for cron jobs (`scheduler.py`, `scheduler_engagement.py`)
+- No hardcoded timezones -- read from config
+- Use `--dry-run` before wiring into schedulers
+- No unauthorized cron job modifications without approval
+
+## API Clients
+- Anthropic client initialized in `BaseAgent` with `CLAUDE_MODEL` env var
+- Default model: `claude-sonnet-4-20250514`
+- Never hardcode API keys -- always `os.getenv("KEY_NAME")`
+- Check for API key existence at startup, fail fast if missing
+
+## f-strings
+- Prefer f-strings over `.format()` or `%` formatting
+- Example: `f"Processing {agent_name} at {datetime.now()}"` not `"Processing {} at {}".format(agent_name, datetime.now())`
+
+## No Mutable Defaults
+- Never `def foo(items=[])` -- use `def foo(items: list | None = None)`
+- Initialize inside function body: `items = items or []`

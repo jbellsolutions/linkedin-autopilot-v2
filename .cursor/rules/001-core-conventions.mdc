@@ -3,29 +3,49 @@ description: "Core team conventions applied to every interaction"
 alwaysApply: true
 ---
 
-# Core Conventions
+# Core Conventions -- LinkedIn Autopilot V2
+
+## Project Context
+- Multi-agent LinkedIn content + engagement pipeline
+- 40+ agents across 5 teams (Content, Engagement, Influencer, Profile, Learning)
+- Python 3.11+, Docker, Anthropic Claude API
+- Read CLAUDE.md (52 rules) and AGENTS.md before any work
 
 ## Commits
 - Descriptive messages explaining WHY, not just WHAT
 - One logical change per commit
-- Never commit secrets, .env files, or credentials
+- Never commit secrets, .env files, config/, data/, or credentials
+- Update CHANGELOG.md for user-facing behavior changes
 
 ## Error Handling
-- Every external call (API, DB, file) gets try/catch or equivalent
+- Every external call (API, DB, file) gets try/except with specific exception types
 - Errors include context: what was attempted, what failed, and what to do about it
-- Never swallow errors silently
+- Never swallow errors silently -- no bare `except:`
+- Classify errors as FATAL vs RETRYABLE (CLAUDE.md Rule 30)
+- Use circuit breaker pattern for LinkedIn API calls
 
 ## Code Style
 - Follow existing patterns in the codebase
-- If no pattern exists, follow language defaults
-- Comments explain WHY, not WHAT (the code explains what)
+- All agents inherit from `BaseAgent` in `agents/base.py`
+- Prompts live in `prompts/` as markdown files, never hardcoded
+- Config from `config/business.yaml` via template variables `{{variable}}`
+- Use `logging.getLogger(__name__)`, never `print()`
 
 ## Testing
-- New features get tests before merging
-- Bug fixes include a regression test
+- Manual testing: `python main.py --run <team>` (content|engagement|influencer|profile|all)
+- Use `--dry-run` before touching scheduler intervals
+- No "test post" language on public platforms (CLAUDE.md Rule 34)
 - Run existing tests before committing
 
 ## Security
-- No hardcoded secrets — use environment variables
+- No hardcoded secrets -- use environment variables via `os.getenv()`
 - Validate all external inputs
-- Check .gitignore includes .env, credentials, and key files
+- .gitignore includes .env, config/, data/, credentials
+- LinkedIn cookies are sensitive -- never log or commit cookie values
+- Browser sessions must be closed in `finally` blocks
+
+## LinkedIn-Specific
+- Respect rate limits -- engagement scheduler has built-in cooldowns
+- All content passes Quality Editor + Fact Checker -- never bypass
+- Embedding-based dedup prevents duplicate posts
+- No hardcoded timezones -- read from config dynamically
