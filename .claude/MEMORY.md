@@ -1,4 +1,14 @@
-<!-- AGI-1 MEMORY — Repo-local scratchpad. 2,000 char cap. Consolidate when full. -->
-<!-- Load at session start. Update at session end. Entries separated by § -->
-<!-- What belongs here: tool quirks, env facts, corrections, confirmed conventions -->
-<!-- What does NOT belong: general knowledge (genome), tasks (features.json), session log (claude-progress.txt) -->
+<!-- AGI-1 Memory Index — Points to typed memory files. Keep under 200 lines. -->
+<!-- AutoDream consolidates this automatically (24h + 5 sessions gate). -->
+
+## User Memory
+→ `.claude/memory/user.md`
+
+## Feedback Memory
+→ `.claude/memory/feedback.md`
+
+## Project Memory
+→ `.claude/memory/project.md`
+
+## Reference Memory
+→ `.claude/memory/reference.md`
